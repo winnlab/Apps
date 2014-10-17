@@ -1,0 +1,23 @@
+{
+  "name": "Apps",
+  "version": "0.0.1",
+  "authors": [
+    "Andrew Sygyda <andrew.sygyda@gmail.com>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "canjs": "~2.1.3",
+    "requirejs": "~2.1.14",
+    "require-css": "~0.1.5",
+    "jquery": "~2.1.1",
+    "underscore": "~1.6.0",
+    "require.min": "http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"
+  }
+}
