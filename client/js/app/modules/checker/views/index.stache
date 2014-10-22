@@ -1,0 +1,40 @@
+<div class="apple-1"></div>
+<div class="apple-2"></div>
+<div class="apple-3"></div>
+<div class="apple-4"></div>
+<div class="apple-5"></div>
+
+<div class="notebook"></div>
+
+<div class="bottle"></div>
+
+<div class="board"></div>
+
+<div class="logoWrap">
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <div class="logo"></div>
+</div>
+
+<h1 class="question">
+    Тебе уже больше 18?
+</h1>
+
+<div class="btns">
+    <div class="yes">
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        Yes
+    </div>
+    <div class="no">
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        No
+    </div>
+</div>

@@ -1,0 +1,41 @@
+<div class="apple-1"></div>
+<div class="apple-2"></div>
+<div class="apple-3"></div>
+
+<div class="bottle"></div>
+
+<div class="logoWrap">
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <div class="logo"></div>
+</div>
+
+<h1 class="bigTitle">
+    Fun is
+</h1>
+
+<input class="is" type="text" autofocus />
+
+<div class="ok">
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    OK
+</div>
+
+<div class="imgWrap">
+    {{#if word.length}}
+        <img src="{{imgSrc}}{{getImg word index}}" />
+    {{/if}}
+</div>
+
+<div class="leftChars">
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    {{chars}}
+</div>

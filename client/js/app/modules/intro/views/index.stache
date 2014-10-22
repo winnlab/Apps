@@ -1,0 +1,35 @@
+<div class="apple-1"></div>
+<div class="apple-2"></div>
+<div class="apple-3"></div>
+
+<div class="bottle"></div>
+
+<div class="dude"></div>
+
+<div class="logoWrap">
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <span class="dashing"></span>
+    <div class="logo"></div>
+</div>
+
+<div class="titleWrap">
+    <h1 class="bigTitle">
+        <span>Fun <br /> H</span><span class="highlight">app</span><span>en</span><span class="highlight">s</span>
+    </h1>
+
+    <div class="title">
+        Поделись <br />
+        своей радостью <br />
+        и передай другому!
+    </div>
+
+    <a class="go module" href="/fun">
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        GO
+    </a>
+</div>
