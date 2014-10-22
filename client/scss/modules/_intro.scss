@@ -1,0 +1,118 @@
+@import '../bourbon/bourbon';
+@import '../base/variable';
+@import '../base/sprites';
+
+#intro {
+
+    overflow: hidden;
+
+    .apple-1 {
+        @include position(absolute, rem(124) rem(184) null null);
+        @include sprite($_2_appl);
+    }
+
+    .apple-2 {
+        @include position(absolute, null null rem(86) rem(6));
+        @include sprite($_2_appl2);
+    }
+
+    .apple-3 {
+        @include position(absolute, null rem(-2) rem(50) null);
+        @include sprite($_2_appl_half);
+        z-index: 1;
+    }
+
+    .bottle {
+        @include position(absolute, null null rem(166) rem(295));
+        @include sprite($_2_miniBottle);
+    }
+
+    .dude {
+        @include position(absolute, null rem(319) rem(18) null);
+        @include sprite($_2_boardMen);
+    }
+
+    .logoWrap {
+        @include position(absolute, null rem(258) rem(271) null);
+        margin: 0;
+    }
+
+    .titleWrap {
+        @include position(absolute, rem(293) null null rem(195));
+        cursor: default;
+
+        &:hover {
+            .title {
+                opacity: 0.3;
+            }
+            .bigTitle {
+                span {
+                    opacity: 0.3;
+                }
+
+                .highlight {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    .bigTitle {
+        @include position(absolute, 0 null null 0);
+        font: {
+            family: NFLVikings;
+            size: rem(100);
+            weight: normal;
+        }
+        color: $white;
+        line-height: 96%;
+        text-transform: uppercase;
+        margin: 0;
+
+        span {
+            @include transition(opacity 0.3s ease-in-out);
+        }
+    }
+
+    .title {
+        @include position(absolute, rem(-4) null null rem(171));
+        @include transition(opacity 0.3s ease-in-out);
+        color: $white;
+        text-transform: uppercase;
+        font-size: rem(31px);
+        line-height: 99%;
+        width: rem(300);
+    }
+
+    .go {
+        @include position(absolute, rem(120) null null rem(382));
+        @include size(rem(117) rem(53));
+        padding: rem(10) 0;
+        font: {
+            size: rem(41);
+            family: NFLVikings;
+        }
+        text: {
+            align: center;
+            decoration: none;
+        }
+        overflow: hidden;
+        cursor: pointer;
+        color: $white;
+
+        &:hover {
+            .dashing:nth-of-type(1) {
+                @include transform(translateX(50%));
+            }
+            .dashing:nth-of-type(2) {
+                @include transform(translateY(50%));
+            }
+            .dashing:nth-of-type(3) {
+                @include transform(translateX(-50%));
+            }
+            .dashing:nth-of-type(4) {
+                @include transform(translateY(-50%));
+            }
+        }
+    }
+}

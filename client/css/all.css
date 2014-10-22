@@ -1,0 +1,2486 @@
+@font-face {
+  font-family: HermesCTT;
+  font-weight: normal;
+  font-style: normal;
+  src: url("/fonts/HermesCTT/HermesCTT.eot");
+  src: url("/fonts/HermesCTT/HermesCTT.eot?#iefix") format("embedded-opentype"), url("/fonts/HermesCTT/HermesCTT.woff2") format("woff2"), url("/fonts/HermesCTT/HermesCTT.woff") format("woff"), url("/fonts/HermesCTT/HermesCTT.ttf") format("truetype"), url("/fonts/HermesCTT/HermesCTT.svg#HermesCTT") format("svg"); }
+@font-face {
+  font-family: NFLVikings;
+  font-weight: normal;
+  font-style: normal;
+  src: url("/fonts/NFLVikings/NFLVikings.eot");
+  src: url("/fonts/NFLVikings/NFLVikings.eot?#iefix") format("embedded-opentype"), url("/fonts/NFLVikings/NFLVikings.woff2") format("woff2"), url("/fonts/NFLVikings/NFLVikings.woff") format("woff"), url("/fonts/NFLVikings/NFLVikings.ttf") format("truetype"), url("/fonts/NFLVikings/NFLVikings.svg#NFLVikings") format("svg"); }
+@font-face {
+  font-family: PFDinTextCompPro;
+  font-weight: 200;
+  font-style: normal;
+  src: url("/fonts/PFDinTextCompPro-Thin/PFDinTextCompPro-Thin.eot");
+  src: url("/fonts/PFDinTextCompPro-Thin/PFDinTextCompPro-Thin.eot?#iefix") format("embedded-opentype"), url("/fonts/PFDinTextCompPro-Thin/PFDinTextCompPro-Thin.woff2") format("woff2"), url("/fonts/PFDinTextCompPro-Thin/PFDinTextCompPro-Thin.woff") format("woff"), url("/fonts/PFDinTextCompPro-Thin/PFDinTextCompPro-Thin.ttf") format("truetype"), url("/fonts/PFDinTextCompPro-Thin/PFDinTextCompPro-Thin.svg#PFDinTextCompPro") format("svg"); }
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+html {
+  font-size: 16px; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  min-height: 45.625rem; }
+
+body {
+  font-family: PFDinTextCondPro;
+  min-width: 1000px;
+  position: relative; }
+
+#modules {
+  height: 100%; }
+
+module {
+  position: relative;
+  min-height: 100%;
+  display: none; }
+  module.active {
+    display: block; }
+
+html {
+  font-size: 11.99414px; }
+
+@media (min-width: 1024px) {
+  html {
+    font-size: 11.99414px; } }
+@media (min-width: 1152px) {
+  html {
+    font-size: 13.49341px; } }
+@media (min-width: 1280px) {
+  html {
+    font-size: 14.99268px; } }
+@media (min-width: 1366px) {
+  html {
+    font-size: 16px; } }
+@media (min-width: 1400px) {
+  html {
+    font-size: 16.39824px; } }
+@media (min-width: 1440px) {
+  html {
+    font-size: 16.86676px; } }
+@media (min-width: 1536px) {
+  html {
+    font-size: 17.99122px; } }
+@media (min-width: 1600px) {
+  html {
+    font-size: 18.74085px; } }
+@media (min-width: 1680px) {
+  html {
+    font-size: 19.67789px; } }
+@media (min-width: 1980px) {
+  html {
+    font-size: 23.1918px; } }
+@media (min-width: 2000px) {
+  html {
+    font-size: 23.42606px; } }
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/**
+ * 1. Set default font family to sans-serif.
+ * 2. Prevent iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */ }
+
+/**
+ * Remove default margin.
+ */
+body {
+  margin: 0; }
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Correct `block` display not defined for any HTML5 element in IE 8/9.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11
+ * and Firefox.
+ * Correct `block` display not defined for `main` in IE 11.
+ */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+  display: block; }
+
+/**
+ * 1. Correct `inline-block` display not defined in IE 8/9.
+ * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
+ */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+  /* 1 */
+  vertical-align: baseline;
+  /* 2 */ }
+
+/**
+ * Prevent modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/**
+ * Address `[hidden]` styling not present in IE 8/9/10.
+ * Hide the `template` element in IE 8/9/11, Safari, and Firefox < 22.
+ */
+[hidden],
+template {
+  display: none; }
+
+/* Links
+   ========================================================================== */
+/**
+ * Remove the gray background color from active links in IE 10.
+ */
+a {
+  background-color: transparent; }
+
+/**
+ * Improve readability when focused and also mouse hovered in all browsers.
+ */
+a:active,
+a:hover {
+  outline: 0; }
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * Address styling not present in IE 8/9/10/11, Safari, and Chrome.
+ */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/**
+ * Address style set to `bolder` in Firefox 4+, Safari, and Chrome.
+ */
+b,
+strong {
+  font-weight: bold; }
+
+/**
+ * Address styling not present in Safari and Chrome.
+ */
+dfn {
+  font-style: italic; }
+
+/**
+ * Address variable `h1` font-size and margin within `section` and `article`
+ * contexts in Firefox 4+, Safari, and Chrome.
+ */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/**
+ * Address styling not present in IE 8/9.
+ */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/**
+ * Address inconsistent and variable font size in all browsers.
+ */
+small {
+  font-size: 80%; }
+
+/**
+ * Prevent `sub` and `sup` affecting `line-height` in all browsers.
+ */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove border when inside `a` element in IE 8/9/10.
+ */
+img {
+  border: 0; }
+
+/**
+ * Correct overflow not hidden in IE 9/10/11.
+ */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * Address margin not present in IE 8/9 and Safari.
+ */
+figure {
+  margin: 1em 40px; }
+
+/**
+ * Address differences between Firefox and other browsers.
+ */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/**
+ * Contain overflow in all browsers.
+ */
+pre {
+  overflow: auto; }
+
+/**
+ * Address odd `em`-unit font size rendering in all browsers.
+ */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* Forms
+   ========================================================================== */
+/**
+ * Known limitation: by default, Chrome and Safari on OS X allow very limited
+ * styling of `select`, unless a `border` property is set.
+ */
+/**
+ * 1. Correct color not being inherited.
+ *    Known issue: affects color of disabled elements.
+ * 2. Correct font properties not being inherited.
+ * 3. Address margins set differently in Firefox 4+, Safari, and Chrome.
+ */
+button,
+input,
+optgroup,
+select,
+textarea {
+  color: inherit;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+  margin: 0;
+  /* 3 */ }
+
+/**
+ * Address `overflow` set to `hidden` in IE 8/9/10/11.
+ */
+button {
+  overflow: visible; }
+
+/**
+ * Address inconsistent `text-transform` inheritance for `button` and `select`.
+ * All other form control elements do not inherit `text-transform` values.
+ * Correct `button` style inheritance in Firefox, IE 8/9/10/11, and Opera.
+ * Correct `select` style inheritance in Firefox.
+ */
+button,
+select {
+  text-transform: none; }
+
+/**
+ * 1. Avoid the WebKit bug in Android 4.0.* where (2) destroys native `audio`
+ *    and `video` controls.
+ * 2. Correct inability to style clickable `input` types in iOS.
+ * 3. Improve usability and consistency of cursor style between image-type
+ *    `input` and others.
+ */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+  cursor: pointer;
+  /* 3 */ }
+
+/**
+ * Re-set default cursor for disabled elements.
+ */
+button[disabled],
+html input[disabled] {
+  cursor: default; }
+
+/**
+ * Remove inner padding and border in Firefox 4+.
+ */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/**
+ * Address Firefox 4+ setting `line-height` on `input` using `!important` in
+ * the UA stylesheet.
+ */
+input {
+  line-height: normal; }
+
+/**
+ * It's recommended that you don't attempt to style these elements.
+ * Firefox's implementation doesn't respect box-sizing, padding, or width.
+ *
+ * 1. Address box sizing set to `content-box` in IE 8/9/10.
+ * 2. Remove excess padding in IE 8/9/10.
+ */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Fix the cursor style for Chrome's increment/decrement buttons. For certain
+ * `font-size` values of the `input`, it causes the cursor style of the
+ * decrement button to change from `default` to `text`.
+ */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  height: auto; }
+
+/**
+ * 1. Address `appearance` set to `searchfield` in Safari and Chrome.
+ * 2. Address `box-sizing` set to `border-box` in Safari and Chrome
+ *    (include `-moz` to future-proof).
+ */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box; }
+
+/**
+ * Remove inner padding and search cancel button in Safari and Chrome on OS X.
+ * Safari (but not Chrome) clips the cancel button when the search input has
+ * padding (and `textfield` appearance).
+ */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/**
+ * Define consistent border, margin, and padding.
+ */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/**
+ * 1. Correct `color` not being inherited in IE 8/9/10/11.
+ * 2. Remove padding so people aren't caught out if they zero out fieldsets.
+ */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  /* 2 */ }
+
+/**
+ * Remove default vertical scrollbar in IE 8/9/10/11.
+ */
+textarea {
+  overflow: auto; }
+
+/**
+ * Don't inherit the `font-weight` (applied by a rule above).
+ * NOTE: the default cannot safely be changed in Chrome and Safari on OS X.
+ */
+optgroup {
+  font-weight: bold; }
+
+/* Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td,
+th {
+  padding: 0; }
+
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+body {
+  background-image: url("/img/bgSm.jpg");
+  background-position: top left;
+  background-size: contain;
+  font-family: HermesCTT; }
+
+.socNetworks {
+  position: absolute;
+  top: 5.3125rem;
+  right: 2.6875rem;
+  width: 6.5625rem; }
+  .socNetworks .fb {
+    background-image: url("/img/1024/sprites.png");
+    width: 33px;
+    height: 31px;
+    background-position: 0px -57px;
+    float: left; }
+    @media (min-width: 1024px) {
+      .socNetworks .fb {
+        background-image: url("/img/1024/sprites.png");
+        width: 33px;
+        height: 31px;
+        background-position: 0px -57px; } }
+    @media (min-width: 1152px) {
+      .socNetworks .fb {
+        background-image: url("/img/1152/sprites.png");
+        width: 37px;
+        height: 35px;
+        background-position: 0px -64px; } }
+    @media (min-width: 1280px) {
+      .socNetworks .fb {
+        background-image: url("/img/1280/sprites.png");
+        width: 41px;
+        height: 39px;
+        background-position: 0px -72px; } }
+    @media (min-width: 1366px) {
+      .socNetworks .fb {
+        background-image: url("/img/1366/sprites.png");
+        width: 44px;
+        height: 41px;
+        background-position: 0px -76px; } }
+    @media (min-width: 1400px) {
+      .socNetworks .fb {
+        background-image: url("/img/1400/sprites.png");
+        width: 45px;
+        height: 42px;
+        background-position: 0px -78px; } }
+    @media (min-width: 1440px) {
+      .socNetworks .fb {
+        background-image: url("/img/1440/sprites.png");
+        width: 46px;
+        height: 43px;
+        background-position: 0px -80px; } }
+    @media (min-width: 1536px) {
+      .socNetworks .fb {
+        background-image: url("/img/1536/sprites.png");
+        width: 49px;
+        height: 46px;
+        background-position: 0px -86px; } }
+    @media (min-width: 1600px) {
+      .socNetworks .fb {
+        background-image: url("/img/1600/sprites.png");
+        width: 51px;
+        height: 48px;
+        background-position: 0px -89px; } }
+    @media (min-width: 1680px) {
+      .socNetworks .fb {
+        background-image: url("/img/1680/sprites.png");
+        width: 54px;
+        height: 51px;
+        background-position: 0px -94px; } }
+    @media (min-width: 1980px) {
+      .socNetworks .fb {
+        background-image: url("/img/1980/sprites.png");
+        width: 63px;
+        height: 60px;
+        background-position: 0px -111px; } }
+    @media (min-width: 2000px) {
+      .socNetworks .fb {
+        background-image: url("/img/2000/sprites.png");
+        width: 64px;
+        height: 61px;
+        background-position: 0px -113px; } }
+  .socNetworks .vk {
+    background-image: url("/img/1024/sprites.png");
+    width: 33px;
+    height: 31px;
+    background-position: 0px -24px;
+    margin-left: 0.9375rem;
+    float: left; }
+    @media (min-width: 1024px) {
+      .socNetworks .vk {
+        background-image: url("/img/1024/sprites.png");
+        width: 33px;
+        height: 31px;
+        background-position: 0px -24px; } }
+    @media (min-width: 1152px) {
+      .socNetworks .vk {
+        background-image: url("/img/1152/sprites.png");
+        width: 37px;
+        height: 35px;
+        background-position: 0px -27px; } }
+    @media (min-width: 1280px) {
+      .socNetworks .vk {
+        background-image: url("/img/1280/sprites.png");
+        width: 41px;
+        height: 39px;
+        background-position: 0px -30px; } }
+    @media (min-width: 1366px) {
+      .socNetworks .vk {
+        background-image: url("/img/1366/sprites.png");
+        width: 44px;
+        height: 41px;
+        background-position: 0px -32px; } }
+    @media (min-width: 1400px) {
+      .socNetworks .vk {
+        background-image: url("/img/1400/sprites.png");
+        width: 45px;
+        height: 42px;
+        background-position: 0px -33px; } }
+    @media (min-width: 1440px) {
+      .socNetworks .vk {
+        background-image: url("/img/1440/sprites.png");
+        width: 46px;
+        height: 43px;
+        background-position: 0px -34px; } }
+    @media (min-width: 1536px) {
+      .socNetworks .vk {
+        background-image: url("/img/1536/sprites.png");
+        width: 49px;
+        height: 46px;
+        background-position: 0px -36px; } }
+    @media (min-width: 1600px) {
+      .socNetworks .vk {
+        background-image: url("/img/1600/sprites.png");
+        width: 51px;
+        height: 48px;
+        background-position: 0px -38px; } }
+    @media (min-width: 1680px) {
+      .socNetworks .vk {
+        background-image: url("/img/1680/sprites.png");
+        width: 54px;
+        height: 51px;
+        background-position: 0px -40px; } }
+    @media (min-width: 1980px) {
+      .socNetworks .vk {
+        background-image: url("/img/1980/sprites.png");
+        width: 63px;
+        height: 60px;
+        background-position: 0px -47px; } }
+    @media (min-width: 2000px) {
+      .socNetworks .vk {
+        background-image: url("/img/2000/sprites.png");
+        width: 64px;
+        height: 61px;
+        background-position: 0px -48px; } }
+
+.newProducts {
+  position: relative;
+  height: 3rem;
+  background: #d4d4d4; }
+  .newProducts .logo {
+    position: absolute;
+    top: 0.5rem;
+    right: 15.3125rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 57px;
+    height: 22px;
+    background-position: 0px 0px; }
+    @media (min-width: 1024px) {
+      .newProducts .logo {
+        background-image: url("/img/1024/sprites.png");
+        width: 57px;
+        height: 22px;
+        background-position: 0px 0px; } }
+    @media (min-width: 1152px) {
+      .newProducts .logo {
+        background-image: url("/img/1152/sprites.png");
+        width: 64px;
+        height: 25px;
+        background-position: 0px 0px; } }
+    @media (min-width: 1280px) {
+      .newProducts .logo {
+        background-image: url("/img/1280/sprites.png");
+        width: 71px;
+        height: 28px;
+        background-position: 0px 0px; } }
+    @media (min-width: 1366px) {
+      .newProducts .logo {
+        background-image: url("/img/1366/sprites.png");
+        width: 76px;
+        height: 30px;
+        background-position: 0px 0px; } }
+    @media (min-width: 1400px) {
+      .newProducts .logo {
+        background-image: url("/img/1400/sprites.png");
+        width: 77px;
+        height: 30px;
+        background-position: 0px 0px; } }
+    @media (min-width: 1440px) {
+      .newProducts .logo {
+        background-image: url("/img/1440/sprites.png");
+        width: 80px;
+        height: 31px;
+        background-position: 0px 0px; } }
+    @media (min-width: 1536px) {
+      .newProducts .logo {
+        background-image: url("/img/1536/sprites.png");
+        width: 85px;
+        height: 33px;
+        background-position: 0px 0px; } }
+    @media (min-width: 1600px) {
+      .newProducts .logo {
+        background-image: url("/img/1600/sprites.png");
+        width: 88px;
+        height: 35px;
+        background-position: 0px 0px; } }
+    @media (min-width: 1680px) {
+      .newProducts .logo {
+        background-image: url("/img/1680/sprites.png");
+        width: 93px;
+        height: 37px;
+        background-position: 0px 0px; } }
+    @media (min-width: 1980px) {
+      .newProducts .logo {
+        background-image: url("/img/1980/sprites.png");
+        width: 109px;
+        height: 43px;
+        background-position: 0px 0px; } }
+    @media (min-width: 2000px) {
+      .newProducts .logo {
+        background-image: url("/img/2000/sprites.png");
+        width: 111px;
+        height: 44px;
+        background-position: 0px 0px; } }
+  .newProducts .copyright {
+    display: none; }
+
+.healtWarn {
+  height: 6.875rem;
+  padding: 1.125rem 0 0 2.1875rem;
+  background: #fff;
+  font-family: PFDinTextCompPro;
+  font-size: 4rem;
+  font-weight: 200;
+  text-transform: uppercase; }
+
+.dashing {
+  -webkit-transition: all 2s linear;
+  -moz-transition: all 2s linear;
+  transition: all 2s linear;
+  display: block; }
+
+.dashing:nth-of-type(1) {
+  border-top: 3px dashed #fff;
+  width: 200%;
+  -webkit-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  -o-transform: translateX(0%);
+  transform: translateX(0%);
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.dashing:nth-of-type(2) {
+  border-right: 3px dashed #fff;
+  height: 200%;
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+  transform: translateY(0%);
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+.dashing:nth-of-type(3) {
+  border-bottom: 3px dashed #fff;
+  width: 200%;
+  -webkit-transform: translateX(0%);
+  -moz-transform: translateX(0%);
+  -ms-transform: translateX(0%);
+  -o-transform: translateX(0%);
+  transform: translateX(0%);
+  position: absolute;
+  bottom: 0;
+  left: 0; }
+
+.dashing:nth-of-type(4) {
+  border-left: 3px dashed #fff;
+  height: 200%;
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  -o-transform: translateY(0%);
+  transform: translateY(0%);
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.logoWrap {
+  width: 101px;
+  height: 97px;
+  padding: 3px 0;
+  margin: 2.625rem auto;
+  position: relative;
+  overflow: hidden; }
+  @media (min-width: 1024px) {
+    .logoWrap {
+      width: 101px;
+      height: 97px; } }
+  @media (min-width: 1152px) {
+    .logoWrap {
+      width: 114px;
+      height: 109px; } }
+  @media (min-width: 1280px) {
+    .logoWrap {
+      width: 126px;
+      height: 122px; } }
+  @media (min-width: 1366px) {
+    .logoWrap {
+      width: 134px;
+      height: 130px; } }
+  @media (min-width: 1400px) {
+    .logoWrap {
+      width: 138px;
+      height: 133px; } }
+  @media (min-width: 1440px) {
+    .logoWrap {
+      width: 142px;
+      height: 137px; } }
+  @media (min-width: 1536px) {
+    .logoWrap {
+      width: 151px;
+      height: 146px; } }
+  @media (min-width: 1600px) {
+    .logoWrap {
+      width: 157px;
+      height: 152px; } }
+  @media (min-width: 1680px) {
+    .logoWrap {
+      width: 165px;
+      height: 160px; } }
+  @media (min-width: 1980px) {
+    .logoWrap {
+      width: 194px;
+      height: 188px; } }
+  @media (min-width: 2000px) {
+    .logoWrap {
+      width: 198px;
+      height: 192px; } }
+  .logoWrap:hover .dashing:nth-of-type(1) {
+    -webkit-transform: translateX(50%);
+    -moz-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    -o-transform: translateX(50%);
+    transform: translateX(50%); }
+  .logoWrap:hover .dashing:nth-of-type(2) {
+    -webkit-transform: translateY(50%);
+    -moz-transform: translateY(50%);
+    -ms-transform: translateY(50%);
+    -o-transform: translateY(50%);
+    transform: translateY(50%); }
+  .logoWrap:hover .dashing:nth-of-type(3) {
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%); }
+  .logoWrap:hover .dashing:nth-of-type(4) {
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .logoWrap .logo {
+    background-image: url("/img/1024/sprites.png");
+    width: 97px;
+    height: 93px;
+    background-position: 0px -1117px;
+    margin: 0 auto; }
+    @media (min-width: 1024px) {
+      .logoWrap .logo {
+        background-image: url("/img/1024/sprites.png");
+        width: 97px;
+        height: 93px;
+        background-position: 0px -1117px; } }
+    @media (min-width: 1152px) {
+      .logoWrap .logo {
+        background-image: url("/img/1152/sprites.png");
+        width: 109px;
+        height: 105px;
+        background-position: 0px -1256px; } }
+    @media (min-width: 1280px) {
+      .logoWrap .logo {
+        background-image: url("/img/1280/sprites.png");
+        width: 121px;
+        height: 116px;
+        background-position: 0px -1396px; } }
+    @media (min-width: 1366px) {
+      .logoWrap .logo {
+        background-image: url("/img/1366/sprites.png");
+        width: 129px;
+        height: 124px;
+        background-position: 0px -1489px; } }
+    @media (min-width: 1400px) {
+      .logoWrap .logo {
+        background-image: url("/img/1400/sprites.png");
+        width: 132px;
+        height: 127px;
+        background-position: 0px -1527px; } }
+    @media (min-width: 1440px) {
+      .logoWrap .logo {
+        background-image: url("/img/1440/sprites.png");
+        width: 136px;
+        height: 131px;
+        background-position: 0px -1570px; } }
+    @media (min-width: 1536px) {
+      .logoWrap .logo {
+        background-image: url("/img/1536/sprites.png");
+        width: 145px;
+        height: 140px;
+        background-position: 0px -1675px; } }
+    @media (min-width: 1600px) {
+      .logoWrap .logo {
+        background-image: url("/img/1600/sprites.png");
+        width: 151px;
+        height: 146px;
+        background-position: 0px -1745px; } }
+    @media (min-width: 1680px) {
+      .logoWrap .logo {
+        background-image: url("/img/1680/sprites.png");
+        width: 158px;
+        height: 153px;
+        background-position: 0px -1832px; } }
+    @media (min-width: 1980px) {
+      .logoWrap .logo {
+        background-image: url("/img/1980/sprites.png");
+        width: 186px;
+        height: 180px;
+        background-position: 0px -2159px; } }
+    @media (min-width: 2000px) {
+      .logoWrap .logo {
+        background-image: url("/img/2000/sprites.png");
+        width: 190px;
+        height: 184px;
+        background-position: 0px -2205px; } }
+
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+#checker {
+  position: relative;
+  overflow-x: hidden; }
+  #checker .apple-1 {
+    position: absolute;
+    top: 1.9375rem;
+    right: 19.8125rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 77px;
+    height: 52px;
+    background-position: 0px -596px; }
+    @media (min-width: 1024px) {
+      #checker .apple-1 {
+        background-image: url("/img/1024/sprites.png");
+        width: 77px;
+        height: 52px;
+        background-position: 0px -596px; } }
+    @media (min-width: 1152px) {
+      #checker .apple-1 {
+        background-image: url("/img/1152/sprites.png");
+        width: 87px;
+        height: 59px;
+        background-position: 0px -670px; } }
+    @media (min-width: 1280px) {
+      #checker .apple-1 {
+        background-image: url("/img/1280/sprites.png");
+        width: 96px;
+        height: 65px;
+        background-position: 0px -745px; } }
+    @media (min-width: 1366px) {
+      #checker .apple-1 {
+        background-image: url("/img/1366/sprites.png");
+        width: 103px;
+        height: 70px;
+        background-position: 0px -795px; } }
+    @media (min-width: 1400px) {
+      #checker .apple-1 {
+        background-image: url("/img/1400/sprites.png");
+        width: 105px;
+        height: 71px;
+        background-position: 0px -815px; } }
+    @media (min-width: 1440px) {
+      #checker .apple-1 {
+        background-image: url("/img/1440/sprites.png");
+        width: 108px;
+        height: 73px;
+        background-position: 0px -838px; } }
+    @media (min-width: 1536px) {
+      #checker .apple-1 {
+        background-image: url("/img/1536/sprites.png");
+        width: 115px;
+        height: 78px;
+        background-position: 0px -894px; } }
+    @media (min-width: 1600px) {
+      #checker .apple-1 {
+        background-image: url("/img/1600/sprites.png");
+        width: 120px;
+        height: 81px;
+        background-position: 0px -931px; } }
+    @media (min-width: 1680px) {
+      #checker .apple-1 {
+        background-image: url("/img/1680/sprites.png");
+        width: 126px;
+        height: 86px;
+        background-position: 0px -978px; } }
+    @media (min-width: 1980px) {
+      #checker .apple-1 {
+        background-image: url("/img/1980/sprites.png");
+        width: 148px;
+        height: 101px;
+        background-position: 0px -1152px; } }
+    @media (min-width: 2000px) {
+      #checker .apple-1 {
+        background-image: url("/img/2000/sprites.png");
+        width: 151px;
+        height: 103px;
+        background-position: 0px -1177px; } }
+  #checker .apple-2 {
+    position: absolute;
+    right: 21.5625rem;
+    bottom: 13.1875rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 72px;
+    height: 53px;
+    background-position: 0px -704px; }
+    @media (min-width: 1024px) {
+      #checker .apple-2 {
+        background-image: url("/img/1024/sprites.png");
+        width: 72px;
+        height: 53px;
+        background-position: 0px -704px; } }
+    @media (min-width: 1152px) {
+      #checker .apple-2 {
+        background-image: url("/img/1152/sprites.png");
+        width: 81px;
+        height: 59px;
+        background-position: 0px -792px; } }
+    @media (min-width: 1280px) {
+      #checker .apple-2 {
+        background-image: url("/img/1280/sprites.png");
+        width: 89px;
+        height: 66px;
+        background-position: 0px -880px; } }
+    @media (min-width: 1366px) {
+      #checker .apple-2 {
+        background-image: url("/img/1366/sprites.png");
+        width: 95px;
+        height: 70px;
+        background-position: 0px -940px; } }
+    @media (min-width: 1400px) {
+      #checker .apple-2 {
+        background-image: url("/img/1400/sprites.png");
+        width: 98px;
+        height: 72px;
+        background-position: 0px -963px; } }
+    @media (min-width: 1440px) {
+      #checker .apple-2 {
+        background-image: url("/img/1440/sprites.png");
+        width: 100px;
+        height: 74px;
+        background-position: 0px -991px; } }
+    @media (min-width: 1536px) {
+      #checker .apple-2 {
+        background-image: url("/img/1536/sprites.png");
+        width: 107px;
+        height: 79px;
+        background-position: 0px -1057px; } }
+    @media (min-width: 1600px) {
+      #checker .apple-2 {
+        background-image: url("/img/1600/sprites.png");
+        width: 111px;
+        height: 82px;
+        background-position: 0px -1101px; } }
+    @media (min-width: 1680px) {
+      #checker .apple-2 {
+        background-image: url("/img/1680/sprites.png");
+        width: 117px;
+        height: 86px;
+        background-position: 0px -1156px; } }
+    @media (min-width: 1980px) {
+      #checker .apple-2 {
+        background-image: url("/img/1980/sprites.png");
+        width: 137px;
+        height: 102px;
+        background-position: 0px -1362px; } }
+    @media (min-width: 2000px) {
+      #checker .apple-2 {
+        background-image: url("/img/2000/sprites.png");
+        width: 140px;
+        height: 104px;
+        background-position: 0px -1391px; } }
+  #checker .apple-3 {
+    position: absolute;
+    top: 2.25rem;
+    left: 22.625rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 64px;
+    height: 45px;
+    background-position: 0px -346px;
+    z-index: 1; }
+    @media (min-width: 1024px) {
+      #checker .apple-3 {
+        background-image: url("/img/1024/sprites.png");
+        width: 64px;
+        height: 45px;
+        background-position: 0px -346px; } }
+    @media (min-width: 1152px) {
+      #checker .apple-3 {
+        background-image: url("/img/1152/sprites.png");
+        width: 72px;
+        height: 50px;
+        background-position: 0px -389px; } }
+    @media (min-width: 1280px) {
+      #checker .apple-3 {
+        background-image: url("/img/1280/sprites.png");
+        width: 80px;
+        height: 56px;
+        background-position: 0px -432px; } }
+    @media (min-width: 1366px) {
+      #checker .apple-3 {
+        background-image: url("/img/1366/sprites.png");
+        width: 85px;
+        height: 59px;
+        background-position: 0px -461px; } }
+    @media (min-width: 1400px) {
+      #checker .apple-3 {
+        background-image: url("/img/1400/sprites.png");
+        width: 87px;
+        height: 61px;
+        background-position: 0px -473px; } }
+    @media (min-width: 1440px) {
+      #checker .apple-3 {
+        background-image: url("/img/1440/sprites.png");
+        width: 90px;
+        height: 63px;
+        background-position: 0px -486px; } }
+    @media (min-width: 1536px) {
+      #checker .apple-3 {
+        background-image: url("/img/1536/sprites.png");
+        width: 95px;
+        height: 67px;
+        background-position: 0px -519px; } }
+    @media (min-width: 1600px) {
+      #checker .apple-3 {
+        background-image: url("/img/1600/sprites.png");
+        width: 99px;
+        height: 70px;
+        background-position: 0px -540px; } }
+    @media (min-width: 1680px) {
+      #checker .apple-3 {
+        background-image: url("/img/1680/sprites.png");
+        width: 104px;
+        height: 73px;
+        background-position: 0px -567px; } }
+    @media (min-width: 1980px) {
+      #checker .apple-3 {
+        background-image: url("/img/1980/sprites.png");
+        width: 122px;
+        height: 86px;
+        background-position: 0px -669px; } }
+    @media (min-width: 2000px) {
+      #checker .apple-3 {
+        background-image: url("/img/2000/sprites.png");
+        width: 125px;
+        height: 88px;
+        background-position: 0px -683px; } }
+  #checker .apple-4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url("/img/1024/sprites.png");
+    width: 51px;
+    height: 39px;
+    background-position: 0px -131px; }
+    @media (min-width: 1024px) {
+      #checker .apple-4 {
+        background-image: url("/img/1024/sprites.png");
+        width: 51px;
+        height: 39px;
+        background-position: 0px -131px; } }
+    @media (min-width: 1152px) {
+      #checker .apple-4 {
+        background-image: url("/img/1152/sprites.png");
+        width: 57px;
+        height: 44px;
+        background-position: 0px -148px; } }
+    @media (min-width: 1280px) {
+      #checker .apple-4 {
+        background-image: url("/img/1280/sprites.png");
+        width: 63px;
+        height: 49px;
+        background-position: 0px -164px; } }
+    @media (min-width: 1366px) {
+      #checker .apple-4 {
+        background-image: url("/img/1366/sprites.png");
+        width: 68px;
+        height: 53px;
+        background-position: 0px -175px; } }
+    @media (min-width: 1400px) {
+      #checker .apple-4 {
+        background-image: url("/img/1400/sprites.png");
+        width: 69px;
+        height: 54px;
+        background-position: 0px -179px; } }
+    @media (min-width: 1440px) {
+      #checker .apple-4 {
+        background-image: url("/img/1440/sprites.png");
+        width: 71px;
+        height: 56px;
+        background-position: 0px -184px; } }
+    @media (min-width: 1536px) {
+      #checker .apple-4 {
+        background-image: url("/img/1536/sprites.png");
+        width: 76px;
+        height: 59px;
+        background-position: 0px -197px; } }
+    @media (min-width: 1600px) {
+      #checker .apple-4 {
+        background-image: url("/img/1600/sprites.png");
+        width: 79px;
+        height: 62px;
+        background-position: 0px -205px; } }
+    @media (min-width: 1680px) {
+      #checker .apple-4 {
+        background-image: url("/img/1680/sprites.png");
+        width: 83px;
+        height: 65px;
+        background-position: 0px -215px; } }
+    @media (min-width: 1980px) {
+      #checker .apple-4 {
+        background-image: url("/img/1980/sprites.png");
+        width: 97px;
+        height: 76px;
+        background-position: 0px -254px; } }
+    @media (min-width: 2000px) {
+      #checker .apple-4 {
+        background-image: url("/img/2000/sprites.png");
+        width: 99px;
+        height: 78px;
+        background-position: 0px -259px; } }
+  #checker .apple-5 {
+    position: absolute;
+    top: 17.75rem;
+    right: -0.125rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 51px;
+    height: 43px;
+    background-position: 0px -301px; }
+    @media (min-width: 1024px) {
+      #checker .apple-5 {
+        background-image: url("/img/1024/sprites.png");
+        width: 51px;
+        height: 43px;
+        background-position: 0px -301px; } }
+    @media (min-width: 1152px) {
+      #checker .apple-5 {
+        background-image: url("/img/1152/sprites.png");
+        width: 57px;
+        height: 48px;
+        background-position: 0px -339px; } }
+    @media (min-width: 1280px) {
+      #checker .apple-5 {
+        background-image: url("/img/1280/sprites.png");
+        width: 63px;
+        height: 53px;
+        background-position: 0px -377px; } }
+    @media (min-width: 1366px) {
+      #checker .apple-5 {
+        background-image: url("/img/1366/sprites.png");
+        width: 67px;
+        height: 57px;
+        background-position: 0px -402px; } }
+    @media (min-width: 1400px) {
+      #checker .apple-5 {
+        background-image: url("/img/1400/sprites.png");
+        width: 68px;
+        height: 58px;
+        background-position: 0px -412px; } }
+    @media (min-width: 1440px) {
+      #checker .apple-5 {
+        background-image: url("/img/1440/sprites.png");
+        width: 70px;
+        height: 60px;
+        background-position: 0px -424px; } }
+    @media (min-width: 1536px) {
+      #checker .apple-5 {
+        background-image: url("/img/1536/sprites.png");
+        width: 75px;
+        height: 64px;
+        background-position: 0px -452px; } }
+    @media (min-width: 1600px) {
+      #checker .apple-5 {
+        background-image: url("/img/1600/sprites.png");
+        width: 78px;
+        height: 66px;
+        background-position: 0px -471px; } }
+    @media (min-width: 1680px) {
+      #checker .apple-5 {
+        background-image: url("/img/1680/sprites.png");
+        width: 82px;
+        height: 70px;
+        background-position: 0px -494px; } }
+    @media (min-width: 1980px) {
+      #checker .apple-5 {
+        background-image: url("/img/1980/sprites.png");
+        width: 96px;
+        height: 82px;
+        background-position: 0px -583px; } }
+    @media (min-width: 2000px) {
+      #checker .apple-5 {
+        background-image: url("/img/2000/sprites.png");
+        width: 98px;
+        height: 84px;
+        background-position: 0px -595px; } }
+  #checker .notebook {
+    position: absolute;
+    right: -0.125rem;
+    bottom: 0;
+    background-image: url("/img/1024/sprites.png");
+    width: 209px;
+    height: 111px;
+    background-position: 0px -1515px; }
+    @media (min-width: 1024px) {
+      #checker .notebook {
+        background-image: url("/img/1024/sprites.png");
+        width: 209px;
+        height: 111px;
+        background-position: 0px -1515px; } }
+    @media (min-width: 1152px) {
+      #checker .notebook {
+        background-image: url("/img/1152/sprites.png");
+        width: 234px;
+        height: 125px;
+        background-position: 0px -1704px; } }
+    @media (min-width: 1280px) {
+      #checker .notebook {
+        background-image: url("/img/1280/sprites.png");
+        width: 260px;
+        height: 139px;
+        background-position: 0px -1893px; } }
+    @media (min-width: 1366px) {
+      #checker .notebook {
+        background-image: url("/img/1366/sprites.png");
+        width: 278px;
+        height: 149px;
+        background-position: 0px -2020px; } }
+    @media (min-width: 1400px) {
+      #checker .notebook {
+        background-image: url("/img/1400/sprites.png");
+        width: 284px;
+        height: 152px;
+        background-position: 0px -2071px; } }
+    @media (min-width: 1440px) {
+      #checker .notebook {
+        background-image: url("/img/1440/sprites.png");
+        width: 293px;
+        height: 157px;
+        background-position: 0px -2130px; } }
+    @media (min-width: 1536px) {
+      #checker .notebook {
+        background-image: url("/img/1536/sprites.png");
+        width: 312px;
+        height: 167px;
+        background-position: 0px -2272px; } }
+    @media (min-width: 1600px) {
+      #checker .notebook {
+        background-image: url("/img/1600/sprites.png");
+        width: 325px;
+        height: 174px;
+        background-position: 0px -2366px; } }
+    @media (min-width: 1680px) {
+      #checker .notebook {
+        background-image: url("/img/1680/sprites.png");
+        width: 341px;
+        height: 183px;
+        background-position: 0px -2485px; } }
+    @media (min-width: 1980px) {
+      #checker .notebook {
+        background-image: url("/img/1980/sprites.png");
+        width: 401px;
+        height: 215px;
+        background-position: 0px -2929px; } }
+    @media (min-width: 2000px) {
+      #checker .notebook {
+        background-image: url("/img/2000/sprites.png");
+        width: 410px;
+        height: 220px;
+        background-position: 0px -2991px; } }
+  #checker .board {
+    position: absolute;
+    top: -0.0625rem;
+    left: 1.0625rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 276px;
+    height: 120px;
+    background-position: 0px -1745px; }
+    @media (min-width: 1024px) {
+      #checker .board {
+        background-image: url("/img/1024/sprites.png");
+        width: 276px;
+        height: 120px;
+        background-position: 0px -1745px; } }
+    @media (min-width: 1152px) {
+      #checker .board {
+        background-image: url("/img/1152/sprites.png");
+        width: 310px;
+        height: 135px;
+        background-position: 0px -1963px; } }
+    @media (min-width: 1280px) {
+      #checker .board {
+        background-image: url("/img/1280/sprites.png");
+        width: 344px;
+        height: 150px;
+        background-position: 0px -2181px; } }
+    @media (min-width: 1366px) {
+      #checker .board {
+        background-image: url("/img/1366/sprites.png");
+        width: 367px;
+        height: 160px;
+        background-position: 0px -2328px; } }
+    @media (min-width: 1400px) {
+      #checker .board {
+        background-image: url("/img/1400/sprites.png");
+        width: 377px;
+        height: 164px;
+        background-position: 0px -2386px; } }
+    @media (min-width: 1440px) {
+      #checker .board {
+        background-image: url("/img/1440/sprites.png");
+        width: 387px;
+        height: 169px;
+        background-position: 0px -2454px; } }
+    @media (min-width: 1536px) {
+      #checker .board {
+        background-image: url("/img/1536/sprites.png");
+        width: 413px;
+        height: 180px;
+        background-position: 0px -2617px; } }
+    @media (min-width: 1600px) {
+      #checker .board {
+        background-image: url("/img/1600/sprites.png");
+        width: 430px;
+        height: 188px;
+        background-position: 0px -2726px; } }
+    @media (min-width: 1680px) {
+      #checker .board {
+        background-image: url("/img/1680/sprites.png");
+        width: 451px;
+        height: 197px;
+        background-position: 0px -2863px; } }
+    @media (min-width: 1980px) {
+      #checker .board {
+        background-image: url("/img/1980/sprites.png");
+        width: 532px;
+        height: 232px;
+        background-position: 0px -3374px; } }
+    @media (min-width: 2000px) {
+      #checker .board {
+        background-image: url("/img/2000/sprites.png");
+        width: 543px;
+        height: 237px;
+        background-position: 0px -3446px; } }
+  #checker .bottle {
+    position: absolute;
+    bottom: 12.3125rem;
+    left: 12.8125rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 74px;
+    height: 115px;
+    background-position: 0px -1628px; }
+    @media (min-width: 1024px) {
+      #checker .bottle {
+        background-image: url("/img/1024/sprites.png");
+        width: 74px;
+        height: 115px;
+        background-position: 0px -1628px; } }
+    @media (min-width: 1152px) {
+      #checker .bottle {
+        background-image: url("/img/1152/sprites.png");
+        width: 83px;
+        height: 129px;
+        background-position: 0px -1831px; } }
+    @media (min-width: 1280px) {
+      #checker .bottle {
+        background-image: url("/img/1280/sprites.png");
+        width: 93px;
+        height: 144px;
+        background-position: 0px -2035px; } }
+    @media (min-width: 1366px) {
+      #checker .bottle {
+        background-image: url("/img/1366/sprites.png");
+        width: 99px;
+        height: 153px;
+        background-position: 0px -2172px; } }
+    @media (min-width: 1400px) {
+      #checker .bottle {
+        background-image: url("/img/1400/sprites.png");
+        width: 101px;
+        height: 157px;
+        background-position: 0px -2226px; } }
+    @media (min-width: 1440px) {
+      #checker .bottle {
+        background-image: url("/img/1440/sprites.png");
+        width: 104px;
+        height: 162px;
+        background-position: 0px -2289px; } }
+    @media (min-width: 1536px) {
+      #checker .bottle {
+        background-image: url("/img/1536/sprites.png");
+        width: 111px;
+        height: 172px;
+        background-position: 0px -2442px; } }
+    @media (min-width: 1600px) {
+      #checker .bottle {
+        background-image: url("/img/1600/sprites.png");
+        width: 115px;
+        height: 180px;
+        background-position: 0px -2544px; } }
+    @media (min-width: 1680px) {
+      #checker .bottle {
+        background-image: url("/img/1680/sprites.png");
+        width: 121px;
+        height: 189px;
+        background-position: 0px -2671px; } }
+    @media (min-width: 1980px) {
+      #checker .bottle {
+        background-image: url("/img/1980/sprites.png");
+        width: 142px;
+        height: 222px;
+        background-position: 0px -3148px; } }
+    @media (min-width: 2000px) {
+      #checker .bottle {
+        background-image: url("/img/2000/sprites.png");
+        width: 145px;
+        height: 227px;
+        background-position: 0px -3215px; } }
+  #checker .question {
+    font-size: 5.4375rem;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 9.25rem 0 3.75rem;
+    padding-left: 0.375rem;
+    color: #fff; }
+  #checker .btns {
+    text-align: center; }
+    #checker .btns div {
+      overflow: hidden;
+      position: relative;
+      cursor: pointer;
+      display: inline-block;
+      font-family: NFLVikings;
+      font-size: 1.875rem;
+      height: 2.5625rem;
+      width: 5.5rem;
+      padding: 0.5625rem;
+      color: #fff; }
+      #checker .btns div:hover .dashing:nth-of-type(1) {
+        -webkit-transform: translateX(50%);
+        -moz-transform: translateX(50%);
+        -ms-transform: translateX(50%);
+        -o-transform: translateX(50%);
+        transform: translateX(50%); }
+      #checker .btns div:hover .dashing:nth-of-type(2) {
+        -webkit-transform: translateY(50%);
+        -moz-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        -o-transform: translateY(50%);
+        transform: translateY(50%); }
+      #checker .btns div:hover .dashing:nth-of-type(3) {
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%); }
+      #checker .btns div:hover .dashing:nth-of-type(4) {
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%); }
+      #checker .btns div.no {
+        margin-left: 5.5rem; }
+
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+#intro {
+  overflow: hidden; }
+  #intro .apple-1 {
+    position: absolute;
+    top: 7.75rem;
+    right: 11.5rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 68px;
+    height: 75px;
+    background-position: 0px -955px; }
+    @media (min-width: 1024px) {
+      #intro .apple-1 {
+        background-image: url("/img/1024/sprites.png");
+        width: 68px;
+        height: 75px;
+        background-position: 0px -955px; } }
+    @media (min-width: 1152px) {
+      #intro .apple-1 {
+        background-image: url("/img/1152/sprites.png");
+        width: 76px;
+        height: 84px;
+        background-position: 0px -1074px; } }
+    @media (min-width: 1280px) {
+      #intro .apple-1 {
+        background-image: url("/img/1280/sprites.png");
+        width: 84px;
+        height: 94px;
+        background-position: 0px -1193px; } }
+    @media (min-width: 1366px) {
+      #intro .apple-1 {
+        background-image: url("/img/1366/sprites.png");
+        width: 90px;
+        height: 100px;
+        background-position: 0px -1273px; } }
+    @media (min-width: 1400px) {
+      #intro .apple-1 {
+        background-image: url("/img/1400/sprites.png");
+        width: 92px;
+        height: 102px;
+        background-position: 0px -1305px; } }
+    @media (min-width: 1440px) {
+      #intro .apple-1 {
+        background-image: url("/img/1440/sprites.png");
+        width: 95px;
+        height: 105px;
+        background-position: 0px -1342px; } }
+    @media (min-width: 1536px) {
+      #intro .apple-1 {
+        background-image: url("/img/1536/sprites.png");
+        width: 101px;
+        height: 112px;
+        background-position: 0px -1432px; } }
+    @media (min-width: 1600px) {
+      #intro .apple-1 {
+        background-image: url("/img/1600/sprites.png");
+        width: 105px;
+        height: 117px;
+        background-position: 0px -1491px; } }
+    @media (min-width: 1680px) {
+      #intro .apple-1 {
+        background-image: url("/img/1680/sprites.png");
+        width: 110px;
+        height: 123px;
+        background-position: 0px -1566px; } }
+    @media (min-width: 1980px) {
+      #intro .apple-1 {
+        background-image: url("/img/1980/sprites.png");
+        width: 129px;
+        height: 145px;
+        background-position: 0px -1846px; } }
+    @media (min-width: 2000px) {
+      #intro .apple-1 {
+        background-image: url("/img/2000/sprites.png");
+        width: 132px;
+        height: 148px;
+        background-position: 0px -1885px; } }
+  #intro .apple-2 {
+    position: absolute;
+    bottom: 5.375rem;
+    left: 0.375rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 59px;
+    height: 67px;
+    background-position: 0px -814px; }
+    @media (min-width: 1024px) {
+      #intro .apple-2 {
+        background-image: url("/img/1024/sprites.png");
+        width: 59px;
+        height: 67px;
+        background-position: 0px -814px; } }
+    @media (min-width: 1152px) {
+      #intro .apple-2 {
+        background-image: url("/img/1152/sprites.png");
+        width: 66px;
+        height: 75px;
+        background-position: 0px -915px; } }
+    @media (min-width: 1280px) {
+      #intro .apple-2 {
+        background-image: url("/img/1280/sprites.png");
+        width: 74px;
+        height: 84px;
+        background-position: 0px -1017px; } }
+    @media (min-width: 1366px) {
+      #intro .apple-2 {
+        background-image: url("/img/1366/sprites.png");
+        width: 78px;
+        height: 89px;
+        background-position: 0px -1086px; } }
+    @media (min-width: 1400px) {
+      #intro .apple-2 {
+        background-image: url("/img/1400/sprites.png");
+        width: 80px;
+        height: 91px;
+        background-position: 0px -1113px; } }
+    @media (min-width: 1440px) {
+      #intro .apple-2 {
+        background-image: url("/img/1440/sprites.png");
+        width: 82px;
+        height: 94px;
+        background-position: 0px -1144px; } }
+    @media (min-width: 1536px) {
+      #intro .apple-2 {
+        background-image: url("/img/1536/sprites.png");
+        width: 88px;
+        height: 100px;
+        background-position: 0px -1221px; } }
+    @media (min-width: 1600px) {
+      #intro .apple-2 {
+        background-image: url("/img/1600/sprites.png");
+        width: 91px;
+        height: 104px;
+        background-position: 0px -1271px; } }
+    @media (min-width: 1680px) {
+      #intro .apple-2 {
+        background-image: url("/img/1680/sprites.png");
+        width: 96px;
+        height: 110px;
+        background-position: 0px -1335px; } }
+    @media (min-width: 1980px) {
+      #intro .apple-2 {
+        background-image: url("/img/1980/sprites.png");
+        width: 113px;
+        height: 129px;
+        background-position: 0px -1573px; } }
+    @media (min-width: 2000px) {
+      #intro .apple-2 {
+        background-image: url("/img/2000/sprites.png");
+        width: 115px;
+        height: 132px;
+        background-position: 0px -1607px; } }
+  #intro .apple-3 {
+    position: absolute;
+    right: -0.125rem;
+    bottom: 3.125rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 65px;
+    height: 83px;
+    background-position: 0px -1031px;
+    z-index: 1; }
+    @media (min-width: 1024px) {
+      #intro .apple-3 {
+        background-image: url("/img/1024/sprites.png");
+        width: 65px;
+        height: 83px;
+        background-position: 0px -1031px; } }
+    @media (min-width: 1152px) {
+      #intro .apple-3 {
+        background-image: url("/img/1152/sprites.png");
+        width: 73px;
+        height: 93px;
+        background-position: 0px -1160px; } }
+    @media (min-width: 1280px) {
+      #intro .apple-3 {
+        background-image: url("/img/1280/sprites.png");
+        width: 81px;
+        height: 104px;
+        background-position: 0px -1289px; } }
+    @media (min-width: 1366px) {
+      #intro .apple-3 {
+        background-image: url("/img/1366/sprites.png");
+        width: 86px;
+        height: 111px;
+        background-position: 0px -1376px; } }
+    @media (min-width: 1400px) {
+      #intro .apple-3 {
+        background-image: url("/img/1400/sprites.png");
+        width: 89px;
+        height: 114px;
+        background-position: 0px -1410px; } }
+    @media (min-width: 1440px) {
+      #intro .apple-3 {
+        background-image: url("/img/1440/sprites.png");
+        width: 91px;
+        height: 117px;
+        background-position: 0px -1451px; } }
+    @media (min-width: 1536px) {
+      #intro .apple-3 {
+        background-image: url("/img/1536/sprites.png");
+        width: 97px;
+        height: 125px;
+        background-position: 0px -1547px; } }
+    @media (min-width: 1600px) {
+      #intro .apple-3 {
+        background-image: url("/img/1600/sprites.png");
+        width: 101px;
+        height: 130px;
+        background-position: 0px -1612px; } }
+    @media (min-width: 1680px) {
+      #intro .apple-3 {
+        background-image: url("/img/1680/sprites.png");
+        width: 106px;
+        height: 136px;
+        background-position: 0px -1692px; } }
+    @media (min-width: 1980px) {
+      #intro .apple-3 {
+        background-image: url("/img/1980/sprites.png");
+        width: 124px;
+        height: 161px;
+        background-position: 0px -1994px; } }
+    @media (min-width: 2000px) {
+      #intro .apple-3 {
+        background-image: url("/img/2000/sprites.png");
+        width: 127px;
+        height: 164px;
+        background-position: 0px -2037px; } }
+  #intro .bottle {
+    position: absolute;
+    bottom: 10.375rem;
+    left: 18.4375rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 108px;
+    height: 70px;
+    background-position: 0px -883px; }
+    @media (min-width: 1024px) {
+      #intro .bottle {
+        background-image: url("/img/1024/sprites.png");
+        width: 108px;
+        height: 70px;
+        background-position: 0px -883px; } }
+    @media (min-width: 1152px) {
+      #intro .bottle {
+        background-image: url("/img/1152/sprites.png");
+        width: 122px;
+        height: 79px;
+        background-position: 0px -993px; } }
+    @media (min-width: 1280px) {
+      #intro .bottle {
+        background-image: url("/img/1280/sprites.png");
+        width: 135px;
+        height: 87px;
+        background-position: 0px -1103px; } }
+    @media (min-width: 1366px) {
+      #intro .bottle {
+        background-image: url("/img/1366/sprites.png");
+        width: 144px;
+        height: 93px;
+        background-position: 0px -1177px; } }
+    @media (min-width: 1400px) {
+      #intro .bottle {
+        background-image: url("/img/1400/sprites.png");
+        width: 147px;
+        height: 96px;
+        background-position: 0px -1207px; } }
+    @media (min-width: 1440px) {
+      #intro .bottle {
+        background-image: url("/img/1440/sprites.png");
+        width: 152px;
+        height: 98px;
+        background-position: 0px -1241px; } }
+    @media (min-width: 1536px) {
+      #intro .bottle {
+        background-image: url("/img/1536/sprites.png");
+        width: 162px;
+        height: 105px;
+        background-position: 0px -1324px; } }
+    @media (min-width: 1600px) {
+      #intro .bottle {
+        background-image: url("/img/1600/sprites.png");
+        width: 168px;
+        height: 109px;
+        background-position: 0px -1379px; } }
+    @media (min-width: 1680px) {
+      #intro .bottle {
+        background-image: url("/img/1680/sprites.png");
+        width: 176px;
+        height: 115px;
+        background-position: 0px -1448px; } }
+    @media (min-width: 1980px) {
+      #intro .bottle {
+        background-image: url("/img/1980/sprites.png");
+        width: 208px;
+        height: 135px;
+        background-position: 0px -1707px; } }
+    @media (min-width: 2000px) {
+      #intro .bottle {
+        background-image: url("/img/2000/sprites.png");
+        width: 212px;
+        height: 138px;
+        background-position: 0px -1743px; } }
+  #intro .dude {
+    position: absolute;
+    right: 19.9375rem;
+    bottom: 1.125rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 368px;
+    height: 486px;
+    background-position: 0px -1867px; }
+    @media (min-width: 1024px) {
+      #intro .dude {
+        background-image: url("/img/1024/sprites.png");
+        width: 368px;
+        height: 486px;
+        background-position: 0px -1867px; } }
+    @media (min-width: 1152px) {
+      #intro .dude {
+        background-image: url("/img/1152/sprites.png");
+        width: 413px;
+        height: 547px;
+        background-position: 0px -2100px; } }
+    @media (min-width: 1280px) {
+      #intro .dude {
+        background-image: url("/img/1280/sprites.png");
+        width: 459px;
+        height: 608px;
+        background-position: 0px -2334px; } }
+    @media (min-width: 1366px) {
+      #intro .dude {
+        background-image: url("/img/1366/sprites.png");
+        width: 490px;
+        height: 648px;
+        background-position: 0px -2491px; } }
+    @media (min-width: 1400px) {
+      #intro .dude {
+        background-image: url("/img/1400/sprites.png");
+        width: 502px;
+        height: 665px;
+        background-position: 0px -2553px; } }
+    @media (min-width: 1440px) {
+      #intro .dude {
+        background-image: url("/img/1440/sprites.png");
+        width: 516px;
+        height: 684px;
+        background-position: 0px -2625px; } }
+    @media (min-width: 1536px) {
+      #intro .dude {
+        background-image: url("/img/1536/sprites.png");
+        width: 550px;
+        height: 729px;
+        background-position: 0px -2800px; } }
+    @media (min-width: 1600px) {
+      #intro .dude {
+        background-image: url("/img/1600/sprites.png");
+        width: 573px;
+        height: 760px;
+        background-position: 0px -2917px; } }
+    @media (min-width: 1680px) {
+      #intro .dude {
+        background-image: url("/img/1680/sprites.png");
+        width: 602px;
+        height: 798px;
+        background-position: 0px -3063px; } }
+    @media (min-width: 1980px) {
+      #intro .dude {
+        background-image: url("/img/1980/sprites.png");
+        width: 709px;
+        height: 940px;
+        background-position: 0px -3610px; } }
+    @media (min-width: 2000px) {
+      #intro .dude {
+        background-image: url("/img/2000/sprites.png");
+        width: 724px;
+        height: 960px;
+        background-position: 0px -3687px; } }
+  #intro .logoWrap {
+    position: absolute;
+    right: 16.125rem;
+    bottom: 16.9375rem;
+    margin: 0; }
+  #intro .titleWrap {
+    position: absolute;
+    top: 18.3125rem;
+    left: 12.1875rem;
+    cursor: default; }
+    #intro .titleWrap:hover .title {
+      opacity: 0.3; }
+    #intro .titleWrap:hover .bigTitle span {
+      opacity: 0.3; }
+    #intro .titleWrap:hover .bigTitle .highlight {
+      opacity: 1; }
+  #intro .bigTitle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: NFLVikings;
+    font-size: 6.25rem;
+    font-weight: normal;
+    color: #fff;
+    line-height: 96%;
+    text-transform: uppercase;
+    margin: 0; }
+    #intro .bigTitle span {
+      -webkit-transition: opacity 0.3s ease-in-out;
+      -moz-transition: opacity 0.3s ease-in-out;
+      transition: opacity 0.3s ease-in-out; }
+  #intro .title {
+    position: absolute;
+    top: -0.25rem;
+    left: 10.6875rem;
+    -webkit-transition: opacity 0.3s ease-in-out;
+    -moz-transition: opacity 0.3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.9375rem;
+    line-height: 99%;
+    width: 18.75rem; }
+  #intro .go {
+    position: absolute;
+    top: 7.5rem;
+    left: 23.875rem;
+    height: 3.3125rem;
+    width: 7.3125rem;
+    padding: 0.625rem 0;
+    font-size: 2.5625rem;
+    font-family: NFLVikings;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    color: #fff; }
+    #intro .go:hover .dashing:nth-of-type(1) {
+      -webkit-transform: translateX(50%);
+      -moz-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+      -o-transform: translateX(50%);
+      transform: translateX(50%); }
+    #intro .go:hover .dashing:nth-of-type(2) {
+      -webkit-transform: translateY(50%);
+      -moz-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+      -o-transform: translateY(50%);
+      transform: translateY(50%); }
+    #intro .go:hover .dashing:nth-of-type(3) {
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
+    #intro .go:hover .dashing:nth-of-type(4) {
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%); }
+
+/*
+SCSS variables are information about icon's compiled state, stored under its original file name
+
+.icon-home {
+  width: $icon-home-width;
+}
+
+The large array-like variables contain all information about a single icon
+$icon-home: x y offset_x offset_y width height total_width total_height image_path;
+*/
+/*
+The provided mixins are intended to be used with the array-like variables
+
+.icon-home {
+  @include sprite-width($icon-home);
+}
+
+.icon-email {
+  @include sprite($icon-email);
+}
+*/
+#fun {
+  overflow: hidden; }
+  #fun .apple-1 {
+    position: absolute;
+    right: 6.0625rem;
+    bottom: 3.3125rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 94px;
+    height: 52px;
+    background-position: 0px -542px; }
+    @media (min-width: 1024px) {
+      #fun .apple-1 {
+        background-image: url("/img/1024/sprites.png");
+        width: 94px;
+        height: 52px;
+        background-position: 0px -542px; } }
+    @media (min-width: 1152px) {
+      #fun .apple-1 {
+        background-image: url("/img/1152/sprites.png");
+        width: 105px;
+        height: 59px;
+        background-position: 0px -610px; } }
+    @media (min-width: 1280px) {
+      #fun .apple-1 {
+        background-image: url("/img/1280/sprites.png");
+        width: 117px;
+        height: 65px;
+        background-position: 0px -677px; } }
+    @media (min-width: 1366px) {
+      #fun .apple-1 {
+        background-image: url("/img/1366/sprites.png");
+        width: 124px;
+        height: 70px;
+        background-position: 0px -723px; } }
+    @media (min-width: 1400px) {
+      #fun .apple-1 {
+        background-image: url("/img/1400/sprites.png");
+        width: 127px;
+        height: 71px;
+        background-position: 0px -741px; } }
+    @media (min-width: 1440px) {
+      #fun .apple-1 {
+        background-image: url("/img/1440/sprites.png");
+        width: 131px;
+        height: 73px;
+        background-position: 0px -762px; } }
+    @media (min-width: 1536px) {
+      #fun .apple-1 {
+        background-image: url("/img/1536/sprites.png");
+        width: 139px;
+        height: 78px;
+        background-position: 0px -813px; } }
+    @media (min-width: 1600px) {
+      #fun .apple-1 {
+        background-image: url("/img/1600/sprites.png");
+        width: 145px;
+        height: 81px;
+        background-position: 0px -847px; } }
+    @media (min-width: 1680px) {
+      #fun .apple-1 {
+        background-image: url("/img/1680/sprites.png");
+        width: 152px;
+        height: 86px;
+        background-position: 0px -889px; } }
+    @media (min-width: 1980px) {
+      #fun .apple-1 {
+        background-image: url("/img/1980/sprites.png");
+        width: 179px;
+        height: 101px;
+        background-position: 0px -1048px; } }
+    @media (min-width: 2000px) {
+      #fun .apple-1 {
+        background-image: url("/img/2000/sprites.png");
+        width: 183px;
+        height: 103px;
+        background-position: 0px -1070px; } }
+  #fun .apple-2 {
+    position: absolute;
+    top: 2.125rem;
+    left: 31rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 69px;
+    height: 39px;
+    background-position: 0px -90px; }
+    @media (min-width: 1024px) {
+      #fun .apple-2 {
+        background-image: url("/img/1024/sprites.png");
+        width: 69px;
+        height: 39px;
+        background-position: 0px -90px; } }
+    @media (min-width: 1152px) {
+      #fun .apple-2 {
+        background-image: url("/img/1152/sprites.png");
+        width: 78px;
+        height: 44px;
+        background-position: 0px -101px; } }
+    @media (min-width: 1280px) {
+      #fun .apple-2 {
+        background-image: url("/img/1280/sprites.png");
+        width: 86px;
+        height: 49px;
+        background-position: 0px -113px; } }
+    @media (min-width: 1366px) {
+      #fun .apple-2 {
+        background-image: url("/img/1366/sprites.png");
+        width: 92px;
+        height: 52px;
+        background-position: 0px -120px; } }
+    @media (min-width: 1400px) {
+      #fun .apple-2 {
+        background-image: url("/img/1400/sprites.png");
+        width: 94px;
+        height: 53px;
+        background-position: 0px -123px; } }
+    @media (min-width: 1440px) {
+      #fun .apple-2 {
+        background-image: url("/img/1440/sprites.png");
+        width: 97px;
+        height: 55px;
+        background-position: 0px -127px; } }
+    @media (min-width: 1536px) {
+      #fun .apple-2 {
+        background-image: url("/img/1536/sprites.png");
+        width: 103px;
+        height: 58px;
+        background-position: 0px -135px; } }
+    @media (min-width: 1600px) {
+      #fun .apple-2 {
+        background-image: url("/img/1600/sprites.png");
+        width: 107px;
+        height: 61px;
+        background-position: 0px -141px; } }
+    @media (min-width: 1680px) {
+      #fun .apple-2 {
+        background-image: url("/img/1680/sprites.png");
+        width: 112px;
+        height: 64px;
+        background-position: 0px -148px; } }
+    @media (min-width: 1980px) {
+      #fun .apple-2 {
+        background-image: url("/img/1980/sprites.png");
+        width: 132px;
+        height: 75px;
+        background-position: 0px -174px; } }
+    @media (min-width: 2000px) {
+      #fun .apple-2 {
+        background-image: url("/img/2000/sprites.png");
+        width: 135px;
+        height: 77px;
+        background-position: 0px -178px; } }
+  #fun .apple-3 {
+    position: absolute;
+    top: 14.6875rem;
+    left: 4.5625rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 76px;
+    height: 41px;
+    background-position: 0px -214px;
+    z-index: 1; }
+    @media (min-width: 1024px) {
+      #fun .apple-3 {
+        background-image: url("/img/1024/sprites.png");
+        width: 76px;
+        height: 41px;
+        background-position: 0px -214px; } }
+    @media (min-width: 1152px) {
+      #fun .apple-3 {
+        background-image: url("/img/1152/sprites.png");
+        width: 85px;
+        height: 46px;
+        background-position: 0px -241px; } }
+    @media (min-width: 1280px) {
+      #fun .apple-3 {
+        background-image: url("/img/1280/sprites.png");
+        width: 94px;
+        height: 51px;
+        background-position: 0px -268px; } }
+    @media (min-width: 1366px) {
+      #fun .apple-3 {
+        background-image: url("/img/1366/sprites.png");
+        width: 101px;
+        height: 54px;
+        background-position: 0px -286px; } }
+    @media (min-width: 1400px) {
+      #fun .apple-3 {
+        background-image: url("/img/1400/sprites.png");
+        width: 103px;
+        height: 55px;
+        background-position: 0px -293px; } }
+    @media (min-width: 1440px) {
+      #fun .apple-3 {
+        background-image: url("/img/1440/sprites.png");
+        width: 106px;
+        height: 57px;
+        background-position: 0px -301px; } }
+    @media (min-width: 1536px) {
+      #fun .apple-3 {
+        background-image: url("/img/1536/sprites.png");
+        width: 113px;
+        height: 61px;
+        background-position: 0px -321px; } }
+    @media (min-width: 1600px) {
+      #fun .apple-3 {
+        background-image: url("/img/1600/sprites.png");
+        width: 118px;
+        height: 63px;
+        background-position: 0px -335px; } }
+    @media (min-width: 1680px) {
+      #fun .apple-3 {
+        background-image: url("/img/1680/sprites.png");
+        width: 123px;
+        height: 66px;
+        background-position: 0px -351px; } }
+    @media (min-width: 1980px) {
+      #fun .apple-3 {
+        background-image: url("/img/1980/sprites.png");
+        width: 145px;
+        height: 78px;
+        background-position: 0px -414px; } }
+    @media (min-width: 2000px) {
+      #fun .apple-3 {
+        background-image: url("/img/2000/sprites.png");
+        width: 148px;
+        height: 80px;
+        background-position: 0px -423px; } }
+  #fun .bottle {
+    position: absolute;
+    bottom: 10.3125rem;
+    left: 25.1875rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 85px;
+    height: 94px;
+    background-position: 0px -1212px; }
+    @media (min-width: 1024px) {
+      #fun .bottle {
+        background-image: url("/img/1024/sprites.png");
+        width: 85px;
+        height: 94px;
+        background-position: 0px -1212px; } }
+    @media (min-width: 1152px) {
+      #fun .bottle {
+        background-image: url("/img/1152/sprites.png");
+        width: 95px;
+        height: 106px;
+        background-position: 0px -1363px; } }
+    @media (min-width: 1280px) {
+      #fun .bottle {
+        background-image: url("/img/1280/sprites.png");
+        width: 105px;
+        height: 118px;
+        background-position: 0px -1515px; } }
+    @media (min-width: 1366px) {
+      #fun .bottle {
+        background-image: url("/img/1366/sprites.png");
+        width: 112px;
+        height: 126px;
+        background-position: 0px -1616px; } }
+    @media (min-width: 1400px) {
+      #fun .bottle {
+        background-image: url("/img/1400/sprites.png");
+        width: 115px;
+        height: 129px;
+        background-position: 0px -1657px; } }
+    @media (min-width: 1440px) {
+      #fun .bottle {
+        background-image: url("/img/1440/sprites.png");
+        width: 118px;
+        height: 132px;
+        background-position: 0px -1704px; } }
+    @media (min-width: 1536px) {
+      #fun .bottle {
+        background-image: url("/img/1536/sprites.png");
+        width: 126px;
+        height: 141px;
+        background-position: 0px -1818px; } }
+    @media (min-width: 1600px) {
+      #fun .bottle {
+        background-image: url("/img/1600/sprites.png");
+        width: 131px;
+        height: 147px;
+        background-position: 0px -1893px; } }
+    @media (min-width: 1680px) {
+      #fun .bottle {
+        background-image: url("/img/1680/sprites.png");
+        width: 137px;
+        height: 155px;
+        background-position: 0px -1988px; } }
+    @media (min-width: 1980px) {
+      #fun .bottle {
+        background-image: url("/img/1980/sprites.png");
+        width: 162px;
+        height: 182px;
+        background-position: 0px -2343px; } }
+    @media (min-width: 2000px) {
+      #fun .bottle {
+        background-image: url("/img/2000/sprites.png");
+        width: 165px;
+        height: 186px;
+        background-position: 0px -2393px; } }
+  #fun .bigTitle {
+    position: absolute;
+    top: 19.375rem;
+    left: 12.9375rem;
+    font-family: NFLVikings;
+    font-size: 5.4375rem;
+    font-weight: normal;
+    color: #fff;
+    line-height: 96%;
+    text-transform: uppercase;
+    margin: 0;
+    cursor: default; }
+  #fun .is {
+    position: absolute;
+    top: 24.1875rem;
+    left: 12.9375rem;
+    width: 21.875rem;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: 2.75rem;
+    text-transform: uppercase; }
+  #fun .ok {
+    position: absolute;
+    bottom: 13.6875rem;
+    left: 12.875rem;
+    height: 3.1875rem;
+    width: 7.0625rem;
+    padding: 0.6875rem 0;
+    font-size: 2.375rem;
+    font-family: NFLVikings;
+    text-align: center;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    color: #fff; }
+    #fun .ok:hover .dashing:nth-of-type(1) {
+      -webkit-transform: translateX(50%);
+      -moz-transform: translateX(50%);
+      -ms-transform: translateX(50%);
+      -o-transform: translateX(50%);
+      transform: translateX(50%); }
+    #fun .ok:hover .dashing:nth-of-type(2) {
+      -webkit-transform: translateY(50%);
+      -moz-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+      -o-transform: translateY(50%);
+      transform: translateY(50%); }
+    #fun .ok:hover .dashing:nth-of-type(3) {
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%); }
+    #fun .ok:hover .dashing:nth-of-type(4) {
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%); }
+  #fun .imgWrap {
+    position: absolute;
+    top: -3.9375rem;
+    left: 22.625rem;
+    z-index: 2; }
+    #fun .imgWrap img {
+      width: 56.0625rem; }
+  #fun .leftChars {
+    position: absolute;
+    right: 17.3125rem;
+    bottom: 15.4375rem;
+    z-index: 3;
+    height: 2.5rem;
+    width: 5.5625rem;
+    padding: 0.5rem 0 0;
+    cursor: default;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+    font-family: NFLVikings;
+    font-size: 1.875rem; }
+    #fun .leftChars .dashing:nth-of-type(1) {
+      border-top: 2px dashed #fff; }
+    #fun .leftChars .dashing:nth-of-type(2) {
+      border-right: 2px dashed #fff; }
+    #fun .leftChars .dashing:nth-of-type(3) {
+      border-bottom: 2px dashed #fff; }
+    #fun .leftChars .dashing:nth-of-type(4) {
+      border-left: 2px dashed #fff; }
+
+/*# sourceMappingURL=all.css.map */

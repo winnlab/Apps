@@ -1,0 +1,113 @@
+@import '../bourbon/bourbon';
+@import '../base/variable';
+@import '../base/sprites';
+
+body {
+    background: {
+        image: url('#{$imgPath}bgSm.jpg');
+        // position: center center;
+        position: top left;
+        size: contain;
+    }
+    font-family: HermesCTT;
+}
+
+.socNetworks {
+    @include position(absolute, rem(85) rem(43) null null);
+    width: rem(105);
+
+    .fb {
+        @include sprite($fb);
+        float: left;
+    }
+
+    .vk {
+        @include sprite($vk);
+        margin-left: rem(15);
+        float: left;
+    }
+}
+
+.newProducts {
+    position: relative;
+    height: rem(48);
+    background: $lightGrey;
+
+    .logo {
+        @include position(absolute, rem(8) rem(245) null null);
+        @include sprite($nwProductsLogo);
+    }
+
+    .copyright {
+        display: none;
+    }
+}
+
+.healtWarn {
+    height: rem(110);
+    padding: rem(18) 0 0 rem(35);
+    background: $white;
+    font: {
+        family: PFDinTextCompPro;
+        size: rem(64);
+        weight: 200;
+    }
+    text-transform: uppercase;
+}
+
+.dashing {
+    @include transition(all 2s linear);
+    display: block;
+}
+.dashing:nth-of-type(1) {
+    border-top: 3px dashed $white;
+    width: 200%;
+    @include transform(translateX(0%));
+    @include position(absolute, 0 0 null null);
+}
+.dashing:nth-of-type(2) {
+    border-right: 3px dashed $white;
+    height: 200%;
+    @include transform(translateY(0%));
+    @include position(absolute, null 0 0 null);
+}
+.dashing:nth-of-type(3) {
+    border-bottom: 3px dashed $white;
+    width: 200%;
+    @include transform(translateX(0%));
+    @include position(absolute, null null 0 0);
+}
+.dashing:nth-of-type(4) {
+    border-left: 3px dashed $white;
+    height: 200%;
+    @include transform(translateY(0%));
+    @include position(absolute, 0 null null 0);
+}
+
+.logoWrap {
+    @include spriteSize($logoBorder);
+    padding: 3px 0;
+    margin: rem(42) auto;
+    position: relative;
+    overflow: hidden;
+
+    &:hover {
+        .dashing:nth-of-type(1) {
+            @include transform(translateX(50%));
+        }
+        .dashing:nth-of-type(2) {
+            @include transform(translateY(50%));
+        }
+        .dashing:nth-of-type(3) {
+            @include transform(translateX(-50%));
+        }
+        .dashing:nth-of-type(4) {
+            @include transform(translateY(-50%));
+        }
+    }
+
+    .logo {
+        @include sprite($logo);
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,55 @@
+@import "./variable";
+@import "../bourbon/bourbon";
+@import "../neat/neat";
+
+html {
+    font-size: 16px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    // min-height: 100%;
+    min-height: rem(730);
+}
+
+body {
+    font-family: PFDinTextCondPro;
+    min-width: 1000px;
+    position: relative;
+}
+
+#modules {
+    height: 100%;
+}
+
+module {
+    position: relative;
+    min-height: 100%;
+    display: none;
+
+    &.active {
+        display: block;
+    }
+
+}
+
+@function fSize($monitor) {
+    @return $monitor * (16 / 1366) * 1px;
+}
+
+@for $i from 1 through length($monitors) {
+    $monitor: nth($monitors, $i);
+
+    @if $i == 1 {
+        html {
+            font-size: fSize($monitor);
+        }
+    }
+
+    @media (min-width: #{$monitor}px) {
+        html {
+            font-size: fSize($monitor);
+        }
+    }
+}

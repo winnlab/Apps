@@ -1,0 +1,101 @@
+@import '../bourbon/bourbon';
+@import '../base/variable';
+@import '../base/sprites';
+
+#checker {
+    position: relative;
+    overflow-x: hidden;
+
+    .apple-1 {
+        @include position(absolute, rem(31) rem(317) null null);
+        @include sprite($_1_appl);
+    }
+
+    .apple-2 {
+        @include position(absolute, null rem(345) rem(211) null);
+        @include sprite($_1_appl2);
+    }
+
+    .apple-3 {
+        @include position(absolute, rem(36) null null rem(362));
+        @include sprite($_1_appl3);
+        z-index: 1;
+    }
+
+    .apple-4 {
+        @include position(absolute, null null 0 0);
+        @include sprite($_1_appl4);
+    }
+
+    .apple-5 {
+        @include position(absolute, rem(284) rem(-2) null null);
+        @include sprite($_1_appl_half);
+    }
+
+    .notebook {
+        @include position(absolute, null rem(-2) 0 null);
+        @include sprite($_1_notebook);
+    }
+
+    .board {
+        @include position(absolute, rem(-1) null null rem(17));
+        @include sprite($_1_board);
+    }
+
+    .bottle {
+        @include position(absolute, null null rem(197) rem(205));
+        @include sprite($_1_miniBottle);
+    }
+
+    .question {
+        font: {
+            size: rem(87);
+            weight: normal;
+        }
+        text: {
+            align: center;
+            transform: uppercase;
+        }
+        margin: rem(148) 0 rem(60);
+        padding-left: rem(6);
+        color: $white;
+    }
+
+    .btns {
+        text-align: center;
+
+        div {
+            &:hover {
+                .dashing:nth-of-type(1) {
+                    @include transform(translateX(50%));
+                }
+                .dashing:nth-of-type(2) {
+                    @include transform(translateY(50%));
+                }
+                .dashing:nth-of-type(3) {
+                    @include transform(translateX(-50%));
+                }
+                .dashing:nth-of-type(4) {
+                    @include transform(translateY(-50%));
+                }
+            }
+
+            overflow: hidden;
+            position: relative;
+            cursor: pointer;
+            display: inline-block;
+            font: {
+                family: NFLVikings;
+                size: rem(30);
+            }
+            @include size(rem(88) rem(41));
+            padding: rem(9);
+            color: #fff;
+
+            &.no {
+                margin-left: rem(88);
+            }
+        }
+    }
+
+}

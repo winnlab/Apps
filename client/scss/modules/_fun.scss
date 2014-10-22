@@ -1,0 +1,127 @@
+@import '../bourbon/bourbon';
+@import '../base/variable';
+@import '../base/sprites';
+
+#fun {
+
+    overflow: hidden;
+
+    .apple-1 {
+        @include position(absolute,  null rem(97) rem(53) null);
+        @include sprite($_3_appl1);
+    }
+
+    .apple-2 {
+        @include position(absolute, rem(34) null null rem(496));
+        @include sprite($_3_appl2);
+    }
+
+    .apple-3 {
+        @include position(absolute, rem(235) null null rem(73));
+        @include sprite($_3_appl3);
+        z-index: 1;
+    }
+
+    .bottle {
+        @include position(absolute, null null rem(165) rem(403));
+        @include sprite($_3_miniBottle);
+    }
+
+    .bigTitle {
+        @include position(absolute, rem(310) null null rem(207));
+        font: {
+            family: NFLVikings;
+            size: rem(87);
+            weight: normal;
+        }
+        color: $white;
+        line-height: 96%;
+        text-transform: uppercase;
+        margin: 0;
+        cursor: default;
+    }
+
+    .is {
+        @include position(absolute, rem(387) null null rem(207));
+        width: rem(350);
+        border: none;
+        border-bottom: 1px solid $white;
+        outline: none;
+        background: none;
+        color: $white;
+        font: {
+            weight: normal;
+            size: rem(44);
+        }
+        text-transform: uppercase;
+
+    }
+
+    .ok {
+        @include position(absolute, null null rem(219) rem(206));
+        @include size(rem(113) rem(51));
+        padding: rem(11) 0;
+        font: {
+            size: rem(38);
+            family: NFLVikings;
+        }
+        text: {
+            align: center;
+            decoration: none;
+        }
+        overflow: hidden;
+        cursor: pointer;
+        color: $white;
+
+        &:hover {
+            .dashing:nth-of-type(1) {
+                @include transform(translateX(50%));
+            }
+            .dashing:nth-of-type(2) {
+                @include transform(translateY(50%));
+            }
+            .dashing:nth-of-type(3) {
+                @include transform(translateX(-50%));
+            }
+            .dashing:nth-of-type(4) {
+                @include transform(translateY(-50%));
+            }
+        }
+    }
+
+    .imgWrap {
+        @include position(absolute, rem(-63) null null rem(362));
+        z-index: 2;
+        img {
+            width: rem(897)
+        }
+    }
+
+    .leftChars {
+        @include position(absolute, null rem(277) rem(247) null);
+        z-index: 3;
+        @include size(rem(89) rem(40));
+        padding: rem(8) 0 0;
+        cursor: default;
+        overflow: hidden;
+        text-align: center;
+        color: $white;
+        font: {
+            family: NFLVikings;
+            size: rem(30);
+        }
+
+        .dashing:nth-of-type(1) {
+            border-top: 2px dashed $white;
+        }
+        .dashing:nth-of-type(2) {
+            border-right: 2px dashed $white;
+        }
+        .dashing:nth-of-type(3) {
+            border-bottom: 2px dashed $white;
+        }
+        .dashing:nth-of-type(4) {
+            border-left: 2px dashed $white;
+        }
+    }
+}

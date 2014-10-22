@@ -1,0 +1,6 @@
+@charset "UTF-8";
+@import '../bourbon/_bourbon.scss';
+
+@include font-face(HermesCTT, '/fonts/HermesCTT/HermesCTT');
+@include font-face(NFLVikings, '/fonts/NFLVikings/NFLVikings');
+@include font-face(PFDinTextCompPro, '/fonts/PFDinTextCompPro-Thin/PFDinTextCompPro-Thin', $weight: 200);

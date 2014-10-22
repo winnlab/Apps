@@ -1,0 +1,65 @@
+@import '../bourbon/bourbon';
+@import './variable';
+
+@mixin spriteSize($sprite) {
+    @for $i from 1 through length($monitors) {
+        $monitor: nth($monitors, $i);
+        $query: '(min-width: #{$monitor}px)';
+
+        $proportion: $monitor / 2000;
+
+        @if $monitor != 2000 {
+            $proportion: $monitor / 2000 * 0.989;
+        }
+
+        $width: nth($sprite, 5) * $proportion;
+        $height: nth($sprite, 6) * $proportion;
+
+        @if $i == 1 {
+            width: round($width) + 2;
+            height: round($height);
+        }
+
+        @media #{$query} {
+            width: round($width) + 2;
+            height: round($height);
+        }
+    }
+}
+
+@mixin spriteProps($sprite, $monitor) {
+
+    $proportion: $monitor / 2000;
+
+    @if $monitor != 2000 {
+        $proportion: $monitor / 2000 * 0.989;
+    }
+
+    background-image: url('/img/#{$monitor}/sprites.png');
+
+    $width: nth($sprite, 5) * $proportion;
+    width: round($width) + 2;
+
+    $height: nth($sprite, 6) * $proportion;
+    height: round($height);
+
+    $sprite-offset-x: nth($sprite, 3) * $proportion;
+    $sprite-offset-y: nth($sprite, 4) * $proportion;
+    background-position: round($sprite-offset-x) round($sprite-offset-y);
+}
+
+@mixin sprite($sprite) {
+    // @each $monitor in $monitors {
+    @for $i from 1 through length($monitors) {
+        $monitor: nth($monitors, $i);
+        $query: '(min-width: #{$monitor}px)';
+
+        @if $i == 1 {
+            @include spriteProps($sprite, $monitor);
+        }
+
+        @media #{$query} {
+            @include spriteProps($sprite, $monitor);
+        }
+    }
+}
