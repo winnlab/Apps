@@ -52,10 +52,24 @@ require(
         'core/config',
         'router/router',
         'lib/viewport/viewport',
+        'lib/preloader/preloader',
+        'core/images',
         'css!/css/all.css'
     ],
-    function (appState, config, Router, Viewport) {
+    function (appState, config, Router, Viewport, Preloader, images) {
         appState.attr('router', new Router('body', config.router))
         appState.attr('viewport', new Viewport('body'))
+
+        var preloader = new Preloader({
+            folder: '/img/' + appState.attr('viewport').getMonitor() + '/',
+            images: images
+        });
+
+        can.route.delegate('module', 'set', function (ev, newVal) {
+            if (newVal === 'fun') {
+                preloader.pause();
+            }
+        });
+
     }
 );

@@ -89,11 +89,18 @@ define(
             },
 
             hidePreloader: function (isReady) {
-                if (this.attr('loaderShown')) {
-                    isReady.then(function() {
-                        this.attr('loaderShown', false);
+                var self = this,
+                    hide = function () {
+                        self.attr('loaderShown', false);
                         $('#preloader').hide();
-                    }.bind(this));
+                    };
+
+                if (self.attr('loaderShown')) {
+                    if (isReady) {
+                        isReady.then(hide());
+                    } else {
+                        hide();
+                    }
                 }
             }
 
