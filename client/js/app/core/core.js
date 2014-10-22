@@ -3,6 +3,7 @@ require.config({
     urlArgs: "v=0.0.0",
     paths: {
         app: '../app',
+        lib: '../app/lib',
         core: '../app/core',
         modules: '../app/modules',
         router: '../app/router',
@@ -50,9 +51,11 @@ require(
         'core/appState',
         'core/config',
         'router/router',
+        'lib/viewport/viewport',
         'css!/css/all.css'
     ],
-    function (appState, config, Router) {
+    function (appState, config, Router, Viewport) {
         appState.attr('router', new Router('body', config.router))
+        appState.attr('viewport', new Viewport('body'))
     }
 );

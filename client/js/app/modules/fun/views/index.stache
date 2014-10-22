@@ -27,9 +27,7 @@
 </div>
 
 <div class="imgWrap">
-    {{#if word.length}}
-        <img src="{{imgSrc}}{{getImg word index}}" />
-    {{/if}}
+    {{{img}}}
 </div>
 
 <div class="leftChars">

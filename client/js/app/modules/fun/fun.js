@@ -9,6 +9,7 @@ define(
         var indexTimer = null
             timeOut = 500,
             limitChars = 9,
+            loadedImgs = [],
             nonCharBtns = [
                 8, // backspace
                 13, // enter
@@ -78,31 +79,21 @@ define(
 
                 self.module = new can.Map({
                     chars: limitChars,
-                    imgSrc: '/img/letters/1366/',
+                    imgSrc: '/img/' + appState.attr('viewport').getMonitor() + '/',
                     word: [],
-                    index: 0
+                    index: null,
+                    img: null
                 });
 
-                can.view('modules/fun/views/index.stache', self.module, {
-                    getImg: function (word, index) {
-                        word = word();
-                        var result;
-
-                        if (!word.length) {
-                            result = '';
-                        } else {
-                            result = word[index()];
-                        }                        
-
-                        return result;
-                    }
-                }, function (fragment) {
+                can.view('modules/fun/views/index.stache', self.module, function (fragment) {
                     self.element.html(fragment);
 
                     if (self.options.isReady) {
                         self.options.isReady.resolve();
                     }
                 });
+
+                self.module.delegate('index', 'set', can.proxy(self.setImage, self));
             },
 
             '.is keydown': function (el, ev) {
@@ -149,38 +140,64 @@ define(
 
                 if (val.length) {
                     word.splice(val.length);
+                    this.setIndex(index !== null ? index : -1);
                 } else {
                     word.replace([]);
+                    module.attr('index', null)
                 }
 
-                this.setIndex(index);
             },
 
             getImage: function (char) {
-                var result = dictionary[char.toLowerCase()]
+                var result = dictionary[char.toLowerCase()];
 
-                if (!result) {
+                if ((/^[a-z]$/i).test(char)) {
                     result = char;
                 }
 
-                return result + '.png';
+                return result ? result + '.png' : null;
             },
 
             setIndex: function (index) {
-                var self = this,
-                    module = self.module,
+                var module = this.module,
                     word = module.attr('word');
 
                 index += 1;
-
                 if (index > word.length - 1) return false;
+                module.attr('index', index);
+            },
 
-                clearTimeout(indexTimer);
+            setImage: function (ev, index) {
+                var module = this.module,
+                    imgName = module.attr('word').attr()[index],
+                    image,
+                    loadedImg;
 
-                indexTimer = setTimeout(function() {
-                    module.attr('index', index);
-                    self.setIndex(index);
-                }, timeOut);
+                if (index === null || imgName === null) {
+                    return module.attr('img', null);
+                }
+
+                loadedImg = _.find(loadedImgs, {'name': imgName});
+
+                if (loadedImg) {
+                    module.attr('img', loadedImg.img);
+                } else {
+                    var image = new Image();
+
+                    $(image).on('load error', function (ev) {
+                        if (ev.type === 'error') {
+                            return module.attr('img', null);
+                        }
+                        var content = ev.target.outerHTML;
+                        loadedImgs.push({
+                            name: imgName,
+                            img: content
+                        });
+                        module.attr('img', content);
+                    });
+
+                    image.src = module.attr('imgSrc') + imgName;
+                }
             }
 
         });
