@@ -67,7 +67,7 @@ define([
 				var moduleName = data.module,
 					id = moduleName + (data.id ? '-' + data.id : '');
 
-				if (!appState.attr('is18Conf')) {
+				if (!appState.attr('is18Conf') && can.route.attr('module') !== 'checker') {					
 					appState.attr('startRoute', can.route.attr());
 					return can.route.attr({
 						module: 'checker'
