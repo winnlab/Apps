@@ -17,6 +17,7 @@
     "requirejs": "~2.1.14",
     "require-css": "~0.1.5",
     "jquery": "~2.1.1",
-    "require.min": "http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js"
+    "require.min": "http://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.14/require.min.js",
+    "lodash": "~2.4.1"
   }
 }

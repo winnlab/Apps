@@ -18,6 +18,10 @@
 
 <input class="is" type="text" autofocus />
 
+<div class="isWrap">
+    <span>{{wholeWord}}</span><i></i>
+</div>
+
 <div class="ok">
     <span class="dashing"></span>
     <span class="dashing"></span>

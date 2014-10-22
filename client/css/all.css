@@ -2405,16 +2405,35 @@ The provided mixins are intended to be used with the array-like variables
   #fun .is {
     position: absolute;
     top: 24.1875rem;
+    left: -15.625rem; }
+  #fun .is:focus + .isWrap i {
+    visibility: visible; }
+  #fun .isWrap {
+    position: absolute;
+    top: 24.1875rem;
     left: 12.9375rem;
+    height: 3.4375rem;
     width: 21.875rem;
     border: none;
-    border-bottom: 1px solid #fff;
     outline: none;
     background: none;
     color: #fff;
     font-weight: normal;
     font-size: 2.75rem;
     text-transform: uppercase; }
+    #fun .isWrap span {
+      display: inline-block;
+      vertical-align: middle; }
+    #fun .isWrap i {
+      -webkit-animation: 1s blink step-end infinite;
+      -moz-animation: 1s blink step-end infinite;
+      animation: 1s blink step-end infinite;
+      height: 100%;
+      width: 0.375rem;
+      margin: 0 0 0 0.125rem;
+      display: inline-block;
+      vertical-align: middle;
+      visibility: hidden; }
   #fun .ok {
     position: absolute;
     bottom: 13.6875rem;
@@ -2482,5 +2501,21 @@ The provided mixins are intended to be used with the array-like variables
       border-bottom: 2px dashed #fff; }
     #fun .leftChars .dashing:nth-of-type(4) {
       border-left: 2px dashed #fff; }
+
+@-webkit-keyframes blink {
+  from, to {
+    background: transparent; }
+  50% {
+    background: #fff; } }
+@-moz-keyframes blink {
+  from, to {
+    background: transparent; }
+  50% {
+    background: #fff; } }
+@keyframes blink {
+  from, to {
+    background: transparent; }
+  50% {
+    background: #fff; } }
 
 /*# sourceMappingURL=all.css.map */

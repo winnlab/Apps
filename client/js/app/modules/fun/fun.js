@@ -96,13 +96,21 @@ define(
                 self.module.delegate('index', 'set', can.proxy(self.setImage, self));
             },
 
+            ' click': function () {
+                $('.is', this.element).focus();
+            },
+
+            '.ok click': function (el, ev) {
+                ev.stopPropagation();
+            },
+
             '.is keydown': function (el, ev) {
-                if (el.val().length >= limitChars && nonCharBtns.indexOf(ev.keyCode) === -1) {
+                if ((el.val().length >= limitChars && nonCharBtns.indexOf(ev.keyCode) === -1)) {
                     ev.preventDefault();
                 }
             },
 
-            '.is keyup': function (el) {
+            '.is keyup': function (el, ev) {
                 var self = this,
                     module = self.module,
                     val = el.val(),
@@ -130,6 +138,8 @@ define(
                     wordLength = word.attr('length'),
                     index = module.attr('index');
 
+                module.attr('wholeWord', val);
+
                 _.forEach(val, function (char, i) {
                     word.attr(i, self.getImage(char));
                 });
@@ -152,7 +162,7 @@ define(
                 var result = dictionary[char.toLowerCase()];
 
                 if ((/^[a-z]$/i).test(char)) {
-                    result = char;
+                    result = char.toLowerCase();
                 }
 
                 return result ? result + '.png' : null;
