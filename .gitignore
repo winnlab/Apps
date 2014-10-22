@@ -30,3 +30,4 @@ node_modules
 *.map
 
 client/js/lib/*
+client/.sass-cache/*
