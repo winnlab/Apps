@@ -4,6 +4,7 @@ router = express.Router()
 # All routes to default page
 pages = [
     '/'
+    '/intro'
     '/fun'
     '/share'
 ]
