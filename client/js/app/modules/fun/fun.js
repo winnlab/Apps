@@ -15,10 +15,10 @@ define(
                 13, // enter
                 17, // ctrl
                 27, // esc
-                37, // left arrow
-                38, // up arrow
-                39, // right arrow
-                40, // down arrow
+                // 37, // left arrow
+                // 38, // up arrow
+                // 39, // right arrow
+                // 40, // down arrow
                 46, // del
                 93, // context menu
                 112, // F1
@@ -85,6 +85,8 @@ define(
                     img: null
                 });
 
+                appState.attr('word', self.module.attr('word'));
+
                 can.view('modules/fun/views/index.stache', self.module, function (fragment) {
                     self.element.html(fragment);
 
@@ -105,6 +107,11 @@ define(
             },
 
             '.is keydown': function (el, ev) {
+
+                if (ev.keyCode >= 37 && ev.keyCode <= 40) {
+                    ev.preventDefault();
+                }
+
                 if ((el.val().length >= limitChars && nonCharBtns.indexOf(ev.keyCode) === -1)) {
                     ev.preventDefault();
                 }
@@ -115,6 +122,11 @@ define(
                     module = self.module,
                     val = el.val(),
                     chars = module.attr('chars');
+
+                if (!(/^[a-zа-яъёїі]$/i).test(val.charAt(val.length - 1)) && val.length > 0) {
+                    console.log('prevent special');
+                    return el.val(val.slice(0, val.length - 1));
+                }
 
                 if (chars === 0 && val.length === limitChars) {
                     return false;

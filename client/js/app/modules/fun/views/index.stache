@@ -22,13 +22,13 @@
     <span>{{wholeWord}}</span><i></i>
 </div>
 
-<div class="ok">
+<a class="ok module" href="/share">
     <span class="dashing"></span>
     <span class="dashing"></span>
     <span class="dashing"></span>
     <span class="dashing"></span>
     OK
-</div>
+</a>
 
 <div class="imgWrap">
     {{{img}}}

@@ -60,8 +60,8 @@ define(
             },
 
             '{window} resize': function () {
-                this.setViewWidth(this.state);
-                this.setViewHeight(this.state);
+                setViewWidth(this.state);
+                setViewHeight(this.state);
             },
 
             getViewportWidth: function () {
