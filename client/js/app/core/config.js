@@ -17,6 +17,9 @@ define({
 		},{
 			name: 'fun',
 			path: 'modules/fun/fun'
+		},{
+			name: 'products',
+			path: 'modules/products/products'
 		}]
 	}
 });

@@ -1,8 +1,9 @@
 define(
     [
-        'canjs'
+        'canjs',
+        'core/products'
     ],
-    function (can) {
+    function (can, products) {
 
         var AppState = can.Map.extend({
             define: {
@@ -18,7 +19,8 @@ define(
                         return localStorage.getItem('is18Conf');
                     }
                 }
-            }
+            },
+            products: products
         }),
         appState = new AppState();
 

@@ -39,7 +39,8 @@ define(
                     can.route.attr(startRoute, true);
                 } else {
                     can.route.attr({
-                        module: 'intro'
+                        // module: 'intro'
+                        module: 'products'
                     }, true);
                 }
 
