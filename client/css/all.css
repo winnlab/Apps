@@ -490,73 +490,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 77px;
     height: 52px;
-    background-position: 0px -643px; }
+    background-position: 0px -653px; }
     @media (min-width: 1024px) {
       #checker .apple-1 {
         background-image: url("/img/1024/sprites.png");
         width: 77px;
         height: 52px;
-        background-position: 0px -643px; } }
+        background-position: 0px -653px; } }
     @media (min-width: 1152px) {
       #checker .apple-1 {
         background-image: url("/img/1152/sprites.png");
         width: 87px;
         height: 59px;
-        background-position: 0px -723px; } }
+        background-position: 0px -734px; } }
     @media (min-width: 1280px) {
       #checker .apple-1 {
         background-image: url("/img/1280/sprites.png");
         width: 96px;
         height: 65px;
-        background-position: 0px -804px; } }
+        background-position: 0px -816px; } }
     @media (min-width: 1366px) {
       #checker .apple-1 {
         background-image: url("/img/1366/sprites.png");
         width: 103px;
         height: 70px;
-        background-position: 0px -858px; } }
+        background-position: 0px -871px; } }
     @media (min-width: 1400px) {
       #checker .apple-1 {
         background-image: url("/img/1400/sprites.png");
         width: 105px;
         height: 71px;
-        background-position: 0px -879px; } }
+        background-position: 0px -892px; } }
     @media (min-width: 1440px) {
       #checker .apple-1 {
         background-image: url("/img/1440/sprites.png");
         width: 108px;
         height: 73px;
-        background-position: 0px -904px; } }
+        background-position: 0px -918px; } }
     @media (min-width: 1536px) {
       #checker .apple-1 {
         background-image: url("/img/1536/sprites.png");
         width: 115px;
         height: 78px;
-        background-position: 0px -965px; } }
+        background-position: 0px -979px; } }
     @media (min-width: 1600px) {
       #checker .apple-1 {
         background-image: url("/img/1600/sprites.png");
         width: 120px;
         height: 81px;
-        background-position: 0px -1005px; } }
+        background-position: 0px -1020px; } }
     @media (min-width: 1680px) {
       #checker .apple-1 {
         background-image: url("/img/1680/sprites.png");
         width: 126px;
         height: 86px;
-        background-position: 0px -1055px; } }
+        background-position: 0px -1071px; } }
     @media (min-width: 1980px) {
       #checker .apple-1 {
         background-image: url("/img/1980/sprites.png");
         width: 148px;
         height: 101px;
-        background-position: 0px -1243px; } }
+        background-position: 0px -1262px; } }
     @media (min-width: 2000px) {
       #checker .apple-1 {
         background-image: url("/img/2000/sprites.png");
         width: 151px;
         height: 103px;
-        background-position: 0px -1270px; } }
+        background-position: 0px -1289px; } }
   #checker .apple-2 {
     position: absolute;
     right: 21.5625rem;
@@ -564,73 +564,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 72px;
     height: 53px;
-    background-position: 0px -751px; }
+    background-position: 0px -815px; }
     @media (min-width: 1024px) {
       #checker .apple-2 {
         background-image: url("/img/1024/sprites.png");
         width: 72px;
         height: 53px;
-        background-position: 0px -751px; } }
+        background-position: 0px -815px; } }
     @media (min-width: 1152px) {
       #checker .apple-2 {
         background-image: url("/img/1152/sprites.png");
         width: 81px;
         height: 59px;
-        background-position: 0px -845px; } }
+        background-position: 0px -917px; } }
     @media (min-width: 1280px) {
       #checker .apple-2 {
         background-image: url("/img/1280/sprites.png");
         width: 89px;
         height: 66px;
-        background-position: 0px -939px; } }
+        background-position: 0px -1019px; } }
     @media (min-width: 1366px) {
       #checker .apple-2 {
         background-image: url("/img/1366/sprites.png");
         width: 95px;
         height: 70px;
-        background-position: 0px -1002px; } }
+        background-position: 0px -1088px; } }
     @media (min-width: 1400px) {
       #checker .apple-2 {
         background-image: url("/img/1400/sprites.png");
         width: 98px;
         height: 72px;
-        background-position: 0px -1027px; } }
+        background-position: 0px -1115px; } }
     @media (min-width: 1440px) {
       #checker .apple-2 {
         background-image: url("/img/1440/sprites.png");
         width: 100px;
         height: 74px;
-        background-position: 0px -1057px; } }
+        background-position: 0px -1146px; } }
     @media (min-width: 1536px) {
       #checker .apple-2 {
         background-image: url("/img/1536/sprites.png");
         width: 107px;
         height: 79px;
-        background-position: 0px -1127px; } }
+        background-position: 0px -1223px; } }
     @media (min-width: 1600px) {
       #checker .apple-2 {
         background-image: url("/img/1600/sprites.png");
         width: 111px;
         height: 82px;
-        background-position: 0px -1174px; } }
+        background-position: 0px -1274px; } }
     @media (min-width: 1680px) {
       #checker .apple-2 {
         background-image: url("/img/1680/sprites.png");
         width: 117px;
         height: 86px;
-        background-position: 0px -1233px; } }
+        background-position: 0px -1338px; } }
     @media (min-width: 1980px) {
       #checker .apple-2 {
         background-image: url("/img/1980/sprites.png");
         width: 137px;
         height: 102px;
-        background-position: 0px -1453px; } }
+        background-position: 0px -1576px; } }
     @media (min-width: 2000px) {
       #checker .apple-2 {
         background-image: url("/img/2000/sprites.png");
         width: 140px;
         height: 104px;
-        background-position: 0px -1484px; } }
+        background-position: 0px -1610px; } }
   #checker .apple-3 {
     position: absolute;
     top: 2.25rem;
@@ -638,74 +638,74 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 64px;
     height: 45px;
-    background-position: 0px -392px;
+    background-position: 0px -410px;
     z-index: 1; }
     @media (min-width: 1024px) {
       #checker .apple-3 {
         background-image: url("/img/1024/sprites.png");
         width: 64px;
         height: 45px;
-        background-position: 0px -392px; } }
+        background-position: 0px -410px; } }
     @media (min-width: 1152px) {
       #checker .apple-3 {
         background-image: url("/img/1152/sprites.png");
         width: 72px;
         height: 50px;
-        background-position: 0px -441px; } }
+        background-position: 0px -461px; } }
     @media (min-width: 1280px) {
       #checker .apple-3 {
         background-image: url("/img/1280/sprites.png");
         width: 80px;
         height: 56px;
-        background-position: 0px -491px; } }
+        background-position: 0px -512px; } }
     @media (min-width: 1366px) {
       #checker .apple-3 {
         background-image: url("/img/1366/sprites.png");
         width: 85px;
         height: 59px;
-        background-position: 0px -524px; } }
+        background-position: 0px -546px; } }
     @media (min-width: 1400px) {
       #checker .apple-3 {
         background-image: url("/img/1400/sprites.png");
         width: 87px;
         height: 61px;
-        background-position: 0px -537px; } }
+        background-position: 0px -560px; } }
     @media (min-width: 1440px) {
       #checker .apple-3 {
         background-image: url("/img/1440/sprites.png");
         width: 90px;
         height: 63px;
-        background-position: 0px -552px; } }
+        background-position: 0px -576px; } }
     @media (min-width: 1536px) {
       #checker .apple-3 {
         background-image: url("/img/1536/sprites.png");
         width: 95px;
         height: 67px;
-        background-position: 0px -589px; } }
+        background-position: 0px -614px; } }
     @media (min-width: 1600px) {
       #checker .apple-3 {
         background-image: url("/img/1600/sprites.png");
         width: 99px;
         height: 70px;
-        background-position: 0px -613px; } }
+        background-position: 0px -640px; } }
     @media (min-width: 1680px) {
       #checker .apple-3 {
         background-image: url("/img/1680/sprites.png");
         width: 104px;
         height: 73px;
-        background-position: 0px -644px; } }
+        background-position: 0px -672px; } }
     @media (min-width: 1980px) {
       #checker .apple-3 {
         background-image: url("/img/1980/sprites.png");
         width: 122px;
         height: 86px;
-        background-position: 0px -759px; } }
+        background-position: 0px -792px; } }
     @media (min-width: 2000px) {
       #checker .apple-3 {
         background-image: url("/img/2000/sprites.png");
         width: 125px;
         height: 88px;
-        background-position: 0px -775px; } }
+        background-position: 0px -809px; } }
   #checker .apple-4 {
     position: absolute;
     bottom: 0;
@@ -713,73 +713,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 51px;
     height: 39px;
-    background-position: 0px -131px; }
+    background-position: 0px -195px; }
     @media (min-width: 1024px) {
       #checker .apple-4 {
         background-image: url("/img/1024/sprites.png");
         width: 51px;
         height: 39px;
-        background-position: 0px -131px; } }
+        background-position: 0px -195px; } }
     @media (min-width: 1152px) {
       #checker .apple-4 {
         background-image: url("/img/1152/sprites.png");
         width: 57px;
         height: 44px;
-        background-position: 0px -148px; } }
+        background-position: 0px -219px; } }
     @media (min-width: 1280px) {
       #checker .apple-4 {
         background-image: url("/img/1280/sprites.png");
         width: 63px;
         height: 49px;
-        background-position: 0px -164px; } }
+        background-position: 0px -244px; } }
     @media (min-width: 1366px) {
       #checker .apple-4 {
         background-image: url("/img/1366/sprites.png");
         width: 68px;
         height: 53px;
-        background-position: 0px -175px; } }
+        background-position: 0px -260px; } }
     @media (min-width: 1400px) {
       #checker .apple-4 {
         background-image: url("/img/1400/sprites.png");
         width: 69px;
         height: 54px;
-        background-position: 0px -179px; } }
+        background-position: 0px -267px; } }
     @media (min-width: 1440px) {
       #checker .apple-4 {
         background-image: url("/img/1440/sprites.png");
         width: 71px;
         height: 56px;
-        background-position: 0px -184px; } }
+        background-position: 0px -274px; } }
     @media (min-width: 1536px) {
       #checker .apple-4 {
         background-image: url("/img/1536/sprites.png");
         width: 76px;
         height: 59px;
-        background-position: 0px -197px; } }
+        background-position: 0px -292px; } }
     @media (min-width: 1600px) {
       #checker .apple-4 {
         background-image: url("/img/1600/sprites.png");
         width: 79px;
         height: 62px;
-        background-position: 0px -205px; } }
+        background-position: 0px -305px; } }
     @media (min-width: 1680px) {
       #checker .apple-4 {
         background-image: url("/img/1680/sprites.png");
         width: 83px;
         height: 65px;
-        background-position: 0px -215px; } }
+        background-position: 0px -320px; } }
     @media (min-width: 1980px) {
       #checker .apple-4 {
         background-image: url("/img/1980/sprites.png");
         width: 97px;
         height: 76px;
-        background-position: 0px -254px; } }
+        background-position: 0px -377px; } }
     @media (min-width: 2000px) {
       #checker .apple-4 {
         background-image: url("/img/2000/sprites.png");
         width: 99px;
         height: 78px;
-        background-position: 0px -259px; } }
+        background-position: 0px -385px; } }
   #checker .apple-5 {
     position: absolute;
     top: 17.75rem;
@@ -787,73 +787,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 51px;
     height: 43px;
-    background-position: 0px -257px; }
+    background-position: 0px -365px; }
     @media (min-width: 1024px) {
       #checker .apple-5 {
         background-image: url("/img/1024/sprites.png");
         width: 51px;
         height: 43px;
-        background-position: 0px -257px; } }
+        background-position: 0px -365px; } }
     @media (min-width: 1152px) {
       #checker .apple-5 {
         background-image: url("/img/1152/sprites.png");
         width: 57px;
         height: 48px;
-        background-position: 0px -289px; } }
+        background-position: 0px -411px; } }
     @media (min-width: 1280px) {
       #checker .apple-5 {
         background-image: url("/img/1280/sprites.png");
         width: 63px;
         height: 53px;
-        background-position: 0px -321px; } }
+        background-position: 0px -456px; } }
     @media (min-width: 1366px) {
       #checker .apple-5 {
         background-image: url("/img/1366/sprites.png");
         width: 67px;
         height: 57px;
-        background-position: 0px -342px; } }
+        background-position: 0px -487px; } }
     @media (min-width: 1400px) {
       #checker .apple-5 {
         background-image: url("/img/1400/sprites.png");
         width: 68px;
         height: 58px;
-        background-position: 0px -351px; } }
+        background-position: 0px -499px; } }
     @media (min-width: 1440px) {
       #checker .apple-5 {
         background-image: url("/img/1440/sprites.png");
         width: 70px;
         height: 60px;
-        background-position: 0px -361px; } }
+        background-position: 0px -513px; } }
     @media (min-width: 1536px) {
       #checker .apple-5 {
         background-image: url("/img/1536/sprites.png");
         width: 75px;
         height: 64px;
-        background-position: 0px -385px; } }
+        background-position: 0px -548px; } }
     @media (min-width: 1600px) {
       #checker .apple-5 {
         background-image: url("/img/1600/sprites.png");
         width: 78px;
         height: 66px;
-        background-position: 0px -401px; } }
+        background-position: 0px -570px; } }
     @media (min-width: 1680px) {
       #checker .apple-5 {
         background-image: url("/img/1680/sprites.png");
         width: 82px;
         height: 70px;
-        background-position: 0px -421px; } }
+        background-position: 0px -599px; } }
     @media (min-width: 1980px) {
       #checker .apple-5 {
         background-image: url("/img/1980/sprites.png");
         width: 96px;
         height: 82px;
-        background-position: 0px -496px; } }
+        background-position: 0px -706px; } }
     @media (min-width: 2000px) {
       #checker .apple-5 {
         background-image: url("/img/2000/sprites.png");
         width: 98px;
         height: 84px;
-        background-position: 0px -507px; } }
+        background-position: 0px -721px; } }
   #checker .notebook {
     position: absolute;
     right: -0.125rem;
@@ -861,73 +861,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 209px;
     height: 111px;
-    background-position: 0px -1993px; }
+    background-position: 0px -1943px; }
     @media (min-width: 1024px) {
       #checker .notebook {
         background-image: url("/img/1024/sprites.png");
         width: 209px;
         height: 111px;
-        background-position: 0px -1993px; } }
+        background-position: 0px -1943px; } }
     @media (min-width: 1152px) {
       #checker .notebook {
         background-image: url("/img/1152/sprites.png");
         width: 234px;
         height: 125px;
-        background-position: 0px -2242px; } }
+        background-position: 0px -2186px; } }
     @media (min-width: 1280px) {
       #checker .notebook {
         background-image: url("/img/1280/sprites.png");
         width: 260px;
         height: 139px;
-        background-position: 0px -2491px; } }
+        background-position: 0px -2429px; } }
     @media (min-width: 1366px) {
       #checker .notebook {
         background-image: url("/img/1366/sprites.png");
         width: 278px;
         height: 149px;
-        background-position: 0px -2659px; } }
+        background-position: 0px -2593px; } }
     @media (min-width: 1400px) {
       #checker .notebook {
         background-image: url("/img/1400/sprites.png");
         width: 284px;
         height: 152px;
-        background-position: 0px -2725px; } }
+        background-position: 0px -2657px; } }
     @media (min-width: 1440px) {
       #checker .notebook {
         background-image: url("/img/1440/sprites.png");
         width: 293px;
         height: 157px;
-        background-position: 0px -2803px; } }
+        background-position: 0px -2733px; } }
     @media (min-width: 1536px) {
       #checker .notebook {
         background-image: url("/img/1536/sprites.png");
         width: 312px;
         height: 167px;
-        background-position: 0px -2990px; } }
+        background-position: 0px -2915px; } }
     @media (min-width: 1600px) {
       #checker .notebook {
         background-image: url("/img/1600/sprites.png");
         width: 325px;
         height: 174px;
-        background-position: 0px -3114px; } }
+        background-position: 0px -3037px; } }
     @media (min-width: 1680px) {
       #checker .notebook {
         background-image: url("/img/1680/sprites.png");
         width: 341px;
         height: 183px;
-        background-position: 0px -3270px; } }
+        background-position: 0px -3188px; } }
     @media (min-width: 1980px) {
       #checker .notebook {
         background-image: url("/img/1980/sprites.png");
         width: 401px;
         height: 215px;
-        background-position: 0px -3854px; } }
+        background-position: 0px -3758px; } }
     @media (min-width: 2000px) {
       #checker .notebook {
         background-image: url("/img/2000/sprites.png");
         width: 410px;
         height: 220px;
-        background-position: 0px -3936px; } }
+        background-position: 0px -3838px; } }
   #checker .board {
     position: absolute;
     top: -0.0625rem;
@@ -935,73 +935,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 276px;
     height: 120px;
-    background-position: 0px -2223px; }
+    background-position: 0px -2287px; }
     @media (min-width: 1024px) {
       #checker .board {
         background-image: url("/img/1024/sprites.png");
         width: 276px;
         height: 120px;
-        background-position: 0px -2223px; } }
+        background-position: 0px -2287px; } }
     @media (min-width: 1152px) {
       #checker .board {
         background-image: url("/img/1152/sprites.png");
         width: 310px;
         height: 135px;
-        background-position: 0px -2501px; } }
+        background-position: 0px -2573px; } }
     @media (min-width: 1280px) {
       #checker .board {
         background-image: url("/img/1280/sprites.png");
         width: 344px;
         height: 150px;
-        background-position: 0px -2779px; } }
+        background-position: 0px -2859px; } }
     @media (min-width: 1366px) {
       #checker .board {
         background-image: url("/img/1366/sprites.png");
         width: 367px;
         height: 160px;
-        background-position: 0px -2966px; } }
+        background-position: 0px -3051px; } }
     @media (min-width: 1400px) {
       #checker .board {
         background-image: url("/img/1400/sprites.png");
         width: 377px;
         height: 164px;
-        background-position: 0px -3040px; } }
+        background-position: 0px -3127px; } }
     @media (min-width: 1440px) {
       #checker .board {
         background-image: url("/img/1440/sprites.png");
         width: 387px;
         height: 169px;
-        background-position: 0px -3127px; } }
+        background-position: 0px -3216px; } }
     @media (min-width: 1536px) {
       #checker .board {
         background-image: url("/img/1536/sprites.png");
         width: 413px;
         height: 180px;
-        background-position: 0px -3335px; } }
+        background-position: 0px -3431px; } }
     @media (min-width: 1600px) {
       #checker .board {
         background-image: url("/img/1600/sprites.png");
         width: 430px;
         height: 188px;
-        background-position: 0px -3474px; } }
+        background-position: 0px -3574px; } }
     @media (min-width: 1680px) {
       #checker .board {
         background-image: url("/img/1680/sprites.png");
         width: 451px;
         height: 197px;
-        background-position: 0px -3648px; } }
+        background-position: 0px -3753px; } }
     @media (min-width: 1980px) {
       #checker .board {
         background-image: url("/img/1980/sprites.png");
         width: 532px;
         height: 232px;
-        background-position: 0px -4299px; } }
+        background-position: 0px -4423px; } }
     @media (min-width: 2000px) {
       #checker .board {
         background-image: url("/img/2000/sprites.png");
         width: 543px;
         height: 237px;
-        background-position: 0px -4391px; } }
+        background-position: 0px -4517px; } }
   #checker .bottle {
     position: absolute;
     bottom: 12.3125rem;
@@ -1009,73 +1009,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 74px;
     height: 115px;
-    background-position: 0px -2106px; }
+    background-position: 0px -2170px; }
     @media (min-width: 1024px) {
       #checker .bottle {
         background-image: url("/img/1024/sprites.png");
         width: 74px;
         height: 115px;
-        background-position: 0px -2106px; } }
+        background-position: 0px -2170px; } }
     @media (min-width: 1152px) {
       #checker .bottle {
         background-image: url("/img/1152/sprites.png");
         width: 83px;
         height: 129px;
-        background-position: 0px -2370px; } }
+        background-position: 0px -2442px; } }
     @media (min-width: 1280px) {
       #checker .bottle {
         background-image: url("/img/1280/sprites.png");
         width: 93px;
         height: 144px;
-        background-position: 0px -2633px; } }
+        background-position: 0px -2713px; } }
     @media (min-width: 1366px) {
       #checker .bottle {
         background-image: url("/img/1366/sprites.png");
         width: 99px;
         height: 153px;
-        background-position: 0px -2810px; } }
+        background-position: 0px -2895px; } }
     @media (min-width: 1400px) {
       #checker .bottle {
         background-image: url("/img/1400/sprites.png");
         width: 101px;
         height: 157px;
-        background-position: 0px -2880px; } }
+        background-position: 0px -2967px; } }
     @media (min-width: 1440px) {
       #checker .bottle {
         background-image: url("/img/1440/sprites.png");
         width: 104px;
         height: 162px;
-        background-position: 0px -2962px; } }
+        background-position: 0px -3052px; } }
     @media (min-width: 1536px) {
       #checker .bottle {
         background-image: url("/img/1536/sprites.png");
         width: 111px;
         height: 172px;
-        background-position: 0px -3160px; } }
+        background-position: 0px -3255px; } }
     @media (min-width: 1600px) {
       #checker .bottle {
         background-image: url("/img/1600/sprites.png");
         width: 115px;
         height: 180px;
-        background-position: 0px -3291px; } }
+        background-position: 0px -3391px; } }
     @media (min-width: 1680px) {
       #checker .bottle {
         background-image: url("/img/1680/sprites.png");
         width: 121px;
         height: 189px;
-        background-position: 0px -3456px; } }
+        background-position: 0px -3561px; } }
     @media (min-width: 1980px) {
       #checker .bottle {
         background-image: url("/img/1980/sprites.png");
         width: 142px;
         height: 222px;
-        background-position: 0px -4073px; } }
+        background-position: 0px -4196px; } }
     @media (min-width: 2000px) {
       #checker .bottle {
         background-image: url("/img/2000/sprites.png");
         width: 145px;
         height: 227px;
-        background-position: 0px -4160px; } }
+        background-position: 0px -4286px; } }
   #checker .question {
     font-size: 5.4375rem;
     font-weight: normal;
@@ -1160,79 +1160,79 @@ body {
     background-image: url("/img/1024/sprites.png");
     width: 33px;
     height: 31px;
-    background-position: 0px -57px;
+    background-position: 0px -82px;
     float: left; }
     @media (min-width: 1024px) {
       .socNetworks .fb {
         background-image: url("/img/1024/sprites.png");
         width: 33px;
         height: 31px;
-        background-position: 0px -57px; } }
+        background-position: 0px -82px; } }
     @media (min-width: 1152px) {
       .socNetworks .fb {
         background-image: url("/img/1152/sprites.png");
         width: 37px;
         height: 35px;
-        background-position: 0px -64px; } }
+        background-position: 0px -92px; } }
     @media (min-width: 1280px) {
       .socNetworks .fb {
         background-image: url("/img/1280/sprites.png");
         width: 41px;
         height: 39px;
-        background-position: 0px -72px; } }
+        background-position: 0px -102px; } }
     @media (min-width: 1366px) {
       .socNetworks .fb {
         background-image: url("/img/1366/sprites.png");
         width: 44px;
         height: 41px;
-        background-position: 0px -76px; } }
+        background-position: 0px -109px; } }
     @media (min-width: 1400px) {
       .socNetworks .fb {
         background-image: url("/img/1400/sprites.png");
         width: 45px;
         height: 42px;
-        background-position: 0px -78px; } }
+        background-position: 0px -111px; } }
     @media (min-width: 1440px) {
       .socNetworks .fb {
         background-image: url("/img/1440/sprites.png");
         width: 46px;
         height: 43px;
-        background-position: 0px -80px; } }
+        background-position: 0px -115px; } }
     @media (min-width: 1536px) {
       .socNetworks .fb {
         background-image: url("/img/1536/sprites.png");
         width: 49px;
         height: 46px;
-        background-position: 0px -86px; } }
+        background-position: 0px -122px; } }
     @media (min-width: 1600px) {
       .socNetworks .fb {
         background-image: url("/img/1600/sprites.png");
         width: 51px;
         height: 48px;
-        background-position: 0px -89px; } }
+        background-position: 0px -127px; } }
     @media (min-width: 1680px) {
       .socNetworks .fb {
         background-image: url("/img/1680/sprites.png");
         width: 54px;
         height: 51px;
-        background-position: 0px -94px; } }
+        background-position: 0px -134px; } }
     @media (min-width: 1980px) {
       .socNetworks .fb {
         background-image: url("/img/1980/sprites.png");
         width: 63px;
         height: 60px;
-        background-position: 0px -111px; } }
+        background-position: 0px -158px; } }
     @media (min-width: 2000px) {
       .socNetworks .fb {
         background-image: url("/img/2000/sprites.png");
         width: 64px;
         height: 61px;
-        background-position: 0px -113px; } }
+        background-position: 0px -161px; } }
   .socNetworks .vk {
     background-image: url("/img/1024/sprites.png");
     width: 33px;
     height: 31px;
-    background-position: 0px -24px;
+    background-position: 0px -49px;
     margin-left: 0.9375rem;
     float: left; }
     @media (min-width: 1024px) {
@@ -1240,67 +1240,67 @@ body {
         background-image: url("/img/1024/sprites.png");
         width: 33px;
         height: 31px;
-        background-position: 0px -24px; } }
+        background-position: 0px -49px; } }
     @media (min-width: 1152px) {
       .socNetworks .vk {
         background-image: url("/img/1152/sprites.png");
         width: 37px;
         height: 35px;
-        background-position: 0px -27px; } }
+        background-position: 0px -55px; } }
     @media (min-width: 1280px) {
       .socNetworks .vk {
         background-image: url("/img/1280/sprites.png");
         width: 41px;
         height: 39px;
-        background-position: 0px -30px; } }
+        background-position: 0px -61px; } }
     @media (min-width: 1366px) {
       .socNetworks .vk {
         background-image: url("/img/1366/sprites.png");
         width: 44px;
         height: 41px;
-        background-position: 0px -32px; } }
+        background-position: 0px -65px; } }
     @media (min-width: 1400px) {
       .socNetworks .vk {
         background-image: url("/img/1400/sprites.png");
         width: 45px;
         height: 42px;
-        background-position: 0px -33px; } }
+        background-position: 0px -66px; } }
     @media (min-width: 1440px) {
       .socNetworks .vk {
         background-image: url("/img/1440/sprites.png");
         width: 46px;
         height: 43px;
-        background-position: 0px -34px; } }
+        background-position: 0px -68px; } }
     @media (min-width: 1536px) {
       .socNetworks .vk {
         background-image: url("/img/1536/sprites.png");
         width: 49px;
         height: 46px;
-        background-position: 0px -36px; } }
+        background-position: 0px -73px; } }
     @media (min-width: 1600px) {
       .socNetworks .vk {
         background-image: url("/img/1600/sprites.png");
         width: 51px;
         height: 48px;
-        background-position: 0px -38px; } }
+        background-position: 0px -76px; } }
     @media (min-width: 1680px) {
       .socNetworks .vk {
         background-image: url("/img/1680/sprites.png");
         width: 54px;
         height: 51px;
-        background-position: 0px -40px; } }
+        background-position: 0px -80px; } }
     @media (min-width: 1980px) {
       .socNetworks .vk {
         background-image: url("/img/1980/sprites.png");
         width: 63px;
         height: 60px;
-        background-position: 0px -47px; } }
+        background-position: 0px -94px; } }
     @media (min-width: 2000px) {
       .socNetworks .vk {
         background-image: url("/img/2000/sprites.png");
         width: 64px;
         height: 61px;
-        background-position: 0px -48px; } }
+        background-position: 0px -96px; } }
 
 .newProducts {
   position: relative;
@@ -1311,86 +1311,234 @@ body {
     top: 0.5rem;
     right: 15.3125rem;
     background-image: url("/img/1024/sprites.png");
-    width: 57px;
+    width: 59px;
     height: 22px;
-    background-position: 0px 0px; }
+    background-position: 0px -24px; }
     @media (min-width: 1024px) {
       .newProducts .logo {
         background-image: url("/img/1024/sprites.png");
-        width: 57px;
+        width: 59px;
         height: 22px;
-        background-position: 0px 0px; } }
+        background-position: 0px -24px; } }
     @media (min-width: 1152px) {
       .newProducts .logo {
         background-image: url("/img/1152/sprites.png");
-        width: 64px;
+        width: 66px;
         height: 25px;
-        background-position: 0px 0px; } }
+        background-position: 0px -27px; } }
     @media (min-width: 1280px) {
       .newProducts .logo {
         background-image: url("/img/1280/sprites.png");
-        width: 71px;
+        width: 73px;
         height: 28px;
-        background-position: 0px 0px; } }
+        background-position: 0px -30px; } }
     @media (min-width: 1366px) {
       .newProducts .logo {
         background-image: url("/img/1366/sprites.png");
-        width: 76px;
+        width: 78px;
         height: 30px;
-        background-position: 0px 0px; } }
+        background-position: 0px -32px; } }
     @media (min-width: 1400px) {
       .newProducts .logo {
         background-image: url("/img/1400/sprites.png");
-        width: 77px;
+        width: 80px;
         height: 30px;
-        background-position: 0px 0px; } }
+        background-position: 0px -33px; } }
     @media (min-width: 1440px) {
       .newProducts .logo {
         background-image: url("/img/1440/sprites.png");
-        width: 80px;
+        width: 82px;
         height: 31px;
-        background-position: 0px 0px; } }
+        background-position: 0px -34px; } }
     @media (min-width: 1536px) {
       .newProducts .logo {
         background-image: url("/img/1536/sprites.png");
-        width: 85px;
+        width: 87px;
         height: 33px;
-        background-position: 0px 0px; } }
+        background-position: 0px -36px; } }
     @media (min-width: 1600px) {
       .newProducts .logo {
         background-image: url("/img/1600/sprites.png");
-        width: 88px;
+        width: 91px;
         height: 35px;
-        background-position: 0px 0px; } }
+        background-position: 0px -38px; } }
     @media (min-width: 1680px) {
       .newProducts .logo {
         background-image: url("/img/1680/sprites.png");
-        width: 93px;
+        width: 95px;
         height: 37px;
-        background-position: 0px 0px; } }
+        background-position: 0px -40px; } }
     @media (min-width: 1980px) {
       .newProducts .logo {
         background-image: url("/img/1980/sprites.png");
-        width: 109px;
+        width: 112px;
         height: 43px;
-        background-position: 0px 0px; } }
+        background-position: 0px -47px; } }
     @media (min-width: 2000px) {
       .newProducts .logo {
         background-image: url("/img/2000/sprites.png");
-        width: 111px;
+        width: 114px;
         height: 44px;
-        background-position: 0px 0px; } }
+        background-position: 0px -48px; } }
+    .newProducts .logo:hover {
+      background-image: url("/img/1024/sprites.png");
+      width: 63px;
+      height: 22px;
+      background-position: 0px 0px; }
+      @media (min-width: 1024px) {
+        .newProducts .logo:hover {
+          background-image: url("/img/1024/sprites.png");
+          width: 63px;
+          height: 22px;
+          background-position: 0px 0px; } }
+      @media (min-width: 1152px) {
+        .newProducts .logo:hover {
+          background-image: url("/img/1152/sprites.png");
+          width: 70px;
+          height: 25px;
+          background-position: 0px 0px; } }
+      @media (min-width: 1280px) {
+        .newProducts .logo:hover {
+          background-image: url("/img/1280/sprites.png");
+          width: 78px;
+          height: 28px;
+          background-position: 0px 0px; } }
+      @media (min-width: 1366px) {
+        .newProducts .logo:hover {
+          background-image: url("/img/1366/sprites.png");
+          width: 83px;
+          height: 30px;
+          background-position: 0px 0px; } }
+      @media (min-width: 1400px) {
+        .newProducts .logo:hover {
+          background-image: url("/img/1400/sprites.png");
+          width: 85px;
+          height: 30px;
+          background-position: 0px 0px; } }
+      @media (min-width: 1440px) {
+        .newProducts .logo:hover {
+          background-image: url("/img/1440/sprites.png");
+          width: 87px;
+          height: 31px;
+          background-position: 0px 0px; } }
+      @media (min-width: 1536px) {
+        .newProducts .logo:hover {
+          background-image: url("/img/1536/sprites.png");
+          width: 93px;
+          height: 33px;
+          background-position: 0px 0px; } }
+      @media (min-width: 1600px) {
+        .newProducts .logo:hover {
+          background-image: url("/img/1600/sprites.png");
+          width: 97px;
+          height: 35px;
+          background-position: 0px 0px; } }
+      @media (min-width: 1680px) {
+        .newProducts .logo:hover {
+          background-image: url("/img/1680/sprites.png");
+          width: 102px;
+          height: 37px;
+          background-position: 0px 0px; } }
+      @media (min-width: 1980px) {
+        .newProducts .logo:hover {
+          background-image: url("/img/1980/sprites.png");
+          width: 119px;
+          height: 43px;
+          background-position: 0px 0px; } }
+      @media (min-width: 2000px) {
+        .newProducts .logo:hover {
+          background-image: url("/img/2000/sprites.png");
+          width: 122px;
+          height: 44px;
+          background-position: 0px 0px; } }
   .newProducts .copyright {
     display: none; }
 
 .healtWarn {
   height: 6.875rem;
-  padding: 1.125rem 0 0 2.1875rem;
+  padding: 1.75rem 0 0 5rem;
   background: #fff;
   font-family: PFDinTextCompPro;
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 200;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  position: relative; }
+  .healtWarn:after {
+    position: absolute;
+    top: 2rem;
+    left: 1.25rem;
+    background-image: url("/img/1024/sprites.png");
+    width: 40px;
+    height: 37px;
+    background-position: 0px -114px;
+    display: block;
+    content: ''; }
+    @media (min-width: 1024px) {
+      .healtWarn:after {
+        background-image: url("/img/1024/sprites.png");
+        width: 40px;
+        height: 37px;
+        background-position: 0px -114px; } }
+    @media (min-width: 1152px) {
+      .healtWarn:after {
+        background-image: url("/img/1152/sprites.png");
+        width: 45px;
+        height: 42px;
+        background-position: 0px -129px; } }
+    @media (min-width: 1280px) {
+      .healtWarn:after {
+        background-image: url("/img/1280/sprites.png");
+        width: 49px;
+        height: 47px;
+        background-position: 0px -143px; } }
+    @media (min-width: 1366px) {
+      .healtWarn:after {
+        background-image: url("/img/1366/sprites.png");
+        width: 53px;
+        height: 50px;
+        background-position: 0px -153px; } }
+    @media (min-width: 1400px) {
+      .healtWarn:after {
+        background-image: url("/img/1400/sprites.png");
+        width: 54px;
+        height: 51px;
+        background-position: 0px -156px; } }
+    @media (min-width: 1440px) {
+      .healtWarn:after {
+        background-image: url("/img/1440/sprites.png");
+        width: 55px;
+        height: 53px;
+        background-position: 0px -161px; } }
+    @media (min-width: 1536px) {
+      .healtWarn:after {
+        background-image: url("/img/1536/sprites.png");
+        width: 59px;
+        height: 56px;
+        background-position: 0px -172px; } }
+    @media (min-width: 1600px) {
+      .healtWarn:after {
+        background-image: url("/img/1600/sprites.png");
+        width: 61px;
+        height: 59px;
+        background-position: 0px -179px; } }
+    @media (min-width: 1680px) {
+      .healtWarn:after {
+        background-image: url("/img/1680/sprites.png");
+        width: 64px;
+        height: 61px;
+        background-position: 0px -188px; } }
+    @media (min-width: 1980px) {
+      .healtWarn:after {
+        background-image: url("/img/1980/sprites.png");
+        width: 75px;
+        height: 72px;
+        background-position: 0px -221px; } }
+    @media (min-width: 2000px) {
+      .healtWarn:after {
+        background-image: url("/img/2000/sprites.png");
+        width: 77px;
+        height: 74px;
+        background-position: 0px -226px; } }
 
 .dashing {
   -webkit-transition: all 2s linear;
@@ -1525,74 +1673,74 @@ body {
     background-image: url("/img/1024/sprites.png");
     width: 97px;
     height: 93px;
-    background-position: 0px -1164px;
+    background-position: 0px -1227px;
     margin: 0 auto; }
     @media (min-width: 1024px) {
       .logoWrap .logo {
         background-image: url("/img/1024/sprites.png");
         width: 97px;
         height: 93px;
-        background-position: 0px -1164px; } }
+        background-position: 0px -1227px; } }
     @media (min-width: 1152px) {
       .logoWrap .logo {
         background-image: url("/img/1152/sprites.png");
         width: 109px;
         height: 105px;
-        background-position: 0px -1309px; } }
+        background-position: 0px -1381px; } }
     @media (min-width: 1280px) {
       .logoWrap .logo {
         background-image: url("/img/1280/sprites.png");
         width: 121px;
         height: 116px;
-        background-position: 0px -1455px; } }
+        background-position: 0px -1534px; } }
     @media (min-width: 1366px) {
       .logoWrap .logo {
         background-image: url("/img/1366/sprites.png");
         width: 129px;
         height: 124px;
-        background-position: 0px -1552px; } }
+        background-position: 0px -1637px; } }
     @media (min-width: 1400px) {
       .logoWrap .logo {
         background-image: url("/img/1400/sprites.png");
         width: 132px;
         height: 127px;
-        background-position: 0px -1591px; } }
+        background-position: 0px -1678px; } }
     @media (min-width: 1440px) {
       .logoWrap .logo {
         background-image: url("/img/1440/sprites.png");
         width: 136px;
         height: 131px;
-        background-position: 0px -1636px; } }
+        background-position: 0px -1726px; } }
     @media (min-width: 1536px) {
       .logoWrap .logo {
         background-image: url("/img/1536/sprites.png");
         width: 145px;
         height: 140px;
-        background-position: 0px -1745px; } }
+        background-position: 0px -1841px; } }
     @media (min-width: 1600px) {
       .logoWrap .logo {
         background-image: url("/img/1600/sprites.png");
         width: 151px;
         height: 146px;
-        background-position: 0px -1818px; } }
+        background-position: 0px -1918px; } }
     @media (min-width: 1680px) {
       .logoWrap .logo {
         background-image: url("/img/1680/sprites.png");
         width: 158px;
         height: 153px;
-        background-position: 0px -1909px; } }
+        background-position: 0px -2014px; } }
     @media (min-width: 1980px) {
       .logoWrap .logo {
         background-image: url("/img/1980/sprites.png");
         width: 186px;
         height: 180px;
-        background-position: 0px -2250px; } }
+        background-position: 0px -2373px; } }
     @media (min-width: 2000px) {
       .logoWrap .logo {
         background-image: url("/img/2000/sprites.png");
         width: 190px;
         height: 184px;
-        background-position: 0px -2298px; } }
+        background-position: 0px -2424px; } }
 
 /*
 SCSS variables are information about icon's compiled state, stored under its original file name
@@ -1624,73 +1772,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 94px;
     height: 52px;
-    background-position: 0px -697px; }
+    background-position: 0px -707px; }
     @media (min-width: 1024px) {
       #fun .apple-1 {
         background-image: url("/img/1024/sprites.png");
         width: 94px;
         height: 52px;
-        background-position: 0px -697px; } }
+        background-position: 0px -707px; } }
     @media (min-width: 1152px) {
       #fun .apple-1 {
         background-image: url("/img/1152/sprites.png");
         width: 105px;
         height: 59px;
-        background-position: 0px -784px; } }
+        background-position: 0px -795px; } }
     @media (min-width: 1280px) {
       #fun .apple-1 {
         background-image: url("/img/1280/sprites.png");
         width: 117px;
         height: 65px;
-        background-position: 0px -872px; } }
+        background-position: 0px -884px; } }
     @media (min-width: 1366px) {
       #fun .apple-1 {
         background-image: url("/img/1366/sprites.png");
         width: 124px;
         height: 70px;
-        background-position: 0px -930px; } }
+        background-position: 0px -943px; } }
     @media (min-width: 1400px) {
       #fun .apple-1 {
         background-image: url("/img/1400/sprites.png");
         width: 127px;
         height: 71px;
-        background-position: 0px -953px; } }
+        background-position: 0px -966px; } }
     @media (min-width: 1440px) {
       #fun .apple-1 {
         background-image: url("/img/1440/sprites.png");
         width: 131px;
         height: 73px;
-        background-position: 0px -981px; } }
+        background-position: 0px -994px; } }
     @media (min-width: 1536px) {
       #fun .apple-1 {
         background-image: url("/img/1536/sprites.png");
         width: 139px;
         height: 78px;
-        background-position: 0px -1046px; } }
+        background-position: 0px -1060px; } }
     @media (min-width: 1600px) {
       #fun .apple-1 {
         background-image: url("/img/1600/sprites.png");
         width: 145px;
         height: 81px;
-        background-position: 0px -1089px; } }
+        background-position: 0px -1105px; } }
     @media (min-width: 1680px) {
       #fun .apple-1 {
         background-image: url("/img/1680/sprites.png");
         width: 152px;
         height: 86px;
-        background-position: 0px -1144px; } }
+        background-position: 0px -1160px; } }
     @media (min-width: 1980px) {
       #fun .apple-1 {
         background-image: url("/img/1980/sprites.png");
         width: 179px;
         height: 101px;
-        background-position: 0px -1348px; } }
+        background-position: 0px -1367px; } }
     @media (min-width: 2000px) {
       #fun .apple-1 {
         background-image: url("/img/2000/sprites.png");
         width: 183px;
         height: 103px;
-        background-position: 0px -1377px; } }
+        background-position: 0px -1396px; } }
   #fun .apple-2 {
     position: absolute;
     top: 2.125rem;
@@ -1698,73 +1846,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 69px;
     height: 39px;
-    background-position: 0px -90px; }
+    background-position: 0px -154px; }
     @media (min-width: 1024px) {
       #fun .apple-2 {
         background-image: url("/img/1024/sprites.png");
         width: 69px;
         height: 39px;
-        background-position: 0px -90px; } }
+        background-position: 0px -154px; } }
     @media (min-width: 1152px) {
       #fun .apple-2 {
         background-image: url("/img/1152/sprites.png");
         width: 78px;
         height: 44px;
-        background-position: 0px -101px; } }
+        background-position: 0px -173px; } }
     @media (min-width: 1280px) {
       #fun .apple-2 {
         background-image: url("/img/1280/sprites.png");
         width: 86px;
         height: 49px;
-        background-position: 0px -113px; } }
+        background-position: 0px -192px; } }
     @media (min-width: 1366px) {
       #fun .apple-2 {
         background-image: url("/img/1366/sprites.png");
         width: 92px;
         height: 52px;
-        background-position: 0px -120px; } }
+        background-position: 0px -205px; } }
     @media (min-width: 1400px) {
       #fun .apple-2 {
         background-image: url("/img/1400/sprites.png");
         width: 94px;
         height: 53px;
-        background-position: 0px -123px; } }
+        background-position: 0px -210px; } }
     @media (min-width: 1440px) {
       #fun .apple-2 {
         background-image: url("/img/1440/sprites.png");
         width: 97px;
         height: 55px;
-        background-position: 0px -127px; } }
+        background-position: 0px -216px; } }
     @media (min-width: 1536px) {
       #fun .apple-2 {
         background-image: url("/img/1536/sprites.png");
         width: 103px;
         height: 58px;
-        background-position: 0px -135px; } }
+        background-position: 0px -231px; } }
     @media (min-width: 1600px) {
       #fun .apple-2 {
         background-image: url("/img/1600/sprites.png");
         width: 107px;
         height: 61px;
-        background-position: 0px -141px; } }
+        background-position: 0px -241px; } }
     @media (min-width: 1680px) {
       #fun .apple-2 {
         background-image: url("/img/1680/sprites.png");
         width: 112px;
         height: 64px;
-        background-position: 0px -148px; } }
+        background-position: 0px -253px; } }
     @media (min-width: 1980px) {
       #fun .apple-2 {
         background-image: url("/img/1980/sprites.png");
         width: 132px;
         height: 75px;
-        background-position: 0px -174px; } }
+        background-position: 0px -298px; } }
     @media (min-width: 2000px) {
       #fun .apple-2 {
         background-image: url("/img/2000/sprites.png");
         width: 135px;
         height: 77px;
-        background-position: 0px -178px; } }
+        background-position: 0px -304px; } }
   #fun .apple-3 {
     position: absolute;
     top: 14.6875rem;
@@ -1772,74 +1920,74 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 76px;
     height: 41px;
-    background-position: 0px -214px;
+    background-position: 0px -278px;
     z-index: 1; }
     @media (min-width: 1024px) {
       #fun .apple-3 {
         background-image: url("/img/1024/sprites.png");
         width: 76px;
         height: 41px;
-        background-position: 0px -214px; } }
+        background-position: 0px -278px; } }
     @media (min-width: 1152px) {
       #fun .apple-3 {
         background-image: url("/img/1152/sprites.png");
         width: 85px;
         height: 46px;
-        background-position: 0px -241px; } }
+        background-position: 0px -313px; } }
     @media (min-width: 1280px) {
       #fun .apple-3 {
         background-image: url("/img/1280/sprites.png");
         width: 94px;
         height: 51px;
-        background-position: 0px -268px; } }
+        background-position: 0px -347px; } }
     @media (min-width: 1366px) {
       #fun .apple-3 {
         background-image: url("/img/1366/sprites.png");
         width: 101px;
         height: 54px;
-        background-position: 0px -286px; } }
+        background-position: 0px -371px; } }
     @media (min-width: 1400px) {
       #fun .apple-3 {
         background-image: url("/img/1400/sprites.png");
         width: 103px;
         height: 55px;
-        background-position: 0px -293px; } }
+        background-position: 0px -380px; } }
     @media (min-width: 1440px) {
       #fun .apple-3 {
         background-image: url("/img/1440/sprites.png");
         width: 106px;
         height: 57px;
-        background-position: 0px -301px; } }
+        background-position: 0px -391px; } }
     @media (min-width: 1536px) {
       #fun .apple-3 {
         background-image: url("/img/1536/sprites.png");
         width: 113px;
         height: 61px;
-        background-position: 0px -321px; } }
+        background-position: 0px -417px; } }
     @media (min-width: 1600px) {
       #fun .apple-3 {
         background-image: url("/img/1600/sprites.png");
         width: 118px;
         height: 63px;
-        background-position: 0px -335px; } }
+        background-position: 0px -434px; } }
     @media (min-width: 1680px) {
       #fun .apple-3 {
         background-image: url("/img/1680/sprites.png");
         width: 123px;
         height: 66px;
-        background-position: 0px -351px; } }
+        background-position: 0px -456px; } }
     @media (min-width: 1980px) {
       #fun .apple-3 {
         background-image: url("/img/1980/sprites.png");
         width: 145px;
         height: 78px;
-        background-position: 0px -414px; } }
+        background-position: 0px -538px; } }
     @media (min-width: 2000px) {
       #fun .apple-3 {
         background-image: url("/img/2000/sprites.png");
         width: 148px;
         height: 80px;
-        background-position: 0px -423px; } }
+        background-position: 0px -549px; } }
   #fun .bottle {
     position: absolute;
     bottom: 10.3125rem;
@@ -1847,73 +1995,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 85px;
     height: 94px;
-    background-position: 0px -1259px; }
+    background-position: 0px -1323px; }
     @media (min-width: 1024px) {
       #fun .bottle {
         background-image: url("/img/1024/sprites.png");
         width: 85px;
         height: 94px;
-        background-position: 0px -1259px; } }
+        background-position: 0px -1323px; } }
     @media (min-width: 1152px) {
       #fun .bottle {
         background-image: url("/img/1152/sprites.png");
         width: 95px;
         height: 106px;
-        background-position: 0px -1416px; } }
+        background-position: 0px -1488px; } }
     @media (min-width: 1280px) {
       #fun .bottle {
         background-image: url("/img/1280/sprites.png");
         width: 105px;
         height: 118px;
-        background-position: 0px -1574px; } }
+        background-position: 0px -1653px; } }
     @media (min-width: 1366px) {
       #fun .bottle {
         background-image: url("/img/1366/sprites.png");
         width: 112px;
         height: 126px;
-        background-position: 0px -1679px; } }
+        background-position: 0px -1764px; } }
     @media (min-width: 1400px) {
       #fun .bottle {
         background-image: url("/img/1400/sprites.png");
         width: 115px;
         height: 129px;
-        background-position: 0px -1721px; } }
+        background-position: 0px -1808px; } }
     @media (min-width: 1440px) {
       #fun .bottle {
         background-image: url("/img/1440/sprites.png");
         width: 118px;
         height: 132px;
-        background-position: 0px -1770px; } }
+        background-position: 0px -1860px; } }
     @media (min-width: 1536px) {
       #fun .bottle {
         background-image: url("/img/1536/sprites.png");
         width: 126px;
         height: 141px;
-        background-position: 0px -1888px; } }
+        background-position: 0px -1984px; } }
     @media (min-width: 1600px) {
       #fun .bottle {
         background-image: url("/img/1600/sprites.png");
         width: 131px;
         height: 147px;
-        background-position: 0px -1967px; } }
+        background-position: 0px -2067px; } }
     @media (min-width: 1680px) {
       #fun .bottle {
         background-image: url("/img/1680/sprites.png");
         width: 137px;
         height: 155px;
-        background-position: 0px -2065px; } }
+        background-position: 0px -2170px; } }
     @media (min-width: 1980px) {
       #fun .bottle {
         background-image: url("/img/1980/sprites.png");
         width: 162px;
         height: 182px;
-        background-position: 0px -2434px; } }
+        background-position: 0px -2557px; } }
     @media (min-width: 2000px) {
       #fun .bottle {
         background-image: url("/img/2000/sprites.png");
         width: 165px;
         height: 186px;
-        background-position: 0px -2486px; } }
+        background-position: 0px -2612px; } }
   #fun .bigTitle {
     position: absolute;
     top: 19.375rem;
@@ -2071,73 +2219,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 68px;
     height: 75px;
-    background-position: 0px -1002px; }
+    background-position: 0px -1065px; }
     @media (min-width: 1024px) {
       #intro .apple-1 {
         background-image: url("/img/1024/sprites.png");
         width: 68px;
         height: 75px;
-        background-position: 0px -1002px; } }
+        background-position: 0px -1065px; } }
     @media (min-width: 1152px) {
       #intro .apple-1 {
         background-image: url("/img/1152/sprites.png");
         width: 76px;
         height: 84px;
-        background-position: 0px -1127px; } }
+        background-position: 0px -1199px; } }
     @media (min-width: 1280px) {
       #intro .apple-1 {
         background-image: url("/img/1280/sprites.png");
         width: 84px;
         height: 94px;
-        background-position: 0px -1252px; } }
+        background-position: 0px -1332px; } }
     @media (min-width: 1366px) {
       #intro .apple-1 {
         background-image: url("/img/1366/sprites.png");
         width: 90px;
         height: 100px;
-        background-position: 0px -1336px; } }
+        background-position: 0px -1421px; } }
     @media (min-width: 1400px) {
       #intro .apple-1 {
         background-image: url("/img/1400/sprites.png");
         width: 92px;
         height: 102px;
-        background-position: 0px -1369px; } }
+        background-position: 0px -1457px; } }
     @media (min-width: 1440px) {
       #intro .apple-1 {
         background-image: url("/img/1440/sprites.png");
         width: 95px;
         height: 105px;
-        background-position: 0px -1408px; } }
+        background-position: 0px -1498px; } }
     @media (min-width: 1536px) {
       #intro .apple-1 {
         background-image: url("/img/1536/sprites.png");
         width: 101px;
         height: 112px;
-        background-position: 0px -1502px; } }
+        background-position: 0px -1598px; } }
     @media (min-width: 1600px) {
       #intro .apple-1 {
         background-image: url("/img/1600/sprites.png");
         width: 105px;
         height: 117px;
-        background-position: 0px -1565px; } }
+        background-position: 0px -1665px; } }
     @media (min-width: 1680px) {
       #intro .apple-1 {
         background-image: url("/img/1680/sprites.png");
         width: 110px;
         height: 123px;
-        background-position: 0px -1643px; } }
+        background-position: 0px -1748px; } }
     @media (min-width: 1980px) {
       #intro .apple-1 {
         background-image: url("/img/1980/sprites.png");
         width: 129px;
         height: 145px;
-        background-position: 0px -1937px; } }
+        background-position: 0px -2060px; } }
     @media (min-width: 2000px) {
       #intro .apple-1 {
         background-image: url("/img/2000/sprites.png");
         width: 132px;
         height: 148px;
-        background-position: 0px -1978px; } }
+        background-position: 0px -2104px; } }
   #intro .apple-2 {
     position: absolute;
     bottom: 5.375rem;
@@ -2145,73 +2293,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 59px;
     height: 67px;
-    background-position: 0px -861px; }
+    background-position: 0px -925px; }
     @media (min-width: 1024px) {
       #intro .apple-2 {
         background-image: url("/img/1024/sprites.png");
         width: 59px;
         height: 67px;
-        background-position: 0px -861px; } }
+        background-position: 0px -925px; } }
     @media (min-width: 1152px) {
       #intro .apple-2 {
         background-image: url("/img/1152/sprites.png");
         width: 66px;
         height: 75px;
-        background-position: 0px -968px; } }
+        background-position: 0px -1040px; } }
     @media (min-width: 1280px) {
       #intro .apple-2 {
         background-image: url("/img/1280/sprites.png");
         width: 74px;
         height: 84px;
-        background-position: 0px -1076px; } }
+        background-position: 0px -1156px; } }
     @media (min-width: 1366px) {
       #intro .apple-2 {
         background-image: url("/img/1366/sprites.png");
         width: 78px;
         height: 89px;
-        background-position: 0px -1148px; } }
+        background-position: 0px -1233px; } }
     @media (min-width: 1400px) {
       #intro .apple-2 {
         background-image: url("/img/1400/sprites.png");
         width: 80px;
         height: 91px;
-        background-position: 0px -1177px; } }
+        background-position: 0px -1264px; } }
     @media (min-width: 1440px) {
       #intro .apple-2 {
         background-image: url("/img/1440/sprites.png");
         width: 82px;
         height: 94px;
-        background-position: 0px -1211px; } }
+        background-position: 0px -1300px; } }
     @media (min-width: 1536px) {
       #intro .apple-2 {
         background-image: url("/img/1536/sprites.png");
         width: 88px;
         height: 100px;
-        background-position: 0px -1291px; } }
+        background-position: 0px -1387px; } }
     @media (min-width: 1600px) {
       #intro .apple-2 {
         background-image: url("/img/1600/sprites.png");
         width: 91px;
         height: 104px;
-        background-position: 0px -1345px; } }
+        background-position: 0px -1445px; } }
     @media (min-width: 1680px) {
       #intro .apple-2 {
         background-image: url("/img/1680/sprites.png");
         width: 96px;
         height: 110px;
-        background-position: 0px -1412px; } }
+        background-position: 0px -1517px; } }
     @media (min-width: 1980px) {
       #intro .apple-2 {
         background-image: url("/img/1980/sprites.png");
         width: 113px;
         height: 129px;
-        background-position: 0px -1664px; } }
+        background-position: 0px -1788px; } }
     @media (min-width: 2000px) {
       #intro .apple-2 {
         background-image: url("/img/2000/sprites.png");
         width: 115px;
         height: 132px;
-        background-position: 0px -1700px; } }
+        background-position: 0px -1826px; } }
   #intro .apple-3 {
     position: absolute;
     right: -0.125rem;
@@ -2219,74 +2367,74 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 65px;
     height: 83px;
-    background-position: 0px -1079px;
+    background-position: 0px -1142px;
     z-index: 1; }
     @media (min-width: 1024px) {
       #intro .apple-3 {
         background-image: url("/img/1024/sprites.png");
         width: 65px;
         height: 83px;
-        background-position: 0px -1079px; } }
+        background-position: 0px -1142px; } }
     @media (min-width: 1152px) {
       #intro .apple-3 {
         background-image: url("/img/1152/sprites.png");
         width: 73px;
         height: 93px;
-        background-position: 0px -1213px; } }
+        background-position: 0px -1285px; } }
     @media (min-width: 1280px) {
       #intro .apple-3 {
         background-image: url("/img/1280/sprites.png");
         width: 81px;
         height: 104px;
-        background-position: 0px -1348px; } }
+        background-position: 0px -1428px; } }
     @media (min-width: 1366px) {
       #intro .apple-3 {
         background-image: url("/img/1366/sprites.png");
         width: 86px;
         height: 111px;
-        background-position: 0px -1439px; } }
+        background-position: 0px -1524px; } }
     @media (min-width: 1400px) {
       #intro .apple-3 {
         background-image: url("/img/1400/sprites.png");
         width: 89px;
         height: 114px;
-        background-position: 0px -1475px; } }
+        background-position: 0px -1562px; } }
     @media (min-width: 1440px) {
       #intro .apple-3 {
         background-image: url("/img/1440/sprites.png");
         width: 91px;
         height: 117px;
-        background-position: 0px -1517px; } }
+        background-position: 0px -1606px; } }
     @media (min-width: 1536px) {
       #intro .apple-3 {
         background-image: url("/img/1536/sprites.png");
         width: 97px;
         height: 125px;
-        background-position: 0px -1618px; } }
+        background-position: 0px -1714px; } }
     @media (min-width: 1600px) {
       #intro .apple-3 {
         background-image: url("/img/1600/sprites.png");
         width: 101px;
         height: 130px;
-        background-position: 0px -1685px; } }
+        background-position: 0px -1785px; } }
     @media (min-width: 1680px) {
       #intro .apple-3 {
         background-image: url("/img/1680/sprites.png");
         width: 106px;
         height: 136px;
-        background-position: 0px -1770px; } }
+        background-position: 0px -1874px; } }
     @media (min-width: 1980px) {
       #intro .apple-3 {
         background-image: url("/img/1980/sprites.png");
         width: 124px;
         height: 161px;
-        background-position: 0px -2086px; } }
+        background-position: 0px -2209px; } }
     @media (min-width: 2000px) {
       #intro .apple-3 {
         background-image: url("/img/2000/sprites.png");
         width: 127px;
         height: 164px;
-        background-position: 0px -2130px; } }
+        background-position: 0px -2256px; } }
   #intro .bottle {
     position: absolute;
     bottom: 10.375rem;
@@ -2294,73 +2442,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 108px;
     height: 70px;
-    background-position: 0px -930px; }
+    background-position: 0px -993px; }
     @media (min-width: 1024px) {
       #intro .bottle {
         background-image: url("/img/1024/sprites.png");
         width: 108px;
         height: 70px;
-        background-position: 0px -930px; } }
+        background-position: 0px -993px; } }
     @media (min-width: 1152px) {
       #intro .bottle {
         background-image: url("/img/1152/sprites.png");
         width: 122px;
         height: 79px;
-        background-position: 0px -1046px; } }
+        background-position: 0px -1118px; } }
     @media (min-width: 1280px) {
       #intro .bottle {
         background-image: url("/img/1280/sprites.png");
         width: 135px;
         height: 87px;
-        background-position: 0px -1162px; } }
+        background-position: 0px -1242px; } }
     @media (min-width: 1366px) {
       #intro .bottle {
         background-image: url("/img/1366/sprites.png");
         width: 144px;
         height: 93px;
-        background-position: 0px -1240px; } }
+        background-position: 0px -1325px; } }
     @media (min-width: 1400px) {
       #intro .bottle {
         background-image: url("/img/1400/sprites.png");
         width: 147px;
         height: 96px;
-        background-position: 0px -1271px; } }
+        background-position: 0px -1358px; } }
     @media (min-width: 1440px) {
       #intro .bottle {
         background-image: url("/img/1440/sprites.png");
         width: 152px;
         height: 98px;
-        background-position: 0px -1307px; } }
+        background-position: 0px -1397px; } }
     @media (min-width: 1536px) {
       #intro .bottle {
         background-image: url("/img/1536/sprites.png");
         width: 162px;
         height: 105px;
-        background-position: 0px -1395px; } }
+        background-position: 0px -1490px; } }
     @media (min-width: 1600px) {
       #intro .bottle {
         background-image: url("/img/1600/sprites.png");
         width: 168px;
         height: 109px;
-        background-position: 0px -1453px; } }
+        background-position: 0px -1552px; } }
     @media (min-width: 1680px) {
       #intro .bottle {
         background-image: url("/img/1680/sprites.png");
         width: 176px;
         height: 115px;
-        background-position: 0px -1525px; } }
+        background-position: 0px -1630px; } }
     @media (min-width: 1980px) {
       #intro .bottle {
         background-image: url("/img/1980/sprites.png");
         width: 208px;
         height: 135px;
-        background-position: 0px -1798px; } }
+        background-position: 0px -1921px; } }
     @media (min-width: 2000px) {
       #intro .bottle {
         background-image: url("/img/2000/sprites.png");
         width: 212px;
         height: 138px;
-        background-position: 0px -1836px; } }
+        background-position: 0px -1962px; } }
   #intro .dude {
     position: absolute;
     right: 19.9375rem;
@@ -2368,73 +2516,73 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 368px;
     height: 486px;
-    background-position: 0px -2345px; }
+    background-position: 0px -2409px; }
     @media (min-width: 1024px) {
       #intro .dude {
         background-image: url("/img/1024/sprites.png");
         width: 368px;
         height: 486px;
-        background-position: 0px -2345px; } }
+        background-position: 0px -2409px; } }
     @media (min-width: 1152px) {
       #intro .dude {
         background-image: url("/img/1152/sprites.png");
         width: 413px;
         height: 547px;
-        background-position: 0px -2639px; } }
+        background-position: 0px -2710px; } }
     @media (min-width: 1280px) {
       #intro .dude {
         background-image: url("/img/1280/sprites.png");
         width: 459px;
         height: 608px;
-        background-position: 0px -2932px; } }
+        background-position: 0px -3012px; } }
     @media (min-width: 1366px) {
       #intro .dude {
         background-image: url("/img/1366/sprites.png");
         width: 490px;
         height: 648px;
-        background-position: 0px -3129px; } }
+        background-position: 0px -3214px; } }
     @media (min-width: 1400px) {
       #intro .dude {
         background-image: url("/img/1400/sprites.png");
         width: 502px;
         height: 665px;
-        background-position: 0px -3207px; } }
+        background-position: 0px -3294px; } }
     @media (min-width: 1440px) {
       #intro .dude {
         background-image: url("/img/1440/sprites.png");
         width: 516px;
         height: 684px;
-        background-position: 0px -3298px; } }
+        background-position: 0px -3388px; } }
     @media (min-width: 1536px) {
       #intro .dude {
         background-image: url("/img/1536/sprites.png");
         width: 550px;
         height: 729px;
-        background-position: 0px -3518px; } }
+        background-position: 0px -3614px; } }
     @media (min-width: 1600px) {
       #intro .dude {
         background-image: url("/img/1600/sprites.png");
         width: 573px;
         height: 760px;
-        background-position: 0px -3665px; } }
+        background-position: 0px -3765px; } }
     @media (min-width: 1680px) {
       #intro .dude {
         background-image: url("/img/1680/sprites.png");
         width: 602px;
         height: 798px;
-        background-position: 0px -3848px; } }
+        background-position: 0px -3953px; } }
     @media (min-width: 1980px) {
       #intro .dude {
         background-image: url("/img/1980/sprites.png");
         width: 709px;
         height: 940px;
-        background-position: 0px -4535px; } }
+        background-position: 0px -4659px; } }
     @media (min-width: 2000px) {
       #intro .dude {
         background-image: url("/img/2000/sprites.png");
         width: 724px;
         height: 960px;
-        background-position: 0px -4632px; } }
+        background-position: 0px -4758px; } }
   #intro .logoWrap {
     position: absolute;
     right: 16.125rem;
@@ -2557,74 +2705,74 @@ The provided mixins are intended to be used with the array-like variables
     background-image: url("/img/1024/sprites.png");
     width: 144px;
     height: 45px;
-    background-position: 0px -439px;
+    background-position: 0px -503px;
     content: ''; }
     @media (min-width: 1024px) {
       #products .back:after {
         background-image: url("/img/1024/sprites.png");
         width: 144px;
         height: 45px;
-        background-position: 0px -439px; } }
+        background-position: 0px -503px; } }
     @media (min-width: 1152px) {
       #products .back:after {
         background-image: url("/img/1152/sprites.png");
         width: 162px;
         height: 51px;
-        background-position: 0px -494px; } }
+        background-position: 0px -566px; } }
     @media (min-width: 1280px) {
       #products .back:after {
         background-image: url("/img/1280/sprites.png");
         width: 179px;
         height: 56px;
-        background-position: 0px -549px; } }
+        background-position: 0px -629px; } }
     @media (min-width: 1366px) {
       #products .back:after {
         background-image: url("/img/1366/sprites.png");
         width: 191px;
         height: 60px;
-        background-position: 0px -586px; } }
+        background-position: 0px -671px; } }
     @media (min-width: 1400px) {
       #products .back:after {
         background-image: url("/img/1400/sprites.png");
         width: 196px;
         height: 62px;
-        background-position: 0px -600px; } }
+        background-position: 0px -687px; } }
     @media (min-width: 1440px) {
       #products .back:after {
         background-image: url("/img/1440/sprites.png");
         width: 201px;
         height: 63px;
-        background-position: 0px -617px; } }
+        background-position: 0px -707px; } }
     @media (min-width: 1536px) {
       #products .back:after {
         background-image: url("/img/1536/sprites.png");
         width: 215px;
         height: 68px;
-        background-position: 0px -659px; } }
+        background-position: 0px -754px; } }
     @media (min-width: 1600px) {
       #products .back:after {
         background-image: url("/img/1600/sprites.png");
         width: 224px;
         height: 70px;
-        background-position: 0px -686px; } }
+        background-position: 0px -786px; } }
     @media (min-width: 1680px) {
       #products .back:after {
         background-image: url("/img/1680/sprites.png");
         width: 235px;
         height: 74px;
-        background-position: 0px -720px; } }
+        background-position: 0px -825px; } }
     @media (min-width: 1980px) {
       #products .back:after {
         background-image: url("/img/1980/sprites.png");
         width: 276px;
         height: 87px;
-        background-position: 0px -849px; } }
+        background-position: 0px -972px; } }
     @media (min-width: 2000px) {
       #products .back:after {
         background-image: url("/img/2000/sprites.png");
         width: 282px;
         height: 89px;
-        background-position: 0px -867px; } }
+        background-position: 0px -993px; } }
 #products .productsWrap {
   position: relative;
   padding: 17.875rem 0 0;
@@ -2685,7 +2833,7 @@ The provided mixins are intended to be used with the array-like variables
         background-image: url("/img/1024/sprites.png");
         width: 139px;
         height: 111px;
-        background-position: 0px -1880px;
+        background-position: 0px -2057px;
         position: absolute;
         top: -2.9375rem;
         left: -10.4375rem;
@@ -2695,74 +2843,74 @@ The provided mixins are intended to be used with the array-like variables
             background-image: url("/img/1024/sprites.png");
             width: 139px;
             height: 111px;
-            background-position: 0px -1880px; } }
+            background-position: 0px -2057px; } }
         @media (min-width: 1152px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1152/sprites.png");
             width: 156px;
             height: 125px;
-            background-position: 0px -2115px; } }
+            background-position: 0px -2314px; } }
         @media (min-width: 1280px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1280/sprites.png");
             width: 173px;
             height: 139px;
-            background-position: 0px -2350px; } }
+            background-position: 0px -2571px; } }
         @media (min-width: 1366px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1366/sprites.png");
             width: 184px;
             height: 149px;
-            background-position: 0px -2507px; } }
+            background-position: 0px -2744px; } }
         @media (min-width: 1400px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1400/sprites.png");
             width: 189px;
             height: 152px;
-            background-position: 0px -2570px; } }
+            background-position: 0px -2812px; } }
         @media (min-width: 1440px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1440/sprites.png");
             width: 194px;
             height: 157px;
-            background-position: 0px -2643px; } }
+            background-position: 0px -2892px; } }
         @media (min-width: 1536px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1536/sprites.png");
             width: 207px;
             height: 167px;
-            background-position: 0px -2819px; } }
+            background-position: 0px -3085px; } }
         @media (min-width: 1600px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1600/sprites.png");
             width: 216px;
             height: 174px;
-            background-position: 0px -2937px; } }
+            background-position: 0px -3214px; } }
         @media (min-width: 1680px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1680/sprites.png");
             width: 226px;
             height: 183px;
-            background-position: 0px -3084px; } }
+            background-position: 0px -3375px; } }
         @media (min-width: 1980px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1980/sprites.png");
             width: 266px;
             height: 215px;
-            background-position: 0px -3634px; } }
+            background-position: 0px -3977px; } }
         @media (min-width: 2000px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/2000/sprites.png");
             width: 272px;
             height: 220px;
-            background-position: 0px -3712px; } }
+            background-position: 0px -4062px; } }
     #products .productsWrap a.prod-2 {
       margin: 3.1875rem 0 0 17.75rem; }
       #products .productsWrap a.prod-2:before {
         background-image: url("/img/1024/sprites.png");
         width: 61px;
         height: 99px;
-        background-position: 0px -1454px;
+        background-position: 0px -1518px;
         position: absolute;
         top: -3rem;
         left: -6.375rem;
@@ -2772,74 +2920,74 @@ The provided mixins are intended to be used with the array-like variables
             background-image: url("/img/1024/sprites.png");
             width: 61px;
             height: 99px;
-            background-position: 0px -1454px; } }
+            background-position: 0px -1518px; } }
         @media (min-width: 1152px) {
           #products .productsWrap a.prod-2:before {
             background-image: url("/img/1152/sprites.png");
             width: 69px;
             height: 112px;
-            background-position: 0px -1636px; } }
+            background-position: 0px -1708px; } }
         @media (min-width: 1280px) {
           #products .productsWrap a.prod-2:before {
             background-image: url("/img/1280/sprites.png");
             width: 76px;
             height: 124px;
-            background-position: 0px -1818px; } }
+            background-position: 0px -1898px; } }
         @media (min-width: 1366px) {
           #products .productsWrap a.prod-2:before {
             background-image: url("/img/1366/sprites.png");
             width: 81px;
             height: 132px;
-            background-position: 0px -1940px; } }
+            background-position: 0px -2025px; } }
         @media (min-width: 1400px) {
           #products .productsWrap a.prod-2:before {
             background-image: url("/img/1400/sprites.png");
             width: 83px;
             height: 136px;
-            background-position: 0px -1988px; } }
+            background-position: 0px -2076px; } }
         @media (min-width: 1440px) {
           #products .productsWrap a.prod-2:before {
             background-image: url("/img/1440/sprites.png");
             width: 85px;
             height: 140px;
-            background-position: 0px -2045px; } }
+            background-position: 0px -2135px; } }
         @media (min-width: 1536px) {
           #products .productsWrap a.prod-2:before {
             background-image: url("/img/1536/sprites.png");
             width: 91px;
             height: 149px;
-            background-position: 0px -2181px; } }
+            background-position: 0px -2277px; } }
         @media (min-width: 1600px) {
           #products .productsWrap a.prod-2:before {
             background-image: url("/img/1600/sprites.png");
             width: 95px;
             height: 155px;
-            background-position: 0px -2272px; } }
+            background-position: 0px -2372px; } }
         @media (min-width: 1680px) {
           #products .productsWrap a.prod-2:before {
             background-image: url("/img/1680/sprites.png");
             width: 99px;
             height: 163px;
-            background-position: 0px -2386px; } }
+            background-position: 0px -2491px; } }
         @media (min-width: 1980px) {
           #products .productsWrap a.prod-2:before {
             background-image: url("/img/1980/sprites.png");
             width: 117px;
             height: 192px;
-            background-position: 0px -2812px; } }
+            background-position: 0px -2935px; } }
         @media (min-width: 2000px) {
           #products .productsWrap a.prod-2:before {
             background-image: url("/img/2000/sprites.png");
             width: 119px;
             height: 196px;
-            background-position: 0px -2872px; } }
+            background-position: 0px -2998px; } }
     #products .productsWrap a.prod-3 {
       margin: 1.875rem 0 0 8.3125rem; }
       #products .productsWrap a.prod-3:before {
         background-image: url("/img/1024/sprites.png");
         width: 71px;
         height: 104px;
-        background-position: 0px -1556px;
+        background-position: 0px -1619px;
         position: absolute;
         top: -2.5rem;
         left: -6.5rem;
@@ -2849,74 +2997,74 @@ The provided mixins are intended to be used with the array-like variables
             background-image: url("/img/1024/sprites.png");
             width: 71px;
             height: 104px;
-            background-position: 0px -1556px; } }
+            background-position: 0px -1619px; } }
         @media (min-width: 1152px) {
           #products .productsWrap a.prod-3:before {
             background-image: url("/img/1152/sprites.png");
             width: 79px;
             height: 117px;
-            background-position: 0px -1750px; } }
+            background-position: 0px -1822px; } }
         @media (min-width: 1280px) {
           #products .productsWrap a.prod-3:before {
             background-image: url("/img/1280/sprites.png");
             width: 88px;
             height: 130px;
-            background-position: 0px -1944px; } }
+            background-position: 0px -2024px; } }
         @media (min-width: 1366px) {
           #products .productsWrap a.prod-3:before {
             background-image: url("/img/1366/sprites.png");
             width: 94px;
             height: 138px;
-            background-position: 0px -2075px; } }
+            background-position: 0px -2160px; } }
         @media (min-width: 1400px) {
           #products .productsWrap a.prod-3:before {
             background-image: url("/img/1400/sprites.png");
             width: 96px;
             height: 142px;
-            background-position: 0px -2127px; } }
+            background-position: 0px -2214px; } }
         @media (min-width: 1440px) {
           #products .productsWrap a.prod-3:before {
             background-image: url("/img/1440/sprites.png");
             width: 99px;
             height: 146px;
-            background-position: 0px -2188px; } }
+            background-position: 0px -2277px; } }
         @media (min-width: 1536px) {
           #products .productsWrap a.prod-3:before {
             background-image: url("/img/1536/sprites.png");
             width: 105px;
             height: 156px;
-            background-position: 0px -2333px; } }
+            background-position: 0px -2429px; } }
         @media (min-width: 1600px) {
           #products .productsWrap a.prod-3:before {
             background-image: url("/img/1600/sprites.png");
             width: 110px;
             height: 162px;
-            background-position: 0px -2431px; } }
+            background-position: 0px -2530px; } }
         @media (min-width: 1680px) {
           #products .productsWrap a.prod-3:before {
             background-image: url("/img/1680/sprites.png");
             width: 115px;
             height: 170px;
-            background-position: 0px -2552px; } }
+            background-position: 0px -2657px; } }
         @media (min-width: 1980px) {
           #products .productsWrap a.prod-3:before {
             background-image: url("/img/1980/sprites.png");
             width: 135px;
             height: 201px;
-            background-position: 0px -3008px; } }
+            background-position: 0px -3131px; } }
         @media (min-width: 2000px) {
           #products .productsWrap a.prod-3:before {
             background-image: url("/img/2000/sprites.png");
             width: 138px;
             height: 205px;
-            background-position: 0px -3072px; } }
+            background-position: 0px -3198px; } }
     #products .productsWrap a.prod-4 {
       margin: 4.625rem 0 0 15.625rem; }
       #products .productsWrap a.prod-4:before {
         background-image: url("/img/1024/sprites.png");
         width: 109px;
         height: 109px;
-        background-position: 0px -1769px;
+        background-position: 0px -1833px;
         position: absolute;
         top: -4.75rem;
         left: -8.3125rem;
@@ -2926,67 +3074,67 @@ The provided mixins are intended to be used with the array-like variables
             background-image: url("/img/1024/sprites.png");
             width: 109px;
             height: 109px;
-            background-position: 0px -1769px; } }
+            background-position: 0px -1833px; } }
         @media (min-width: 1152px) {
           #products .productsWrap a.prod-4:before {
             background-image: url("/img/1152/sprites.png");
             width: 123px;
             height: 122px;
-            background-position: 0px -1990px; } }
+            background-position: 0px -2062px; } }
         @media (min-width: 1280px) {
           #products .productsWrap a.prod-4:before {
             background-image: url("/img/1280/sprites.png");
             width: 136px;
             height: 136px;
-            background-position: 0px -2211px; } }
+            background-position: 0px -2291px; } }
         @media (min-width: 1366px) {
           #products .productsWrap a.prod-4:before {
             background-image: url("/img/1366/sprites.png");
             width: 145px;
             height: 145px;
-            background-position: 0px -2359px; } }
+            background-position: 0px -2445px; } }
         @media (min-width: 1400px) {
           #products .productsWrap a.prod-4:before {
             background-image: url("/img/1400/sprites.png");
             width: 149px;
             height: 149px;
-            background-position: 0px -2418px; } }
+            background-position: 0px -2505px; } }
         @media (min-width: 1440px) {
           #products .productsWrap a.prod-4:before {
             background-image: url("/img/1440/sprites.png");
             width: 153px;
             height: 153px;
-            background-position: 0px -2487px; } }
+            background-position: 0px -2577px; } }
         @media (min-width: 1536px) {
           #products .productsWrap a.prod-4:before {
             background-image: url("/img/1536/sprites.png");
             width: 163px;
             height: 163px;
-            background-position: 0px -2653px; } }
+            background-position: 0px -2749px; } }
         @media (min-width: 1600px) {
           #products .productsWrap a.prod-4:before {
             background-image: url("/img/1600/sprites.png");
             width: 170px;
             height: 170px;
-            background-position: 0px -2764px; } }
+            background-position: 0px -2863px; } }
         @media (min-width: 1680px) {
           #products .productsWrap a.prod-4:before {
             background-image: url("/img/1680/sprites.png");
             width: 178px;
             height: 179px;
-            background-position: 0px -2902px; } }
+            background-position: 0px -3007px; } }
         @media (min-width: 1980px) {
           #products .productsWrap a.prod-4:before {
             background-image: url("/img/1980/sprites.png");
             width: 210px;
             height: 211px;
-            background-position: 0px -3420px; } }
+            background-position: 0px -3543px; } }
         @media (min-width: 2000px) {
           #products .productsWrap a.prod-4:before {
             background-image: url("/img/2000/sprites.png");
             width: 214px;
             height: 215px;
-            background-position: 0px -3493px; } }
+            background-position: 0px -3619px; } }
     #products .productsWrap a .name {
       font-family: NFLVikings;
       font-size: 1.25rem;

@@ -1,7 +1,7 @@
 define(function () {
 
     return [{
-        name: 'Макинтош',
+        name: 'Бузина',
         img: 'prod-1',
         type: 'bottle',
         link: 'mac-bottle'
@@ -11,7 +11,7 @@ define(function () {
         type: 'can',
         link: 'classic-can'
     }, {
-        name: 'Макинтош',
+        name: 'Бузина',
         img: 'prod-3',
         type: 'bottle',
         link: 'mac-can'

@@ -36,6 +36,10 @@ body {
     .logo {
         @include position(absolute, rem(8) rem(245) null null);
         @include sprite($nwProductsLogo);
+
+        &:hover {
+            @include sprite($nwProductsLogoH);
+        }
     }
 
     .copyright {
@@ -45,14 +49,22 @@ body {
 
 .healtWarn {
     height: rem(110);
-    padding: rem(18) 0 0 rem(35);
+    padding: rem(28) 0 0 rem(80);
     background: $white;
     font: {
         family: PFDinTextCompPro;
-        size: rem(64);
+        size: rem(56);
         weight: 200;
     }
     text-transform: uppercase;
+    position: relative;
+
+    &:after {
+        @include position(absolute, rem(32) null null rem(20));
+        @include sprite($drinkSens);
+        display: block;
+        content: '';
+    }
 }
 
 .dashing {
