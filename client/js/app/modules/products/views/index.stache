@@ -1,0 +1,16 @@
+<a class="back" href="/fun">
+    back to fun
+</a>
+
+<div class="productsWrap">
+    {{#each products}}
+        <a class="product module {{img}}" href="/product/{{link}}">
+            <span class="name">
+                Apps
+                <br />
+                apple cider
+            </span>
+            <span class="label">{{name}}</span>
+        </a>
+    {{/each}}
+</div>

@@ -1,0 +1,116 @@
+@import '../bourbon/bourbon';
+@import '../base/variable';
+@import '../base/sprites';
+
+#products {
+
+    .back {
+        @include position(absolute, rem(76) null null 0);
+        @include size(rem(188) rem(60));
+        padding: rem(21) rem(30) rem(14) rem(17);
+        text: {
+            decoration: none;
+            transform: uppercase;
+        }
+        font: {
+            family: NFLVikings;
+            size: rem(22);
+        }
+        color: white;
+
+        &:after {
+            @include position(absolute, 0 null null 0);
+            @include sprite($_5_back);
+            content: '';
+
+        }
+    }
+
+    .productsWrap {
+        position: relative;
+        padding: rem(286) 0 0;
+        margin: 0 auto;
+        width: rem(410);
+        left: rem(184);
+
+        &:before {
+            @include position(absolute, rem(33) null null rem(-315));
+            @include size(rem(600) rem(700));
+            content: '';
+            background-repeat: no-repeat;
+            @for $i from 1 through length($monitors) {
+                $monitor: nth($monitors, $i);
+                $query: '(min-width: #{$monitor}px)';
+
+                @if $i == 1 {
+                    background-image: url('#{$imgPath}/#{$monitor}/productsBg.png');
+                }
+
+                @media #{$query} {
+                    background-image: url('#{$imgPath}/#{$monitor}/productsBg.png');
+                }
+            }
+
+        }
+
+        a {
+            position: relative;
+            display: block;
+            color: $white;
+            text: {
+                decoration: none;
+                transform: uppercase;
+            }
+
+            &.prod-1 {
+                margin-left: rem(143);
+
+                &:before {
+                    @include sprite($_5_product1);
+                    @include position(absolute, rem(-47) null null rem(-167));
+                    content: '';
+                }
+            }
+            &.prod-2 {
+                margin: rem(51) 0 0 rem(284);
+
+                &:before {
+                    @include sprite($_5_product2);
+                    @include position(absolute, rem(-48) null null rem(-102));
+                    content: '';
+                }
+            }
+            &.prod-3 {
+                margin: rem(30) 0 0 rem(133);
+
+                &:before {
+                    @include sprite($_5_product3);
+                    @include position(absolute, rem(-40) null null rem(-104));
+                    content: '';
+                }
+            }
+            &.prod-4 {
+                margin: rem(74) 0 0 rem(250);
+
+                &:before {
+                    @include sprite($_5_product4);
+                    @include position(absolute, rem(-76) null null rem(-133));
+                    content: '';
+                }
+            }
+
+            .name {
+                font: {
+                    family: NFLVikings;
+                    size: rem(20);
+                }
+                line-height: 125%;
+            }
+        }
+
+        .label {
+            display: block;
+            font-size: rem(12);
+        }
+    }
+}
