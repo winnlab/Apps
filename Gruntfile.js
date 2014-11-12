@@ -1,6 +1,6 @@
 module.exports = function (grunt) {
 
-    function getImgRespSizes (sprite) {
+    function getImgRespSizes (exclude2000, proportion) {
         var monitors = [
             1024,
             1152,
@@ -13,10 +13,10 @@ module.exports = function (grunt) {
             1680,
             1980
         ],
-        proportion = sprite ? 0.361 : 0.6639526276831976,
         result = [];
+        proportion = proportion || 0.6639526276831976;
 
-        if (!sprite) {
+        if (!exclude2000) {
             monitors.push(2000);
         }
 
@@ -48,7 +48,7 @@ module.exports = function (grunt) {
                     // Task-specific options go here.
                     engine: 'im',
                     newFilesOnly: false,
-                    sizes: getImgRespSizes(true)
+                    sizes: getImgRespSizes(true, 0.361)
                 },
                 files: [{
                     expand: true,
@@ -68,6 +68,20 @@ module.exports = function (grunt) {
                     expand: true,
                     src: ['*'],
                     cwd: 'client/img/letters',
+                    custom_dest: 'client/img/{%= name %}/'
+                }]
+            },
+            productsBg: {
+                options: {
+                    // Task-specific options go here.
+                    engine: 'im',
+                    newFilesOnly: false,
+                    sizes: getImgRespSizes(true, 0.4265)
+                },
+                files: [{
+                    expand: true,
+                    src: ['productsBg.png'],
+                    cwd: 'client/img/2000',
                     custom_dest: 'client/img/{%= name %}/'
                 }]
             }
