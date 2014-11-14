@@ -1,0 +1,33 @@
+<a class="back" href="/fun">
+    back to fun
+</a>
+
+<div class="productWrap {{link}}">
+
+    <div class="logoWrap">
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        <span class="dashing"></span>
+        <div class="logo"></div>
+    </div>
+
+    <div class="prodContent">
+
+        <div class="close"></div>
+
+        <div class="title">
+            <span class="label">
+                Apps
+                <br />
+                apple cider
+            </span>
+            <span class="name">{{name}}</span>
+        </div>
+
+        <div class="description">
+            {{{desc}}}
+        </div>
+
+    </div>
+</div>

@@ -35,6 +35,29 @@ body {
     }
 }
 
+.back {
+    @include position(absolute, rem(76) null null 0);
+    z-index: 10;
+    @include size(rem(188) rem(60));
+    padding: rem(21) rem(30) rem(14) rem(17);
+    text: {
+        decoration: none;
+        transform: uppercase;
+    }
+    font: {
+        family: NFLVikings;
+        size: rem(22);
+    }
+    color: white;
+
+    &:after {
+        @include position(absolute, 0 null null 0);
+        @include sprite($_5_back);
+        content: '';
+
+    }
+}
+
 .newProducts {
     position: relative;
     height: rem(48);

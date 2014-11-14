@@ -1,0 +1,135 @@
+@import '../bourbon/bourbon';
+@import '../base/variable';
+@import '../base/sprites';
+@import '../base/mixins';
+
+.productWrap {
+    @include position(absolute, 0 0 0 0);
+    overflow: hidden;
+    background: url('#{$imgPath}productBg.png');
+
+    &:before {
+        @include position(absolute, 0 0 0 0);
+        content: '';
+        background: #000;
+        opacity: 0.3;
+    }
+
+    .prodContent {
+        width: 310px;
+        z-index: 10;
+
+        .close {
+            @include position(absolute, rem(-19) rem(-39) null null);
+            @include sprite($close);
+            cursor: pointer;
+        }
+    }
+
+    .title {
+        color: $white;
+
+        .label {
+            font: {
+                family: NFLVikings;
+                size: rem(55);
+            }
+            line-height: 118%;
+        }
+
+        .name {
+            display: block;
+            font-size: rem(29);
+            text-transform: uppercase;
+        }
+    }
+
+    .description {
+        color: $white;
+        margin: rem(32) 0 0;
+        font-size: rem(16);
+        line-height: 145%;
+        text-transform: uppercase;
+    }
+
+}
+
+.classic-can {
+    .prodContent {
+        @include position(absolute, rem(248) rem(330) null null);
+    }
+
+    &:after {
+        @include size(rem(1500) rem(900));
+        @include position(absolute, null null rem(-328) rem(-379));
+        content: '';
+        display: block;
+        background-repeat: no-repeat;
+        @include responsiveBg('classic-can.png');
+    }
+}
+
+.buzina-can {
+    .prodContent {
+        @include position(absolute, rem(246) null null rem(259));
+        .close {
+            top: rem(-16);
+            right: rem(-45);
+        }
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        background-repeat: no-repeat;
+        @include size(rem(1100) rem(700));
+        @include position(absolute, rem(-91) rem(-368) null null);
+        @include transform(rotate(-12deg));
+        @include responsiveBg('buzina-can.png');
+        z-index: 2;
+    }
+}
+
+.classic-bottle {
+    .prodContent {
+        @include position(absolute, rem(248) rem(291) null null);
+        .close {
+            top: rem(-19);
+            right: rem(-45);
+        }
+    }
+
+
+    &:after {
+        content: '';
+        display: block;
+        background-repeat: no-repeat;
+        @include size(rem(750) rem(550));
+        @include position(absolute, rem(143) null null rem(66));
+        z-index: 2;
+        @include transform(rotate(20deg));
+        @include responsiveBg('classic-bottle.png');
+    }
+}
+
+.buzina-bottle {
+    .prodContent {
+        @include position(absolute, rem(262) null null rem(306));
+        .close {
+            top: rem(-33);
+            right: rem(-7);
+        }
+    }
+
+    &:after {
+        content: '';
+        display: block;
+        background-repeat: no-repeat;
+        @include size(rem(600) rem(800));
+        @include position(absolute, rem(-30) rem(184) null null);
+        @include transform(rotate(75deg));
+        z-index: 2;
+        @include responsiveBg('buzina-bottle.png');
+    }
+
+}

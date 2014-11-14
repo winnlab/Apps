@@ -8,6 +8,7 @@ pages = [
     '/fun'
     '/share'
     '/products'
+    '/product/:id'
 ]
 
 # Function that proceed and render default page

@@ -20,6 +20,9 @@ define({
 		},{
 			name: 'products',
 			path: 'modules/products/products'
+		},{
+			name: 'product',
+			path: 'modules/product/product'
 		}]
 	}
 });

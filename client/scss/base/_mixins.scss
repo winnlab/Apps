@@ -1,0 +1,19 @@
+@import '../bourbon/bourbon';
+@import 'variable';
+
+@mixin responsiveBg($img) {
+
+    @for $i from 1 through length($monitors) {
+        $monitor: nth($monitors, $i);
+        $query: '(min-width: #{$monitor}px)';
+
+        @if $i == 1 {
+            background-image: url('#{$imgPath}#{$monitor}/#{$img}');
+        }
+
+        @media #{$query} {
+            background-image: url('#{$imgPath}#{$monitor}/#{$img}');
+        }
+    }
+
+}

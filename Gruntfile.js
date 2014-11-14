@@ -84,6 +84,62 @@ module.exports = function (grunt) {
                     cwd: 'client/img/2000',
                     custom_dest: 'client/img/{%= name %}/'
                 }]
+            },
+            classicCan: {
+                options: {
+                    // Task-specific options go here.
+                    engine: 'im',
+                    newFilesOnly: false,
+                    sizes: getImgRespSizes(false, 1.085862324)
+                },
+                files: [{
+                    expand: true,
+                    src: ['classic-can.png'],
+                    cwd: 'client/img/product',
+                    custom_dest: 'client/img/{%= name %}/'
+                }]
+            },
+            buzinaCan: {
+                options: {
+                    // Task-specific options go here.
+                    engine: 'im',
+                    newFilesOnly: false,
+                    sizes: getImgRespSizes(false, 0.756476684)
+                },
+                files: [{
+                    expand: true,
+                    src: ['buzina-can.png'],
+                    cwd: 'client/img/product',
+                    custom_dest: 'client/img/{%= name %}/'
+                }]
+            },
+            classicBottle: {
+                options: {
+                    // Task-specific options go here.
+                    engine: 'im',
+                    newFilesOnly: false,
+                    sizes: getImgRespSizes(false, 0.529237602)
+                },
+                files: [{
+                    expand: true,
+                    src: ['classic-bottle.png'],
+                    cwd: 'client/img/product',
+                    custom_dest: 'client/img/{%= name %}/'
+                }]
+            },
+            buzinaBottle: {
+                options: {
+                    // Task-specific options go here.
+                    engine: 'im',
+                    newFilesOnly: false,
+                    sizes: getImgRespSizes(false, 0.430051813)
+                },
+                files: [{
+                    expand: true,
+                    src: ['buzina-bottle.png'],
+                    cwd: 'client/img/product',
+                    custom_dest: 'client/img/{%= name %}/'
+                }]
             }
         }
     });
