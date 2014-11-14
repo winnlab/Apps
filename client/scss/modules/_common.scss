@@ -14,7 +14,7 @@ body {
 
 .socNetworks {
     @include position(absolute, rem(85) rem(43) null null);
-    width: rem(105);
+    width: rem(164);
 
     .fb {
         @include sprite($fb);
@@ -23,6 +23,12 @@ body {
 
     .vk {
         @include sprite($vk);
+        margin-left: rem(15);
+        float: left;
+    }
+
+    .yt {
+        @include sprite($yt);
         margin-left: rem(15);
         float: left;
     }

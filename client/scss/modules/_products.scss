@@ -67,7 +67,7 @@
 
                 &:before {
                     @include sprite($_5_product1);
-                    @include position(absolute, rem(-47) null null rem(-167));
+                    @include position(absolute, rem(-60) null null rem(-151));
                     content: '';
                 }
             }
