@@ -4,7 +4,7 @@ define(function () {
         name: 'Бузина',
         img: 'prod-1',
         type: 'bottle',
-        link: 'mac-bottle'
+        link: 'buzina-bottle'
     }, {
         name: 'Классик',
         img: 'prod-2',
@@ -14,7 +14,7 @@ define(function () {
         name: 'Бузина',
         img: 'prod-3',
         type: 'bottle',
-        link: 'mac-can'
+        link: 'buzina-can'
     }, {
         name: 'Классик',
         img: 'prod-4',

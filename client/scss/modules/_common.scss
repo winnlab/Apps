@@ -14,6 +14,7 @@ body {
 
 .socNetworks {
     @include position(absolute, rem(85) rem(43) null null);
+    z-index: 10;
     width: rem(164);
 
     .fb {

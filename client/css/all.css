@@ -1155,6 +1155,7 @@ body {
   position: absolute;
   top: 5.3125rem;
   right: 2.6875rem;
+  z-index: 10;
   width: 10.25rem; }
   .socNetworks .fb {
     background-image: url("/img/1024/sprites.png");
@@ -2904,77 +2905,77 @@ The provided mixins are intended to be used with the array-like variables
       margin-left: 8.9375rem; }
       #products .productsWrap a.prod-1:before {
         background-image: url("/img/1024/sprites.png");
-        width: 139px;
+        width: 134px;
         height: 111px;
         background-position: 0px -1976px;
         position: absolute;
         top: -3.75rem;
-        left: -9.8125rem;
+        left: -9.4375rem;
         content: ''; }
         @media (min-width: 1024px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1024/sprites.png");
-            width: 139px;
+            width: 134px;
             height: 111px;
             background-position: 0px -1976px; } }
         @media (min-width: 1152px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1152/sprites.png");
-            width: 156px;
+            width: 151px;
             height: 125px;
             background-position: 0px -2223px; } }
         @media (min-width: 1280px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1280/sprites.png");
-            width: 173px;
+            width: 167px;
             height: 139px;
             background-position: 0px -2470px; } }
         @media (min-width: 1366px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1366/sprites.png");
-            width: 184px;
+            width: 178px;
             height: 149px;
             background-position: 0px -2636px; } }
         @media (min-width: 1400px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1400/sprites.png");
-            width: 189px;
+            width: 183px;
             height: 152px;
             background-position: 0px -2702px; } }
         @media (min-width: 1440px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1440/sprites.png");
-            width: 194px;
+            width: 188px;
             height: 157px;
             background-position: 0px -2779px; } }
         @media (min-width: 1536px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1536/sprites.png");
-            width: 207px;
+            width: 200px;
             height: 167px;
             background-position: 0px -2965px; } }
         @media (min-width: 1600px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1600/sprites.png");
-            width: 216px;
+            width: 209px;
             height: 174px;
             background-position: 0px -3088px; } }
         @media (min-width: 1680px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1680/sprites.png");
-            width: 226px;
+            width: 219px;
             height: 183px;
             background-position: 0px -3242px; } }
         @media (min-width: 1980px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/1980/sprites.png");
-            width: 266px;
+            width: 258px;
             height: 215px;
             background-position: 0px -3821px; } }
         @media (min-width: 2000px) {
           #products .productsWrap a.prod-1:before {
             background-image: url("/img/2000/sprites.png");
-            width: 272px;
+            width: 263px;
             height: 220px;
             background-position: 0px -3903px; } }
     #products .productsWrap a.prod-2 {
