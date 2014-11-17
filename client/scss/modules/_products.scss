@@ -2,7 +2,7 @@
 @import '../base/variable';
 @import '../base/sprites';
 
-#products {    
+#products {
 
     .productsWrap {
         position: relative;
@@ -44,7 +44,7 @@
                 margin-left: rem(143);
 
                 &:before {
-                    @include sprite($_5_product1);
+                    @include my-sprite($_5_product1);
                     @include position(absolute, rem(-60) null null rem(-151));
                     content: '';
                 }
@@ -53,7 +53,7 @@
                 margin: rem(51) 0 0 rem(284);
 
                 &:before {
-                    @include sprite($_5_product2);
+                    @include my-sprite($_5_product2);
                     @include position(absolute, rem(-48) null null rem(-102));
                     content: '';
                 }
@@ -62,7 +62,7 @@
                 margin: rem(30) 0 0 rem(133);
 
                 &:before {
-                    @include sprite($_5_product3);
+                    @include my-sprite($_5_product3);
                     @include position(absolute, rem(-40) null null rem(-104));
                     content: '';
                 }
@@ -71,7 +71,7 @@
                 margin: rem(74) 0 0 rem(250);
 
                 &:before {
-                    @include sprite($_5_product4);
+                    @include my-sprite($_5_product4);
                     @include position(absolute, rem(-76) null null rem(-133));
                     content: '';
                 }

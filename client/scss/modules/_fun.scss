@@ -8,23 +8,23 @@
 
     .apple-1 {
         @include position(absolute,  null rem(97) rem(53) null);
-        @include sprite($_3_appl1);
+        @include my-sprite($_3_appl1);
     }
 
     .apple-2 {
         @include position(absolute, rem(34) null null rem(496));
-        @include sprite($_3_appl2);
+        @include my-sprite($_3_appl2);
     }
 
     .apple-3 {
         @include position(absolute, rem(235) null null rem(73));
-        @include sprite($_3_appl3);
+        @include my-sprite($_3_appl3);
         z-index: 1;
     }
 
     .bottle {
         @include position(absolute, null null rem(165) rem(403));
-        @include sprite($_3_miniBottle);
+        @include my-sprite($_3_miniBottle);
     }
 
     .bigTitle {

@@ -5,7 +5,6 @@
 body {
     background: {
         image: url('#{$imgPath}bgSm.jpg');
-        // position: center center;
         position: top left;
         size: contain;
     }
@@ -18,18 +17,18 @@ body {
     width: rem(164);
 
     .fb {
-        @include sprite($fb);
+        @include my-sprite($fb);
         float: left;
     }
 
     .vk {
-        @include sprite($vk);
+        @include my-sprite($vk);
         margin-left: rem(15);
         float: left;
     }
 
     .yt {
-        @include sprite($yt);
+        @include my-sprite($yt);
         margin-left: rem(15);
         float: left;
     }
@@ -52,7 +51,7 @@ body {
 
     &:after {
         @include position(absolute, 0 null null 0);
-        @include sprite($_5_back);
+        @include my-sprite($_5_back);
         content: '';
 
     }
@@ -65,10 +64,10 @@ body {
 
     .logo {
         @include position(absolute, rem(8) rem(245) null null);
-        @include sprite($nwProductsLogo);
+        @include my-sprite($nwProductsLogo);
 
         &:hover {
-            @include sprite($nwProductsLogoH);
+            @include my-sprite($nwProductsLogoH);
         }
     }
 
@@ -91,7 +90,7 @@ body {
 
     &:after {
         @include position(absolute, rem(32) null null rem(20));
-        @include sprite($drinkSens);
+        @include my-sprite($drinkSens);
         display: block;
         content: '';
     }
@@ -149,7 +148,7 @@ body {
     }
 
     .logo {
-        @include sprite($logo);
+        @include my-sprite($logo);
         margin: 0 auto;
     }
 }

@@ -8,28 +8,28 @@
 
     .apple-1 {
         @include position(absolute, rem(124) rem(184) null null);
-        @include sprite($_2_appl);
+        @include my-sprite($_2_appl);
     }
 
     .apple-2 {
         @include position(absolute, null null rem(86) rem(6));
-        @include sprite($_2_appl2);
+        @include my-sprite($_2_appl2);
     }
 
     .apple-3 {
         @include position(absolute, null rem(-2) rem(50) null);
-        @include sprite($_2_appl_half);
+        @include my-sprite($_2_appl_half);
         z-index: 1;
     }
 
     .bottle {
         @include position(absolute, null null rem(166) rem(295));
-        @include sprite($_2_miniBottle);
+        @include my-sprite($_2_miniBottle);
     }
 
     .dude {
         @include position(absolute, null rem(319) rem(18) null);
-        @include sprite($_2_boardMen);
+        @include my-sprite($_2_boardMen);
     }
 
     .logoWrap {

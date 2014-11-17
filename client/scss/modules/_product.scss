@@ -21,7 +21,7 @@
 
         .close {
             @include position(absolute, rem(-19) rem(-39) null null);
-            @include sprite($close);
+            @include my-sprite($close);
             cursor: pointer;
         }
     }

@@ -1,3 +1,4 @@
+@import 'sprites/allSprites';
 @import '../bourbon/bourbon';
 
 $imgPath: '/img/';
@@ -9,3 +10,82 @@ $lightGrey: #d4d4d4;
 
 // Monitors
 $monitors: 1024 1152 1280 1366 1400 1440 1536 1600 1680 1980 2000;
+
+// Sprites
+$_1_appl: $_1_appl_1024 $_1_appl_1152 $_1_appl_1280 $_1_appl_1366 $_1_appl_1400 $_1_appl_1440 $_1_appl_1536 $_1_appl_1600 $_1_appl_1680 $_1_appl_1980 $_1_appl_2000;
+
+$_1_appl2: $_1_appl2_1024 $_1_appl2_1152 $_1_appl2_1280 $_1_appl2_1366 $_1_appl2_1400 $_1_appl2_1440 $_1_appl2_1536 $_1_appl2_1600 $_1_appl2_1680 $_1_appl2_1980 $_1_appl2_2000;
+
+$_1_appl3: $_1_appl3_1024 $_1_appl3_1152 $_1_appl3_1280 $_1_appl3_1366 $_1_appl3_1400 $_1_appl3_1440 $_1_appl3_1536 $_1_appl3_1600 $_1_appl3_1680 $_1_appl3_1980 $_1_appl3_2000;
+
+$_1_appl4: $_1_appl4_1024 $_1_appl4_1152 $_1_appl4_1280 $_1_appl4_1366 $_1_appl4_1400 $_1_appl4_1440 $_1_appl4_1536 $_1_appl4_1600 $_1_appl4_1680 $_1_appl4_1980 $_1_appl4_2000;
+
+$_1_appl_half: $_1_appl_half_1024 $_1_appl_half_1152 $_1_appl_half_1280 $_1_appl_half_1366 $_1_appl_half_1400 $_1_appl_half_1440 $_1_appl_half_1536 $_1_appl_half_1600 $_1_appl_half_1680 $_1_appl_half_1980 $_1_appl_half_2000;
+
+$_1_board: $_1_board_1024 $_1_board_1152 $_1_board_1280 $_1_board_1366 $_1_board_1400 $_1_board_1440 $_1_board_1536 $_1_board_1600 $_1_board_1680 $_1_board_1980 $_1_board_2000;
+
+$_1_miniBottle: $_1_miniBottle_1024 $_1_miniBottle_1152 $_1_miniBottle_1280 $_1_miniBottle_1366 $_1_miniBottle_1400 $_1_miniBottle_1440 $_1_miniBottle_1536 $_1_miniBottle_1600 $_1_miniBottle_1680 $_1_miniBottle_1980 $_1_miniBottle_2000;
+
+$_1_notebook: $_1_notebook_1024 $_1_notebook_1152 $_1_notebook_1280 $_1_notebook_1366 $_1_notebook_1400 $_1_notebook_1440 $_1_notebook_1536 $_1_notebook_1600 $_1_notebook_1680 $_1_notebook_1980 $_1_notebook_2000;
+
+$_2_appl: $_2_appl_1024 $_2_appl_1152 $_2_appl_1280 $_2_appl_1366 $_2_appl_1400 $_2_appl_1440 $_2_appl_1536 $_2_appl_1600 $_2_appl_1680 $_2_appl_1980 $_2_appl_2000;
+
+$_2_appl2: $_2_appl2_1024 $_2_appl2_1152 $_2_appl2_1280 $_2_appl2_1366 $_2_appl2_1400 $_2_appl2_1440 $_2_appl2_1536 $_2_appl2_1600 $_2_appl2_1680 $_2_appl2_1980 $_2_appl2_2000;
+
+$_2_appl_half: $_2_appl_half_1024 $_2_appl_half_1152 $_2_appl_half_1280 $_2_appl_half_1366 $_2_appl_half_1400 $_2_appl_half_1440 $_2_appl_half_1536 $_2_appl_half_1600 $_2_appl_half_1680 $_2_appl_half_1980 $_2_appl_half_2000;
+
+$_2_boardMen: $_2_boardMen_1024 $_2_boardMen_1152 $_2_boardMen_1280 $_2_boardMen_1366 $_2_boardMen_1400 $_2_boardMen_1440 $_2_boardMen_1536 $_2_boardMen_1600 $_2_boardMen_1680 $_2_boardMen_1980 $_2_boardMen_2000;
+
+$_2_miniBottle: $_2_miniBottle_1024 $_2_miniBottle_1152 $_2_miniBottle_1280 $_2_miniBottle_1366 $_2_miniBottle_1400 $_2_miniBottle_1440 $_2_miniBottle_1536 $_2_miniBottle_1600 $_2_miniBottle_1680 $_2_miniBottle_1980 $_2_miniBottle_2000;
+
+$_3_appl1: $_3_appl1_1024 $_3_appl1_1152 $_3_appl1_1280 $_3_appl1_1366 $_3_appl1_1400 $_3_appl1_1440 $_3_appl1_1536 $_3_appl1_1600 $_3_appl1_1680 $_3_appl1_1980 $_3_appl1_2000;
+
+$_3_appl2: $_3_appl2_1024 $_3_appl2_1152 $_3_appl2_1280 $_3_appl2_1366 $_3_appl2_1400 $_3_appl2_1440 $_3_appl2_1536 $_3_appl2_1600 $_3_appl2_1680 $_3_appl2_1980 $_3_appl2_2000;
+
+$_3_appl3: $_3_appl3_1024 $_3_appl3_1152 $_3_appl3_1280 $_3_appl3_1366 $_3_appl3_1400 $_3_appl3_1440 $_3_appl3_1536 $_3_appl3_1600 $_3_appl3_1680 $_3_appl3_1980 $_3_appl3_2000;
+
+$_3_miniBottle: $_3_miniBottle_1024 $_3_miniBottle_1152 $_3_miniBottle_1280 $_3_miniBottle_1366 $_3_miniBottle_1400 $_3_miniBottle_1440 $_3_miniBottle_1536 $_3_miniBottle_1600 $_3_miniBottle_1680 $_3_miniBottle_1980 $_3_miniBottle_2000;
+
+$_5_appl1: $_5_appl1_1024 $_5_appl1_1152 $_5_appl1_1280 $_5_appl1_1366 $_5_appl1_1400 $_5_appl1_1440 $_5_appl1_1536 $_5_appl1_1600 $_5_appl1_1680 $_5_appl1_1980 $_5_appl1_2000;
+
+$_5_appl2: $_5_appl2_1024 $_5_appl2_1152 $_5_appl2_1280 $_5_appl2_1366 $_5_appl2_1400 $_5_appl2_1440 $_5_appl2_1536 $_5_appl2_1600 $_5_appl2_1680 $_5_appl2_1980 $_5_appl2_2000;
+
+$_5_appl3: $_5_appl3_1024 $_5_appl3_1152 $_5_appl3_1280 $_5_appl3_1366 $_5_appl3_1400 $_5_appl3_1440 $_5_appl3_1536 $_5_appl3_1600 $_5_appl3_1680 $_5_appl3_1980 $_5_appl3_2000;
+
+$_5_appl4: $_5_appl4_1024 $_5_appl4_1152 $_5_appl4_1280 $_5_appl4_1366 $_5_appl4_1400 $_5_appl4_1440 $_5_appl4_1536 $_5_appl4_1600 $_5_appl4_1680 $_5_appl4_1980 $_5_appl4_2000;
+
+$_5_appl5: $_5_appl5_1024 $_5_appl5_1152 $_5_appl5_1280 $_5_appl5_1366 $_5_appl5_1400 $_5_appl5_1440 $_5_appl5_1536 $_5_appl5_1600 $_5_appl5_1680 $_5_appl5_1980 $_5_appl5_2000;
+
+$_5_appl6: $_5_appl6_1024 $_5_appl6_1152 $_5_appl6_1280 $_5_appl6_1366 $_5_appl6_1400 $_5_appl6_1440 $_5_appl6_1536 $_5_appl6_1600 $_5_appl6_1680 $_5_appl6_1980 $_5_appl6_2000;
+
+$_5_back: $_5_back_1024 $_5_back_1152 $_5_back_1280 $_5_back_1366 $_5_back_1400 $_5_back_1440 $_5_back_1536 $_5_back_1600 $_5_back_1680 $_5_back_1980 $_5_back_2000;
+
+$_5_board: $_5_board_1024 $_5_board_1152 $_5_board_1280 $_5_board_1366 $_5_board_1400 $_5_board_1440 $_5_board_1536 $_5_board_1600 $_5_board_1680 $_5_board_1980 $_5_board_2000;
+
+$_5_product1: $_5_product1_1024 $_5_product1_1152 $_5_product1_1280 $_5_product1_1366 $_5_product1_1400 $_5_product1_1440 $_5_product1_1536 $_5_product1_1600 $_5_product1_1680 $_5_product1_1980 $_5_product1_2000;
+
+$_5_product2: $_5_product2_1024 $_5_product2_1152 $_5_product2_1280 $_5_product2_1366 $_5_product2_1400 $_5_product2_1440 $_5_product2_1536 $_5_product2_1600 $_5_product2_1680 $_5_product2_1980 $_5_product2_2000;
+
+$_5_product3: $_5_product3_1024 $_5_product3_1152 $_5_product3_1280 $_5_product3_1366 $_5_product3_1400 $_5_product3_1440 $_5_product3_1536 $_5_product3_1600 $_5_product3_1680 $_5_product3_1980 $_5_product3_2000;
+
+$_5_product4: $_5_product4_1024 $_5_product4_1152 $_5_product4_1280 $_5_product4_1366 $_5_product4_1400 $_5_product4_1440 $_5_product4_1536 $_5_product4_1600 $_5_product4_1680 $_5_product4_1980 $_5_product4_2000;
+
+$book: $book_1024 $book_1152 $book_1280 $book_1366 $book_1400 $book_1440 $book_1536 $book_1600 $book_1680 $book_1980 $book_2000;
+
+$close: $close_1024 $close_1152 $close_1280 $close_1366 $close_1400 $close_1440 $close_1536 $close_1600 $close_1680 $close_1980 $close_2000;
+
+$drinkSens: $drinkSens_1024 $drinkSens_1152 $drinkSens_1280 $drinkSens_1366 $drinkSens_1400 $drinkSens_1440 $drinkSens_1536 $drinkSens_1600 $drinkSens_1680 $drinkSens_1980 $drinkSens_2000;
+
+$fb: $fb_1024 $fb_1152 $fb_1280 $fb_1366 $fb_1400 $fb_1440 $fb_1536 $fb_1600 $fb_1680 $fb_1980 $fb_2000;
+
+$logo: $logo_1024 $logo_1152 $logo_1280 $logo_1366 $logo_1400 $logo_1440 $logo_1536 $logo_1600 $logo_1680 $logo_1980 $logo_2000;
+
+$logoBorder: $logoBorder_1024 $logoBorder_1152 $logoBorder_1280 $logoBorder_1366 $logoBorder_1400 $logoBorder_1440 $logoBorder_1536 $logoBorder_1600 $logoBorder_1680 $logoBorder_1980 $logoBorder_2000;
+
+$nwProductsLogo: $nwProductsLogo_1024 $nwProductsLogo_1152 $nwProductsLogo_1280 $nwProductsLogo_1366 $nwProductsLogo_1400 $nwProductsLogo_1440 $nwProductsLogo_1536 $nwProductsLogo_1600 $nwProductsLogo_1680 $nwProductsLogo_1980 $nwProductsLogo_2000;
+
+$nwProductsLogoH: $nwProductsLogoH_1024 $nwProductsLogoH_1152 $nwProductsLogoH_1280 $nwProductsLogoH_1366 $nwProductsLogoH_1400 $nwProductsLogoH_1440 $nwProductsLogoH_1536 $nwProductsLogoH_1600 $nwProductsLogoH_1680 $nwProductsLogoH_1980 $nwProductsLogoH_2000;
+
+$vk: $vk_1024 $vk_1152 $vk_1280 $vk_1366 $vk_1400 $vk_1440 $vk_1536 $vk_1600 $vk_1680 $vk_1980 $vk_2000;
+
+$yt: $yt_1024 $yt_1152 $yt_1280 $yt_1366 $yt_1400 $yt_1440 $yt_1536 $yt_1600 $yt_1680 $yt_1980 $yt_2000;

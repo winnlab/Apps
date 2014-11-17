@@ -5,7 +5,7 @@ module.exports = function (grunt) {
             1024,
             1152,
             1280,
-            1366, // 487
+            1366,
             1400,
             1440,
             1536,
@@ -22,7 +22,7 @@ module.exports = function (grunt) {
 
         for (var i = monitors.length; i--;) {
             result.push({
-                width: Math.round((monitors[i] - 15) * proportion),
+                width: proportion === 'percent' ? (monitors[i] / 20) + '%' : Math.round((monitors[i] - 15) * proportion),
                 name: monitors[i]
             })
         }
@@ -34,27 +34,33 @@ module.exports = function (grunt) {
     // Configure grunt
     grunt.initConfig({
         sprite:{
-            all: {
-                src: 'client/img/sprites/*',
-                destImg: 'client/img/2000/sprites.png',
-                destCSS: 'client/scss/base/_sprites.scss',
-                padding: 4
-                // , algorithm: 'binary-tree'
-            }
+            all: (function () {
+                var target = grunt.option('width');
+
+                return {
+                    src: 'client/img/' + target + '/sprites/*',
+                    destCSS: 'client/scss/base/sprites/_sprites' + target + '.scss',
+                    destImg: 'client/img/' + target + '/sprites.png',
+                    algorithm: 'binary-tree',
+                    'cssVarMap': function (sprite) {
+                        sprite.name = sprite.name + '_' + target;
+                    }
+                }
+            }())
         },
         responsive_images: {
-            sprite: {
+            sprites: {
                 options: {
                     // Task-specific options go here.
                     engine: 'im',
                     newFilesOnly: false,
-                    sizes: getImgRespSizes(true, 0.361)
+                    sizes: getImgRespSizes(true, 'percent')
                 },
                 files: [{
                     expand: true,
-                    src: ['sprites.png'],
-                    cwd: 'client/img/2000',
-                    custom_dest: 'client/img/{%= name %}/'
+                    src: ['*'],
+                    cwd: 'client/img/2000/sprites',
+                    custom_dest: 'client/img/{%= name %}/sprites/'
                 }]
             },
             letters: {
