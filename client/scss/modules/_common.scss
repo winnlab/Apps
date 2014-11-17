@@ -9,6 +9,11 @@ body {
         size: contain;
     }
     font-family: HermesCTT;
+
+    &:after {
+        content: '';
+        background: url('#{$imgPath}productBg.jpg');
+    }
 }
 
 .socNetworks {
@@ -78,18 +83,21 @@ body {
 
 .healtWarn {
     height: rem(110);
-    padding: rem(28) 0 0 rem(80);
+    padding: rem(28) rem(48) 0 0;
     background: $white;
     font: {
         family: PFDinTextCompPro;
         size: rem(56);
         weight: 200;
     }
-    text-transform: uppercase;
+    text: {
+        align: center;
+        transform: uppercase;
+    }
     position: relative;
 
     &:after {
-        @include position(absolute, rem(32) null null rem(20));
+        @include position(absolute, rem(32) rem(20) null null);
         @include my-sprite($drinkSens);
         display: block;
         content: '';

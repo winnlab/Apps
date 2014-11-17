@@ -3811,6 +3811,9 @@ body {
   background-position: top left;
   background-size: contain;
   font-family: HermesCTT; }
+  body:after {
+    content: '';
+    background: url("/img/productBg.jpg"); }
 
 .socNetworks {
   position: absolute;
@@ -4244,17 +4247,18 @@ body {
 
 .healtWarn {
   height: 6.875rem;
-  padding: 1.75rem 0 0 5rem;
+  padding: 1.75rem 3rem 0 0;
   background: #fff;
   font-family: PFDinTextCompPro;
   font-size: 3.5rem;
   font-weight: 200;
+  text-align: center;
   text-transform: uppercase;
   position: relative; }
   .healtWarn:after {
     position: absolute;
     top: 2rem;
-    left: 1.25rem;
+    right: 1.25rem;
     background-image: url(../../../img/1024/sprites.png);
     background-position: -647px -211px;
     width: 38px;
