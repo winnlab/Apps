@@ -8697,7 +8697,7 @@ The provided mixins are intended to be used with the array-like variables
   bottom: 0;
   left: 0;
   overflow: hidden;
-  background: url("/img/productBg.png"); }
+  background: url("/img/productBg.jpg"); }
   .productWrap:before {
     position: absolute;
     top: 0;

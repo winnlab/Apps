@@ -6,7 +6,7 @@
 .productWrap {
     @include position(absolute, 0 0 0 0);
     overflow: hidden;
-    background: url('#{$imgPath}productBg.png');
+    background: url('#{$imgPath}productBg.jpg');
 
     &:before {
         @include position(absolute, 0 0 0 0);
