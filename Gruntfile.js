@@ -48,6 +48,16 @@ module.exports = function (grunt) {
                 }
             }())
         },
+        imagemin: {
+            dynamic: {
+                files: [{
+                    expand: true,                  // Enable dynamic expansion
+                    cwd: 'client/img/',            // Src matches are relative to this path
+                    src: ['**/*.{png,jpg,gif}'],   // Actual patterns to match
+                    dest: 'client/img-dist/'       // Destination path prefix
+                }]
+            }
+        },
         responsive_images: {
             sprites: {
                 options: {
@@ -96,12 +106,12 @@ module.exports = function (grunt) {
                     // Task-specific options go here.
                     engine: 'im',
                     newFilesOnly: false,
-                    sizes: getImgRespSizes(false, 1.085862324)
+                    sizes: getImgRespSizes(true, 1)
                 },
                 files: [{
                     expand: true,
                     src: ['classic-can.png'],
-                    cwd: 'client/img/product',
+                    cwd: 'client/img/2000',
                     custom_dest: 'client/img/{%= name %}/'
                 }]
             },
@@ -110,12 +120,12 @@ module.exports = function (grunt) {
                     // Task-specific options go here.
                     engine: 'im',
                     newFilesOnly: false,
-                    sizes: getImgRespSizes(false, 0.756476684)
+                    sizes: getImgRespSizes(true, 0.756476684)
                 },
                 files: [{
                     expand: true,
                     src: ['buzina-can.png'],
-                    cwd: 'client/img/product',
+                    cwd: 'client/img/2000',
                     custom_dest: 'client/img/{%= name %}/'
                 }]
             },
@@ -124,12 +134,12 @@ module.exports = function (grunt) {
                     // Task-specific options go here.
                     engine: 'im',
                     newFilesOnly: false,
-                    sizes: getImgRespSizes(false, 0.529237602)
+                    sizes: getImgRespSizes(true, 0.529237602)
                 },
                 files: [{
                     expand: true,
                     src: ['classic-bottle.png'],
-                    cwd: 'client/img/product',
+                    cwd: 'client/img/2000',
                     custom_dest: 'client/img/{%= name %}/'
                 }]
             },
@@ -138,12 +148,12 @@ module.exports = function (grunt) {
                     // Task-specific options go here.
                     engine: 'im',
                     newFilesOnly: false,
-                    sizes: getImgRespSizes(false, 0.430051813)
+                    sizes: getImgRespSizes(true, 0.430051813)
                 },
                 files: [{
                     expand: true,
                     src: ['buzina-bottle.png'],
-                    cwd: 'client/img/product',
+                    cwd: 'client/img/2000',
                     custom_dest: 'client/img/{%= name %}/'
                 }]
             }
@@ -154,4 +164,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-spritesmith');
 
     grunt.loadNpmTasks('grunt-responsive-images');
+
+    grunt.loadNpmTasks('grunt-contrib-imagemin');
 };
