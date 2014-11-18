@@ -29,5 +29,6 @@ node_modules
 
 *.map
 
+client/img/*
 client/js/lib/*
 client/.sass-cache/*
