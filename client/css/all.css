@@ -3807,13 +3807,13 @@ The provided mixins are intended to be used with the array-like variables
 }
 */
 body {
-  background-image: url("/img/bgSm.jpg");
+  background-image: url("/img-dist/bgSm.jpg");
   background-position: top left;
   background-size: contain;
   font-family: HermesCTT; }
   body:after {
     content: '';
-    background: url("/img/productBg.jpg"); }
+    background: url("/img-dist/productBg.jpg"); }
 
 .socNetworks {
   position: absolute;
@@ -7438,40 +7438,40 @@ The provided mixins are intended to be used with the array-like variables
     width: 37.5rem;
     content: '';
     background-repeat: no-repeat;
-    background-image: url("/img//1024/productsBg.png"); }
+    background-image: url("/img-dist//1024/productsBg.png"); }
     @media (min-width: 1024px) {
       #products .productsWrap:before {
-        background-image: url("/img//1024/productsBg.png"); } }
+        background-image: url("/img-dist//1024/productsBg.png"); } }
     @media (min-width: 1152px) {
       #products .productsWrap:before {
-        background-image: url("/img//1152/productsBg.png"); } }
+        background-image: url("/img-dist//1152/productsBg.png"); } }
     @media (min-width: 1280px) {
       #products .productsWrap:before {
-        background-image: url("/img//1280/productsBg.png"); } }
+        background-image: url("/img-dist//1280/productsBg.png"); } }
     @media (min-width: 1366px) {
       #products .productsWrap:before {
-        background-image: url("/img//1366/productsBg.png"); } }
+        background-image: url("/img-dist//1366/productsBg.png"); } }
     @media (min-width: 1400px) {
       #products .productsWrap:before {
-        background-image: url("/img//1400/productsBg.png"); } }
+        background-image: url("/img-dist//1400/productsBg.png"); } }
     @media (min-width: 1440px) {
       #products .productsWrap:before {
-        background-image: url("/img//1440/productsBg.png"); } }
+        background-image: url("/img-dist//1440/productsBg.png"); } }
     @media (min-width: 1536px) {
       #products .productsWrap:before {
-        background-image: url("/img//1536/productsBg.png"); } }
+        background-image: url("/img-dist//1536/productsBg.png"); } }
     @media (min-width: 1600px) {
       #products .productsWrap:before {
-        background-image: url("/img//1600/productsBg.png"); } }
+        background-image: url("/img-dist//1600/productsBg.png"); } }
     @media (min-width: 1680px) {
       #products .productsWrap:before {
-        background-image: url("/img//1680/productsBg.png"); } }
+        background-image: url("/img-dist//1680/productsBg.png"); } }
     @media (min-width: 1980px) {
       #products .productsWrap:before {
-        background-image: url("/img//1980/productsBg.png"); } }
+        background-image: url("/img-dist//1980/productsBg.png"); } }
     @media (min-width: 2000px) {
       #products .productsWrap:before {
-        background-image: url("/img//2000/productsBg.png"); } }
+        background-image: url("/img-dist//2000/productsBg.png"); } }
   #products .productsWrap a {
     position: relative;
     display: block;
@@ -8701,7 +8701,7 @@ The provided mixins are intended to be used with the array-like variables
   bottom: 0;
   left: 0;
   overflow: hidden;
-  background: url("/img/productBg.jpg"); }
+  background: url("/img-dist/productBg.jpg"); }
   .productWrap:before {
     position: absolute;
     top: 0;
@@ -8813,40 +8813,40 @@ The provided mixins are intended to be used with the array-like variables
   content: '';
   display: block;
   background-repeat: no-repeat;
-  background-image: url("/img/1024/classic-can.png"); }
+  background-image: url("/img-dist/1024/classic-can.png"); }
   @media (min-width: 1024px) {
     .classic-can:after {
-      background-image: url("/img/1024/classic-can.png"); } }
+      background-image: url("/img-dist/1024/classic-can.png"); } }
   @media (min-width: 1152px) {
     .classic-can:after {
-      background-image: url("/img/1152/classic-can.png"); } }
+      background-image: url("/img-dist/1152/classic-can.png"); } }
   @media (min-width: 1280px) {
     .classic-can:after {
-      background-image: url("/img/1280/classic-can.png"); } }
+      background-image: url("/img-dist/1280/classic-can.png"); } }
   @media (min-width: 1366px) {
     .classic-can:after {
-      background-image: url("/img/1366/classic-can.png"); } }
+      background-image: url("/img-dist/1366/classic-can.png"); } }
   @media (min-width: 1400px) {
     .classic-can:after {
-      background-image: url("/img/1400/classic-can.png"); } }
+      background-image: url("/img-dist/1400/classic-can.png"); } }
   @media (min-width: 1440px) {
     .classic-can:after {
-      background-image: url("/img/1440/classic-can.png"); } }
+      background-image: url("/img-dist/1440/classic-can.png"); } }
   @media (min-width: 1536px) {
     .classic-can:after {
-      background-image: url("/img/1536/classic-can.png"); } }
+      background-image: url("/img-dist/1536/classic-can.png"); } }
   @media (min-width: 1600px) {
     .classic-can:after {
-      background-image: url("/img/1600/classic-can.png"); } }
+      background-image: url("/img-dist/1600/classic-can.png"); } }
   @media (min-width: 1680px) {
     .classic-can:after {
-      background-image: url("/img/1680/classic-can.png"); } }
+      background-image: url("/img-dist/1680/classic-can.png"); } }
   @media (min-width: 1980px) {
     .classic-can:after {
-      background-image: url("/img/1980/classic-can.png"); } }
+      background-image: url("/img-dist/1980/classic-can.png"); } }
   @media (min-width: 2000px) {
     .classic-can:after {
-      background-image: url("/img/2000/classic-can.png"); } }
+      background-image: url("/img-dist/2000/classic-can.png"); } }
 
 .buzina-can .prodContent {
   position: absolute;
@@ -8869,41 +8869,41 @@ The provided mixins are intended to be used with the array-like variables
   -ms-transform: rotate(-12deg);
   -o-transform: rotate(-12deg);
   transform: rotate(-12deg);
-  background-image: url("/img/1024/buzina-can.png");
+  background-image: url("/img-dist/1024/buzina-can.png");
   z-index: 2; }
   @media (min-width: 1024px) {
     .buzina-can:after {
-      background-image: url("/img/1024/buzina-can.png"); } }
+      background-image: url("/img-dist/1024/buzina-can.png"); } }
   @media (min-width: 1152px) {
     .buzina-can:after {
-      background-image: url("/img/1152/buzina-can.png"); } }
+      background-image: url("/img-dist/1152/buzina-can.png"); } }
   @media (min-width: 1280px) {
     .buzina-can:after {
-      background-image: url("/img/1280/buzina-can.png"); } }
+      background-image: url("/img-dist/1280/buzina-can.png"); } }
   @media (min-width: 1366px) {
     .buzina-can:after {
-      background-image: url("/img/1366/buzina-can.png"); } }
+      background-image: url("/img-dist/1366/buzina-can.png"); } }
   @media (min-width: 1400px) {
     .buzina-can:after {
-      background-image: url("/img/1400/buzina-can.png"); } }
+      background-image: url("/img-dist/1400/buzina-can.png"); } }
   @media (min-width: 1440px) {
     .buzina-can:after {
-      background-image: url("/img/1440/buzina-can.png"); } }
+      background-image: url("/img-dist/1440/buzina-can.png"); } }
   @media (min-width: 1536px) {
     .buzina-can:after {
-      background-image: url("/img/1536/buzina-can.png"); } }
+      background-image: url("/img-dist/1536/buzina-can.png"); } }
   @media (min-width: 1600px) {
     .buzina-can:after {
-      background-image: url("/img/1600/buzina-can.png"); } }
+      background-image: url("/img-dist/1600/buzina-can.png"); } }
   @media (min-width: 1680px) {
     .buzina-can:after {
-      background-image: url("/img/1680/buzina-can.png"); } }
+      background-image: url("/img-dist/1680/buzina-can.png"); } }
   @media (min-width: 1980px) {
     .buzina-can:after {
-      background-image: url("/img/1980/buzina-can.png"); } }
+      background-image: url("/img-dist/1980/buzina-can.png"); } }
   @media (min-width: 2000px) {
     .buzina-can:after {
-      background-image: url("/img/2000/buzina-can.png"); } }
+      background-image: url("/img-dist/2000/buzina-can.png"); } }
 
 .classic-bottle .prodContent {
   position: absolute;
@@ -8927,40 +8927,40 @@ The provided mixins are intended to be used with the array-like variables
   -ms-transform: rotate(20deg);
   -o-transform: rotate(20deg);
   transform: rotate(20deg);
-  background-image: url("/img/1024/classic-bottle.png"); }
+  background-image: url("/img-dist/1024/classic-bottle.png"); }
   @media (min-width: 1024px) {
     .classic-bottle:after {
-      background-image: url("/img/1024/classic-bottle.png"); } }
+      background-image: url("/img-dist/1024/classic-bottle.png"); } }
   @media (min-width: 1152px) {
     .classic-bottle:after {
-      background-image: url("/img/1152/classic-bottle.png"); } }
+      background-image: url("/img-dist/1152/classic-bottle.png"); } }
   @media (min-width: 1280px) {
     .classic-bottle:after {
-      background-image: url("/img/1280/classic-bottle.png"); } }
+      background-image: url("/img-dist/1280/classic-bottle.png"); } }
   @media (min-width: 1366px) {
     .classic-bottle:after {
-      background-image: url("/img/1366/classic-bottle.png"); } }
+      background-image: url("/img-dist/1366/classic-bottle.png"); } }
   @media (min-width: 1400px) {
     .classic-bottle:after {
-      background-image: url("/img/1400/classic-bottle.png"); } }
+      background-image: url("/img-dist/1400/classic-bottle.png"); } }
   @media (min-width: 1440px) {
     .classic-bottle:after {
-      background-image: url("/img/1440/classic-bottle.png"); } }
+      background-image: url("/img-dist/1440/classic-bottle.png"); } }
   @media (min-width: 1536px) {
     .classic-bottle:after {
-      background-image: url("/img/1536/classic-bottle.png"); } }
+      background-image: url("/img-dist/1536/classic-bottle.png"); } }
   @media (min-width: 1600px) {
     .classic-bottle:after {
-      background-image: url("/img/1600/classic-bottle.png"); } }
+      background-image: url("/img-dist/1600/classic-bottle.png"); } }
   @media (min-width: 1680px) {
     .classic-bottle:after {
-      background-image: url("/img/1680/classic-bottle.png"); } }
+      background-image: url("/img-dist/1680/classic-bottle.png"); } }
   @media (min-width: 1980px) {
     .classic-bottle:after {
-      background-image: url("/img/1980/classic-bottle.png"); } }
+      background-image: url("/img-dist/1980/classic-bottle.png"); } }
   @media (min-width: 2000px) {
     .classic-bottle:after {
-      background-image: url("/img/2000/classic-bottle.png"); } }
+      background-image: url("/img-dist/2000/classic-bottle.png"); } }
 
 .buzina-bottle .prodContent {
   position: absolute;
@@ -8984,39 +8984,39 @@ The provided mixins are intended to be used with the array-like variables
   -o-transform: rotate(75deg);
   transform: rotate(75deg);
   z-index: 2;
-  background-image: url("/img/1024/buzina-bottle.png"); }
+  background-image: url("/img-dist/1024/buzina-bottle.png"); }
   @media (min-width: 1024px) {
     .buzina-bottle:after {
-      background-image: url("/img/1024/buzina-bottle.png"); } }
+      background-image: url("/img-dist/1024/buzina-bottle.png"); } }
   @media (min-width: 1152px) {
     .buzina-bottle:after {
-      background-image: url("/img/1152/buzina-bottle.png"); } }
+      background-image: url("/img-dist/1152/buzina-bottle.png"); } }
   @media (min-width: 1280px) {
     .buzina-bottle:after {
-      background-image: url("/img/1280/buzina-bottle.png"); } }
+      background-image: url("/img-dist/1280/buzina-bottle.png"); } }
   @media (min-width: 1366px) {
     .buzina-bottle:after {
-      background-image: url("/img/1366/buzina-bottle.png"); } }
+      background-image: url("/img-dist/1366/buzina-bottle.png"); } }
   @media (min-width: 1400px) {
     .buzina-bottle:after {
-      background-image: url("/img/1400/buzina-bottle.png"); } }
+      background-image: url("/img-dist/1400/buzina-bottle.png"); } }
   @media (min-width: 1440px) {
     .buzina-bottle:after {
-      background-image: url("/img/1440/buzina-bottle.png"); } }
+      background-image: url("/img-dist/1440/buzina-bottle.png"); } }
   @media (min-width: 1536px) {
     .buzina-bottle:after {
-      background-image: url("/img/1536/buzina-bottle.png"); } }
+      background-image: url("/img-dist/1536/buzina-bottle.png"); } }
   @media (min-width: 1600px) {
     .buzina-bottle:after {
-      background-image: url("/img/1600/buzina-bottle.png"); } }
+      background-image: url("/img-dist/1600/buzina-bottle.png"); } }
   @media (min-width: 1680px) {
     .buzina-bottle:after {
-      background-image: url("/img/1680/buzina-bottle.png"); } }
+      background-image: url("/img-dist/1680/buzina-bottle.png"); } }
   @media (min-width: 1980px) {
     .buzina-bottle:after {
-      background-image: url("/img/1980/buzina-bottle.png"); } }
+      background-image: url("/img-dist/1980/buzina-bottle.png"); } }
   @media (min-width: 2000px) {
     .buzina-bottle:after {
-      background-image: url("/img/2000/buzina-bottle.png"); } }
+      background-image: url("/img-dist/2000/buzina-bottle.png"); } }
 
 /*# sourceMappingURL=all.css.map */
