@@ -3809,7 +3809,6 @@ The provided mixins are intended to be used with the array-like variables
 body {
   background-image: url("/img-dist/bgSm.jpg");
   background-position: top left;
-  background-size: contain;
   font-family: HermesCTT; }
   body:after {
     content: '';
