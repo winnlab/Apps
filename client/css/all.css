@@ -8798,12 +8798,13 @@ The provided mixins are intended to be used with the array-like variables
     margin: 2rem 0 0;
     font-size: 1rem;
     line-height: 145%;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 1px; }
 
 .classic-can .prodContent {
   position: absolute;
-  top: 15.5rem;
-  right: 20.625rem; }
+  top: 23.125rem;
+  right: 31.25rem; }
 .classic-can:after {
   height: 56.25rem;
   width: 93.75rem;
@@ -8847,6 +8848,10 @@ The provided mixins are intended to be used with the array-like variables
   @media (min-width: 2000px) {
     .classic-can:after {
       background-image: url("/img-dist/2000/classic-can.png"); } }
+.classic-can .close {
+  position: absolute;
+  top: -5.625rem;
+  right: -10.625rem; }
 
 .buzina-can .prodContent {
   position: absolute;

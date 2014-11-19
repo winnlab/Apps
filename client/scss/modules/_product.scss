@@ -50,13 +50,14 @@
         font-size: rem(16);
         line-height: 145%;
         text-transform: uppercase;
+        letter-spacing: 1px;
     }
 
 }
 
 .classic-can {
     .prodContent {
-        @include position(absolute, rem(248) rem(330) null null);
+        @include position(absolute, rem(370) rem(500) null null);
     }
 
     &:after {
@@ -66,6 +67,10 @@
         display: block;
         background-repeat: no-repeat;
         @include responsiveBg('classic-can.png');
+    }
+
+    .close {
+        @include position(absolute, rem(-90) rem(-170) null null);
     }
 }
 
