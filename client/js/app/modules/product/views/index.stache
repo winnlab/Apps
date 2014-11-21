@@ -4,13 +4,13 @@
 
 <div class="productWrap {{link}}">
 
-    <div class="logoWrap">
+    <a class="logoWrap module" href="/products">
         <span class="dashing"></span>
         <span class="dashing"></span>
         <span class="dashing"></span>
         <span class="dashing"></span>
         <div class="logo"></div>
-    </div>
+    </a>
 
     <div class="prodContent">
 

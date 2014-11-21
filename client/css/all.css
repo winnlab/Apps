@@ -2525,67 +2525,67 @@ The provided mixins are intended to be used with the array-like variables
     top: 1.9375rem;
     right: 19.8125rem;
     background-image: url(../../../img/1024/sprites.png);
-    background-position: -220px -590px;
+    background-position: -93px -590px;
     width: 76px;
     height: 53px; }
     @media (min-width: 1152px) {
       #checker .apple-1 {
         background-image: url(../../../img/1152/sprites.png);
-        background-position: -104px -664px;
+        background-position: -190px -664px;
         width: 86px;
         height: 59px; } }
     @media (min-width: 1280px) {
       #checker .apple-1 {
         background-image: url(../../../img/1280/sprites.png);
-        background-position: -116px -737px;
+        background-position: -211px -737px;
         width: 95px;
         height: 66px; } }
     @media (min-width: 1366px) {
       #checker .apple-1 {
         background-image: url(../../../img/1366/sprites.png);
-        background-position: 0px -787px;
+        background-position: -226px -787px;
         width: 102px;
         height: 70px; } }
     @media (min-width: 1400px) {
       #checker .apple-1 {
         background-image: url(../../../img/1400/sprites.png);
-        background-position: -127px -806px;
+        background-position: -231px -806px;
         width: 104px;
         height: 72px; } }
     @media (min-width: 1440px) {
       #checker .apple-1 {
         background-image: url(../../../img/1440/sprites.png);
-        background-position: -130px -829px;
+        background-position: -237px -829px;
         width: 107px;
         height: 74px; } }
     @media (min-width: 1536px) {
       #checker .apple-1 {
         background-image: url(../../../img/1536/sprites.png);
-        background-position: -139px -884px;
+        background-position: -253px -884px;
         width: 114px;
         height: 79px; } }
     @media (min-width: 1600px) {
       #checker .apple-1 {
         background-image: url(../../../img/1600/sprites.png);
-        background-position: 0px -922px;
+        background-position: -264px -922px;
         width: 119px;
         height: 82px; } }
     @media (min-width: 1680px) {
       #checker .apple-1 {
         background-image: url(../../../img/1680/sprites.png);
-        background-position: -361px -967px;
+        background-position: -152px -967px;
         width: 125px;
         height: 87px; } }
     @media (min-width: 1980px) {
       #checker .apple-1 {
         background-image: url(../../../img/1980/sprites.png);
-        background-position: -179px -1140px;
+        background-position: -327px -1140px;
         width: 148px;
         height: 102px; } }
     @media (min-width: 2000px) {
       #checker .apple-1 {
         background-image: url(../../../img/2000/sprites.png);
-        background-position: -181px -1152px;
+        background-position: -330px -1152px;
         width: 149px;
         height: 103px; } }
   #checker .apple-2 {
@@ -2593,19 +2593,19 @@ The provided mixins are intended to be used with the array-like variables
     right: 21.5625rem;
     bottom: 13.1875rem;
     background-image: url(../../../img/1024/sprites.png);
-    background-position: 0px -590px;
+    background-position: -169px -590px;
     width: 71px;
     height: 53px; }
     @media (min-width: 1152px) {
       #checker .apple-2 {
         background-image: url(../../../img/1152/sprites.png);
-        background-position: -636px -553px;
+        background-position: -554px -553px;
         width: 79px;
         height: 60px; } }
     @media (min-width: 1280px) {
       #checker .apple-2 {
         background-image: url(../../../img/1280/sprites.png);
-        background-position: -706px -614px;
+        background-position: -614px -614px;
         width: 88px;
         height: 67px; } }
     @media (min-width: 1366px) {
@@ -2617,19 +2617,19 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1400px) {
       #checker .apple-2 {
         background-image: url(../../../img/1400/sprites.png);
-        background-position: -774px -672px;
+        background-position: -674px -672px;
         width: 97px;
         height: 73px; } }
     @media (min-width: 1440px) {
       #checker .apple-2 {
         background-image: url(../../../img/1440/sprites.png);
-        background-position: -795px -691px;
+        background-position: -692px -691px;
         width: 99px;
         height: 75px; } }
     @media (min-width: 1536px) {
       #checker .apple-2 {
         background-image: url(../../../img/1536/sprites.png);
-        background-position: -849px -737px;
+        background-position: -739px -737px;
         width: 106px;
         height: 80px; } }
     @media (min-width: 1600px) {
@@ -2641,19 +2641,19 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1680px) {
       #checker .apple-2 {
         background-image: url(../../../img/1680/sprites.png);
-        background-position: 0px -967px;
+        background-position: -277px -967px;
         width: 116px;
         height: 87px; } }
     @media (min-width: 1980px) {
       #checker .apple-2 {
         background-image: url(../../../img/1980/sprites.png);
-        background-position: -1095px -950px;
+        background-position: -953px -950px;
         width: 137px;
         height: 103px; } }
     @media (min-width: 2000px) {
       #checker .apple-2 {
         background-image: url(../../../img/2000/sprites.png);
-        background-position: -1105px -960px;
+        background-position: -962px -960px;
         width: 138px;
         height: 104px; } }
   #checker .apple-3 {
@@ -2668,7 +2668,7 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1152px) {
       #checker .apple-3 {
         background-image: url(../../../img/1152/sprites.png);
-        background-position: -728px 0px;
+        background-position: -549px -664px;
         width: 71px;
         height: 51px; } }
     @media (min-width: 1280px) {
@@ -2680,13 +2680,13 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1366px) {
       #checker .apple-3 {
         background-image: url(../../../img/1366/sprites.png);
-        background-position: -758px -787px;
+        background-position: -863px 0px;
         width: 84px;
         height: 60px; } }
     @media (min-width: 1400px) {
       #checker .apple-3 {
         background-image: url(../../../img/1400/sprites.png);
-        background-position: -884px 0px;
+        background-position: -667px -806px;
         width: 86px;
         height: 62px; } }
     @media (min-width: 1440px) {
@@ -2698,13 +2698,13 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1536px) {
       #checker .apple-3 {
         background-image: url(../../../img/1536/sprites.png);
-        background-position: -969px 0px;
+        background-position: -730px -884px;
         width: 94px;
         height: 68px; } }
     @media (min-width: 1600px) {
       #checker .apple-3 {
         background-image: url(../../../img/1600/sprites.png);
-        background-position: -888px -922px;
+        background-position: -1011px 0px;
         width: 98px;
         height: 70px; } }
     @media (min-width: 1680px) {
@@ -2730,19 +2730,19 @@ The provided mixins are intended to be used with the array-like variables
     bottom: 0;
     left: 0;
     background-image: url(../../../img/1024/sprites.png);
-    background-position: -647px -131px;
+    background-position: -647px -171px;
     width: 50px;
     height: 40px; }
     @media (min-width: 1152px) {
       #checker .apple-4 {
         background-image: url(../../../img/1152/sprites.png);
-        background-position: -728px -147px;
+        background-position: -728px -145px;
         width: 56px;
         height: 45px; } }
     @media (min-width: 1280px) {
       #checker .apple-4 {
         background-image: url(../../../img/1280/sprites.png);
-        background-position: -808px -164px;
+        background-position: -808px -214px;
         width: 62px;
         height: 50px; } }
     @media (min-width: 1366px) {
@@ -2754,19 +2754,19 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1400px) {
       #checker .apple-4 {
         background-image: url(../../../img/1400/sprites.png);
-        background-position: -884px -180px;
+        background-position: -884px -177px;
         width: 68px;
         height: 55px; } }
     @media (min-width: 1440px) {
       #checker .apple-4 {
         background-image: url(../../../img/1440/sprites.png);
-        background-position: -910px -183px;
+        background-position: -910px -239px;
         width: 70px;
         height: 56px; } }
     @media (min-width: 1536px) {
       #checker .apple-4 {
         background-image: url(../../../img/1536/sprites.png);
-        background-position: -969px -198px;
+        background-position: -969px -194px;
         width: 74px;
         height: 60px; } }
     @media (min-width: 1600px) {
@@ -2778,19 +2778,19 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1680px) {
       #checker .apple-4 {
         background-image: url(../../../img/1680/sprites.png);
-        background-position: -1060px -216px;
+        background-position: -1060px -282px;
         width: 81px;
         height: 66px; } }
     @media (min-width: 1980px) {
       #checker .apple-4 {
         background-image: url(../../../img/1980/sprites.png);
-        background-position: -1251px -253px;
+        background-position: -1251px -330px;
         width: 96px;
         height: 77px; } }
     @media (min-width: 2000px) {
       #checker .apple-4 {
         background-image: url(../../../img/2000/sprites.png);
-        background-position: -1263px -256px;
+        background-position: -1263px -334px;
         width: 97px;
         height: 78px; } }
   #checker .apple-5 {
@@ -2798,67 +2798,67 @@ The provided mixins are intended to be used with the array-like variables
     top: 17.75rem;
     right: -0.125rem;
     background-image: url(../../../img/1024/sprites.png);
-    background-position: -220px -590px;
+    background-position: -93px -590px;
     width: 76px;
     height: 53px; }
     @media (min-width: 1152px) {
       #checker .apple-5 {
         background-image: url(../../../img/1152/sprites.png);
-        background-position: -104px -664px;
+        background-position: -190px -664px;
         width: 86px;
         height: 59px; } }
     @media (min-width: 1280px) {
       #checker .apple-5 {
         background-image: url(../../../img/1280/sprites.png);
-        background-position: -116px -737px;
+        background-position: -211px -737px;
         width: 95px;
         height: 66px; } }
     @media (min-width: 1366px) {
       #checker .apple-5 {
         background-image: url(../../../img/1366/sprites.png);
-        background-position: 0px -787px;
+        background-position: -226px -787px;
         width: 102px;
         height: 70px; } }
     @media (min-width: 1400px) {
       #checker .apple-5 {
         background-image: url(../../../img/1400/sprites.png);
-        background-position: -127px -806px;
+        background-position: -231px -806px;
         width: 104px;
         height: 72px; } }
     @media (min-width: 1440px) {
       #checker .apple-5 {
         background-image: url(../../../img/1440/sprites.png);
-        background-position: -130px -829px;
+        background-position: -237px -829px;
         width: 107px;
         height: 74px; } }
     @media (min-width: 1536px) {
       #checker .apple-5 {
         background-image: url(../../../img/1536/sprites.png);
-        background-position: -139px -884px;
+        background-position: -253px -884px;
         width: 114px;
         height: 79px; } }
     @media (min-width: 1600px) {
       #checker .apple-5 {
         background-image: url(../../../img/1600/sprites.png);
-        background-position: 0px -922px;
+        background-position: -264px -922px;
         width: 119px;
         height: 82px; } }
     @media (min-width: 1680px) {
       #checker .apple-5 {
         background-image: url(../../../img/1680/sprites.png);
-        background-position: -361px -967px;
+        background-position: -152px -967px;
         width: 125px;
         height: 87px; } }
     @media (min-width: 1980px) {
       #checker .apple-5 {
         background-image: url(../../../img/1980/sprites.png);
-        background-position: -179px -1140px;
+        background-position: -327px -1140px;
         width: 148px;
         height: 102px; } }
     @media (min-width: 2000px) {
       #checker .apple-5 {
         background-image: url(../../../img/2000/sprites.png);
-        background-position: -181px -1152px;
+        background-position: -330px -1152px;
         width: 149px;
         height: 103px; } }
   #checker .notebook {
@@ -3820,206 +3820,294 @@ body {
   right: 2.6875rem;
   z-index: 10;
   width: 10.25rem; }
-  .socNetworks .fb {
-    background-image: url(../../../img/1024/sprites.png);
-    background-position: -647px -249px;
-    width: 32px;
-    height: 31px;
-    float: left; }
-    @media (min-width: 1152px) {
-      .socNetworks .fb {
-        background-image: url(../../../img/1152/sprites.png);
-        background-position: -728px -280px;
-        width: 36px;
-        height: 35px; } }
-    @media (min-width: 1280px) {
-      .socNetworks .fb {
-        background-image: url(../../../img/1280/sprites.png);
-        background-position: -808px -311px;
-        width: 40px;
-        height: 39px; } }
-    @media (min-width: 1366px) {
-      .socNetworks .fb {
-        background-image: url(../../../img/1366/sprites.png);
-        background-position: -863px -331px;
-        width: 42px;
-        height: 42px; } }
-    @media (min-width: 1400px) {
-      .socNetworks .fb {
-        background-image: url(../../../img/1400/sprites.png);
-        background-position: -884px -342px;
-        width: 43px;
-        height: 43px; } }
-    @media (min-width: 1440px) {
-      .socNetworks .fb {
-        background-image: url(../../../img/1440/sprites.png);
-        background-position: -910px -348px;
-        width: 45px;
-        height: 44px; } }
-    @media (min-width: 1536px) {
-      .socNetworks .fb {
-        background-image: url(../../../img/1536/sprites.png);
-        background-position: -969px -375px;
-        width: 48px;
-        height: 47px; } }
-    @media (min-width: 1600px) {
-      .socNetworks .fb {
-        background-image: url(../../../img/1600/sprites.png);
-        background-position: -1011px -387px;
-        width: 50px;
-        height: 49px; } }
-    @media (min-width: 1680px) {
-      .socNetworks .fb {
-        background-image: url(../../../img/1680/sprites.png);
-        background-position: -1060px -410px;
-        width: 52px;
-        height: 51px; } }
-    @media (min-width: 1980px) {
-      .socNetworks .fb {
-        background-image: url(../../../img/1980/sprites.png);
-        background-position: -1251px -480px;
-        width: 61px;
-        height: 60px; } }
-    @media (min-width: 2000px) {
-      .socNetworks .fb {
-        background-image: url(../../../img/2000/sprites.png);
-        background-position: -1263px -486px;
-        width: 62px;
-        height: 61px; } }
-  .socNetworks .vk {
-    background-image: url(../../../img/1024/sprites.png);
-    background-position: -647px -311px;
-    width: 32px;
-    height: 31px;
-    margin-left: 0.9375rem;
-    float: left; }
-    @media (min-width: 1152px) {
-      .socNetworks .vk {
-        background-image: url(../../../img/1152/sprites.png);
-        background-position: -728px -350px;
-        width: 36px;
-        height: 35px; } }
-    @media (min-width: 1280px) {
-      .socNetworks .vk {
-        background-image: url(../../../img/1280/sprites.png);
-        background-position: -808px -389px;
-        width: 40px;
-        height: 39px; } }
-    @media (min-width: 1366px) {
-      .socNetworks .vk {
-        background-image: url(../../../img/1366/sprites.png);
-        background-position: -863px -373px;
-        width: 42px;
-        height: 42px; } }
-    @media (min-width: 1400px) {
-      .socNetworks .vk {
-        background-image: url(../../../img/1400/sprites.png);
-        background-position: -884px -385px;
-        width: 43px;
-        height: 43px; } }
-    @media (min-width: 1440px) {
-      .socNetworks .vk {
-        background-image: url(../../../img/1440/sprites.png);
-        background-position: -910px -436px;
-        width: 45px;
-        height: 44px; } }
-    @media (min-width: 1536px) {
-      .socNetworks .vk {
-        background-image: url(../../../img/1536/sprites.png);
-        background-position: -969px -469px;
-        width: 48px;
-        height: 47px; } }
-    @media (min-width: 1600px) {
-      .socNetworks .vk {
-        background-image: url(../../../img/1600/sprites.png);
-        background-position: -1011px -485px;
-        width: 50px;
-        height: 49px; } }
-    @media (min-width: 1680px) {
-      .socNetworks .vk {
-        background-image: url(../../../img/1680/sprites.png);
-        background-position: -1060px -512px;
-        width: 52px;
-        height: 51px; } }
-    @media (min-width: 1980px) {
-      .socNetworks .vk {
-        background-image: url(../../../img/1980/sprites.png);
-        background-position: -1251px -540px;
-        width: 61px;
-        height: 60px; } }
-    @media (min-width: 2000px) {
-      .socNetworks .vk {
-        background-image: url(../../../img/2000/sprites.png);
-        background-position: -1263px -608px;
-        width: 62px;
-        height: 61px; } }
-  .socNetworks .yt {
-    background-image: url(../../../img/1024/sprites.png);
-    background-position: -647px -342px;
-    width: 32px;
-    height: 31px;
-    margin-left: 0.9375rem;
-    float: left; }
-    @media (min-width: 1152px) {
-      .socNetworks .yt {
-        background-image: url(../../../img/1152/sprites.png);
-        background-position: -728px -385px;
-        width: 36px;
-        height: 35px; } }
-    @media (min-width: 1280px) {
-      .socNetworks .yt {
-        background-image: url(../../../img/1280/sprites.png);
-        background-position: -808px -428px;
-        width: 40px;
-        height: 39px; } }
-    @media (min-width: 1366px) {
-      .socNetworks .yt {
-        background-image: url(../../../img/1366/sprites.png);
-        background-position: -905px -373px;
-        width: 42px;
-        height: 42px; } }
-    @media (min-width: 1400px) {
-      .socNetworks .yt {
-        background-image: url(../../../img/1400/sprites.png);
-        background-position: -927px -385px;
-        width: 43px;
-        height: 43px; } }
-    @media (min-width: 1440px) {
-      .socNetworks .yt {
-        background-image: url(../../../img/1440/sprites.png);
-        background-position: -910px -480px;
-        width: 45px;
-        height: 44px; } }
-    @media (min-width: 1536px) {
-      .socNetworks .yt {
-        background-image: url(../../../img/1536/sprites.png);
-        background-position: -969px -516px;
-        width: 48px;
-        height: 47px; } }
-    @media (min-width: 1600px) {
-      .socNetworks .yt {
-        background-image: url(../../../img/1600/sprites.png);
-        background-position: -1011px -534px;
-        width: 50px;
-        height: 49px; } }
-    @media (min-width: 1680px) {
-      .socNetworks .yt {
-        background-image: url(../../../img/1680/sprites.png);
-        background-position: -1060px -563px;
-        width: 52px;
-        height: 51px; } }
-    @media (min-width: 1980px) {
-      .socNetworks .yt {
-        background-image: url(../../../img/1980/sprites.png);
-        background-position: -1312px -540px;
-        width: 61px;
-        height: 60px; } }
-    @media (min-width: 2000px) {
-      .socNetworks .yt {
-        background-image: url(../../../img/2000/sprites.png);
-        background-position: -1263px -669px;
-        width: 62px;
-        height: 61px; } }
+  .socNetworks a {
+    height: 2.625rem;
+    width: 2.625rem;
+    display: inline-block;
+    position: relative; }
+    .socNetworks a:before {
+      content: '';
+      display: block; }
+    .socNetworks a.fb:before {
+      background-image: url(../../../img/1024/sprites.png);
+      background-position: -696px -45px;
+      width: 9px;
+      height: 19px;
+      margin: 0.5rem 0 0 0.875rem; }
+      @media (min-width: 1152px) {
+        .socNetworks a.fb:before {
+          background-image: url(../../../img/1152/sprites.png);
+          background-position: -870px -99px;
+          width: 10px;
+          height: 21px; } }
+      @media (min-width: 1280px) {
+        .socNetworks a.fb:before {
+          background-image: url(../../../img/1280/sprites.png);
+          background-position: -869px -56px;
+          width: 11px;
+          height: 24px; } }
+      @media (min-width: 1366px) {
+        .socNetworks a.fb:before {
+          background-image: url(../../../img/1366/sprites.png);
+          background-position: -929px -60px;
+          width: 12px;
+          height: 25px; } }
+      @media (min-width: 1400px) {
+        .socNetworks a.fb:before {
+          background-image: url(../../../img/1400/sprites.png);
+          background-position: -1057px -121px;
+          width: 12px;
+          height: 26px; } }
+      @media (min-width: 1440px) {
+        .socNetworks a.fb:before {
+          background-image: url(../../../img/1440/sprites.png);
+          background-position: -979px -63px;
+          width: 12px;
+          height: 27px; } }
+      @media (min-width: 1536px) {
+        .socNetworks a.fb:before {
+          background-image: url(../../../img/1536/sprites.png);
+          background-position: -1159px -133px;
+          width: 13px;
+          height: 28px; } }
+      @media (min-width: 1600px) {
+        .socNetworks a.fb:before {
+          background-image: url(../../../img/1600/sprites.png);
+          background-position: -1088px -70px;
+          width: 14px;
+          height: 30px; } }
+      @media (min-width: 1680px) {
+        .socNetworks a.fb:before {
+          background-image: url(../../../img/1680/sprites.png);
+          background-position: -1141px -74px;
+          width: 14px;
+          height: 31px; } }
+      @media (min-width: 1980px) {
+        .socNetworks a.fb:before {
+          background-image: url(../../../img/1980/sprites.png);
+          background-position: -1346px -87px;
+          width: 17px;
+          height: 37px; } }
+      @media (min-width: 2000px) {
+        .socNetworks a.fb:before {
+          background-image: url(../../../img/2000/sprites.png);
+          background-position: -1359px -88px;
+          width: 17px;
+          height: 37px; } }
+    .socNetworks a.vk {
+      margin-left: 0.9375rem; }
+      .socNetworks a.vk:before {
+        background-image: url(../../../img/1024/sprites.png);
+        background-position: -696px -88px;
+        width: 12px;
+        height: 13px;
+        margin: 0.75rem 0 0 0.875rem; }
+        @media (min-width: 1152px) {
+          .socNetworks a.vk:before {
+            background-image: url(../../../img/1152/sprites.png);
+            background-position: -861px -145px;
+            width: 13px;
+            height: 14px; } }
+        @media (min-width: 1280px) {
+          .socNetworks a.vk:before {
+            background-image: url(../../../img/1280/sprites.png);
+            background-position: -869px -110px;
+            width: 15px;
+            height: 16px; } }
+        @media (min-width: 1366px) {
+          .socNetworks a.vk:before {
+            background-image: url(../../../img/1366/sprites.png);
+            background-position: -929px -85px;
+            width: 16px;
+            height: 17px; } }
+        @media (min-width: 1400px) {
+          .socNetworks a.vk:before {
+            background-image: url(../../../img/1400/sprites.png);
+            background-position: -1045px -177px;
+            width: 16px;
+            height: 18px; } }
+        @media (min-width: 1440px) {
+          .socNetworks a.vk:before {
+            background-image: url(../../../img/1440/sprites.png);
+            background-position: -979px -123px;
+            width: 17px;
+            height: 18px; } }
+        @media (min-width: 1536px) {
+          .socNetworks a.vk:before {
+            background-image: url(../../../img/1536/sprites.png);
+            background-position: -1145px -194px;
+            width: 18px;
+            height: 19px; } }
+        @media (min-width: 1600px) {
+          .socNetworks a.vk:before {
+            background-image: url(../../../img/1600/sprites.png);
+            background-position: -1088px -100px;
+            width: 18px;
+            height: 20px; } }
+        @media (min-width: 1680px) {
+          .socNetworks a.vk:before {
+            background-image: url(../../../img/1680/sprites.png);
+            background-position: -1141px -105px;
+            width: 19px;
+            height: 21px; } }
+        @media (min-width: 1980px) {
+          .socNetworks a.vk:before {
+            background-image: url(../../../img/1980/sprites.png);
+            background-position: -1346px -124px;
+            width: 23px;
+            height: 25px; } }
+        @media (min-width: 2000px) {
+          .socNetworks a.vk:before {
+            background-image: url(../../../img/2000/sprites.png);
+            background-position: -1359px -125px;
+            width: 23px;
+            height: 25px; } }
+    .socNetworks a.yt {
+      margin-left: 0.9375rem; }
+      .socNetworks a.yt:before {
+        background-image: url(../../../img/1024/sprites.png);
+        background-position: -696px -64px;
+        width: 14px;
+        height: 17px;
+        margin: 0.5625rem 0 0 0.6875rem; }
+        @media (min-width: 1152px) {
+          .socNetworks a.yt:before {
+            background-image: url(../../../img/1152/sprites.png);
+            background-position: -870px -120px;
+            width: 16px;
+            height: 20px; } }
+        @media (min-width: 1280px) {
+          .socNetworks a.yt:before {
+            background-image: url(../../../img/1280/sprites.png);
+            background-position: -869px -80px;
+            width: 18px;
+            height: 22px; } }
+        @media (min-width: 1366px) {
+          .socNetworks a.yt:before {
+            background-image: url(../../../img/1366/sprites.png);
+            background-position: -914px -280px;
+            width: 19px;
+            height: 23px; } }
+        @media (min-width: 1400px) {
+          .socNetworks a.yt:before {
+            background-image: url(../../../img/1400/sprites.png);
+            background-position: -1057px -147px;
+            width: 20px;
+            height: 24px; } }
+        @media (min-width: 1440px) {
+          .socNetworks a.yt:before {
+            background-image: url(../../../img/1440/sprites.png);
+            background-position: -979px -90px;
+            width: 20px;
+            height: 24px; } }
+        @media (min-width: 1536px) {
+          .socNetworks a.yt:before {
+            background-image: url(../../../img/1536/sprites.png);
+            background-position: -1159px -161px;
+            width: 22px;
+            height: 26px; } }
+        @media (min-width: 1600px) {
+          .socNetworks a.yt:before {
+            background-image: url(../../../img/1600/sprites.png);
+            background-position: -1071px -328px;
+            width: 22px;
+            height: 27px; } }
+        @media (min-width: 1680px) {
+          .socNetworks a.yt:before {
+            background-image: url(../../../img/1680/sprites.png);
+            background-position: -1123px -348px;
+            width: 24px;
+            height: 29px; } }
+        @media (min-width: 1980px) {
+          .socNetworks a.yt:before {
+            background-image: url(../../../img/1980/sprites.png);
+            background-position: -1325px -407px;
+            width: 28px;
+            height: 34px; } }
+        @media (min-width: 2000px) {
+          .socNetworks a.yt:before {
+            background-image: url(../../../img/2000/sprites.png);
+            background-position: -1338px -412px;
+            width: 28px;
+            height: 34px; } }
+    .socNetworks a span {
+      display: block;
+      background-image: url(../../../img/1024/sprites.png);
+      background-position: -647px -280px;
+      width: 32px;
+      height: 31px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      -webkit-transition: all 3s linear;
+      -moz-transition: all 3s linear;
+      transition: all 3s linear; }
+      @media (min-width: 1152px) {
+        .socNetworks a span {
+          background-image: url(../../../img/1152/sprites.png);
+          background-position: -764px -190px;
+          width: 36px;
+          height: 35px; } }
+      @media (min-width: 1280px) {
+        .socNetworks a span {
+          background-image: url(../../../img/1280/sprites.png);
+          background-position: -808px -350px;
+          width: 40px;
+          height: 39px; } }
+      @media (min-width: 1366px) {
+        .socNetworks a span {
+          background-image: url(../../../img/1366/sprites.png);
+          background-position: -905px -331px;
+          width: 42px;
+          height: 42px; } }
+      @media (min-width: 1400px) {
+        .socNetworks a span {
+          background-image: url(../../../img/1400/sprites.png);
+          background-position: -927px -232px;
+          width: 43px;
+          height: 43px; } }
+      @media (min-width: 1440px) {
+        .socNetworks a span {
+          background-image: url(../../../img/1440/sprites.png);
+          background-position: -910px -392px;
+          width: 45px;
+          height: 44px; } }
+      @media (min-width: 1536px) {
+        .socNetworks a span {
+          background-image: url(../../../img/1536/sprites.png);
+          background-position: -1017px -254px;
+          width: 48px;
+          height: 47px; } }
+      @media (min-width: 1600px) {
+        .socNetworks a span {
+          background-image: url(../../../img/1600/sprites.png);
+          background-position: -1011px -436px;
+          width: 50px;
+          height: 49px; } }
+      @media (min-width: 1680px) {
+        .socNetworks a span {
+          background-image: url(../../../img/1680/sprites.png);
+          background-position: -1060px -461px;
+          width: 52px;
+          height: 51px; } }
+      @media (min-width: 1980px) {
+        .socNetworks a span {
+          background-image: url(../../../img/1980/sprites.png);
+          background-position: -1312px -480px;
+          width: 61px;
+          height: 60px; } }
+      @media (min-width: 2000px) {
+        .socNetworks a span {
+          background-image: url(../../../img/2000/sprites.png);
+          background-position: -1263px -547px;
+          width: 62px;
+          height: 61px; } }
+    .socNetworks a:hover span {
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg); }
 
 .back {
   position: absolute;
@@ -4039,14 +4127,14 @@ body {
     top: 0;
     left: 0;
     background-image: url(../../../img/1024/sprites.png);
-    background-position: -426px -590px;
+    background-position: -420px -590px;
     width: 143px;
     height: 46px;
     content: ''; }
     @media (min-width: 1152px) {
       .back:after {
         background-image: url(../../../img/1152/sprites.png);
-        background-position: -478px -664px;
+        background-position: -728px 0px;
         width: 161px;
         height: 51px; } }
     @media (min-width: 1280px) {
@@ -4064,7 +4152,7 @@ body {
     @media (min-width: 1400px) {
       .back:after {
         background-image: url(../../../img/1400/sprites.png);
-        background-position: -581px -806px;
+        background-position: -884px 0px;
         width: 196px;
         height: 62px; } }
     @media (min-width: 1440px) {
@@ -4076,7 +4164,7 @@ body {
     @media (min-width: 1536px) {
       .back:after {
         background-image: url(../../../img/1536/sprites.png);
-        background-position: -636px -884px;
+        background-position: -969px 0px;
         width: 215px;
         height: 68px; } }
     @media (min-width: 1600px) {
@@ -4088,7 +4176,7 @@ body {
     @media (min-width: 1680px) {
       .back:after {
         background-image: url(../../../img/1680/sprites.png);
-        background-position: -699px -967px;
+        background-position: -687px -967px;
         width: 235px;
         height: 75px; } }
     @media (min-width: 1980px) {
@@ -4113,132 +4201,132 @@ body {
     top: 0.5rem;
     right: 15.3125rem;
     background-image: url(../../../img/1024/sprites.png);
-    background-position: -647px -373px;
+    background-position: -647px -311px;
     width: 57px;
     height: 23px; }
     @media (min-width: 1152px) {
       .newProducts .logo {
         background-image: url(../../../img/1152/sprites.png);
-        background-position: -728px -420px;
+        background-position: -800px -190px;
         width: 65px;
         height: 25px; } }
     @media (min-width: 1280px) {
       .newProducts .logo {
         background-image: url(../../../img/1280/sprites.png);
-        background-position: -808px -467px;
+        background-position: -808px -389px;
         width: 72px;
         height: 28px; } }
     @media (min-width: 1366px) {
       .newProducts .logo {
         background-image: url(../../../img/1366/sprites.png);
-        background-position: -863px -415px;
+        background-position: -863px -373px;
         width: 76px;
         height: 30px; } }
     @media (min-width: 1400px) {
       .newProducts .logo {
         background-image: url(../../../img/1400/sprites.png);
-        background-position: -884px -428px;
+        background-position: -970px -232px;
         width: 78px;
         height: 31px; } }
     @media (min-width: 1440px) {
       .newProducts .logo {
         background-image: url(../../../img/1440/sprites.png);
-        background-position: -910px -524px;
+        background-position: -910px -436px;
         width: 81px;
         height: 32px; } }
     @media (min-width: 1536px) {
       .newProducts .logo {
         background-image: url(../../../img/1536/sprites.png);
-        background-position: -969px -563px;
+        background-position: -1065px -254px;
         width: 86px;
         height: 34px; } }
     @media (min-width: 1600px) {
       .newProducts .logo {
         background-image: url(../../../img/1600/sprites.png);
-        background-position: -1011px -583px;
+        background-position: -1011px -485px;
         width: 90px;
         height: 35px; } }
     @media (min-width: 1680px) {
       .newProducts .logo {
         background-image: url(../../../img/1680/sprites.png);
-        background-position: -1060px -614px;
+        background-position: -1060px -512px;
         width: 94px;
         height: 37px; } }
     @media (min-width: 1980px) {
       .newProducts .logo {
         background-image: url(../../../img/1980/sprites.png);
-        background-position: -1251px -600px;
+        background-position: -1251px -540px;
         width: 111px;
         height: 44px; } }
     @media (min-width: 2000px) {
       .newProducts .logo {
         background-image: url(../../../img/2000/sprites.png);
-        background-position: -1263px -730px;
+        background-position: -1263px -608px;
         width: 112px;
         height: 44px; } }
     .newProducts .logo:hover {
       background-image: url(../../../img/1024/sprites.png);
-      background-position: -647px -396px;
+      background-position: -647px -334px;
       width: 61px;
       height: 23px; }
       @media (min-width: 1152px) {
         .newProducts .logo:hover {
           background-image: url(../../../img/1152/sprites.png);
-          background-position: -728px -445px;
+          background-position: -728px -225px;
           width: 69px;
           height: 25px; } }
       @media (min-width: 1280px) {
         .newProducts .logo:hover {
           background-image: url(../../../img/1280/sprites.png);
-          background-position: -808px -495px;
+          background-position: -808px -417px;
           width: 77px;
           height: 28px; } }
       @media (min-width: 1366px) {
         .newProducts .logo:hover {
           background-image: url(../../../img/1366/sprites.png);
-          background-position: -863px -445px;
+          background-position: -863px -403px;
           width: 82px;
           height: 30px; } }
       @media (min-width: 1400px) {
         .newProducts .logo:hover {
           background-image: url(../../../img/1400/sprites.png);
-          background-position: -884px -459px;
+          background-position: -884px -275px;
           width: 84px;
           height: 31px; } }
       @media (min-width: 1440px) {
         .newProducts .logo:hover {
           background-image: url(../../../img/1440/sprites.png);
-          background-position: -910px -556px;
+          background-position: -910px -468px;
           width: 86px;
           height: 32px; } }
       @media (min-width: 1536px) {
         .newProducts .logo:hover {
           background-image: url(../../../img/1536/sprites.png);
-          background-position: -969px -597px;
+          background-position: -969px -301px;
           width: 92px;
           height: 34px; } }
       @media (min-width: 1600px) {
         .newProducts .logo:hover {
           background-image: url(../../../img/1600/sprites.png);
-          background-position: -1011px -618px;
+          background-position: -1011px -520px;
           width: 96px;
           height: 35px; } }
       @media (min-width: 1680px) {
         .newProducts .logo:hover {
           background-image: url(../../../img/1680/sprites.png);
-          background-position: -1060px -651px;
+          background-position: -1060px -549px;
           width: 101px;
           height: 37px; } }
       @media (min-width: 1980px) {
         .newProducts .logo:hover {
           background-image: url(../../../img/1980/sprites.png);
-          background-position: -1251px -644px;
+          background-position: -1251px -584px;
           width: 119px;
           height: 44px; } }
       @media (min-width: 2000px) {
         .newProducts .logo:hover {
           background-image: url(../../../img/2000/sprites.png);
-          background-position: -1263px -774px;
+          background-position: -1263px -652px;
           width: 120px;
           height: 44px; } }
   .newProducts .copyright {
@@ -4267,7 +4355,7 @@ body {
     @media (min-width: 1152px) {
       .healtWarn:after {
         background-image: url(../../../img/1152/sprites.png);
-        background-position: -728px -237px;
+        background-position: -838px -51px;
         width: 43px;
         height: 43px; } }
     @media (min-width: 1280px) {
@@ -4285,7 +4373,7 @@ body {
     @media (min-width: 1400px) {
       .healtWarn:after {
         background-image: url(../../../img/1400/sprites.png);
-        background-position: -884px -290px;
+        background-position: -1018px -62px;
         width: 53px;
         height: 52px; } }
     @media (min-width: 1440px) {
@@ -4297,7 +4385,7 @@ body {
     @media (min-width: 1536px) {
       .healtWarn:after {
         background-image: url(../../../img/1536/sprites.png);
-        background-position: -969px -318px;
+        background-position: -1117px -68px;
         width: 58px;
         height: 57px; } }
     @media (min-width: 1600px) {
@@ -4385,7 +4473,8 @@ body {
   padding: 3px 0;
   margin: 2.625rem auto;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  display: block; }
   @media (min-width: 1152px) {
     .logoWrap {
       width: 113px;
@@ -5217,67 +5306,67 @@ The provided mixins are intended to be used with the array-like variables
     right: 6.0625rem;
     bottom: 3.3125rem;
     background-image: url(../../../img/1024/sprites.png);
-    background-position: -493px -492px;
+    background-position: 0px -590px;
     width: 93px;
     height: 53px; }
     @media (min-width: 1152px) {
       #fun .apple-1 {
         background-image: url(../../../img/1152/sprites.png);
-        background-position: 0px -664px;
+        background-position: -86px -664px;
         width: 104px;
         height: 59px; } }
     @media (min-width: 1280px) {
       #fun .apple-1 {
         background-image: url(../../../img/1280/sprites.png);
-        background-position: 0px -737px;
+        background-position: -95px -737px;
         width: 116px;
         height: 66px; } }
     @media (min-width: 1366px) {
       #fun .apple-1 {
         background-image: url(../../../img/1366/sprites.png);
-        background-position: -204px -787px;
+        background-position: -102px -787px;
         width: 124px;
         height: 70px; } }
     @media (min-width: 1400px) {
       #fun .apple-1 {
         background-image: url(../../../img/1400/sprites.png);
-        background-position: 0px -806px;
+        background-position: -104px -806px;
         width: 127px;
         height: 72px; } }
     @media (min-width: 1440px) {
       #fun .apple-1 {
         background-image: url(../../../img/1440/sprites.png);
-        background-position: 0px -829px;
+        background-position: -107px -829px;
         width: 130px;
         height: 74px; } }
     @media (min-width: 1536px) {
       #fun .apple-1 {
         background-image: url(../../../img/1536/sprites.png);
-        background-position: 0px -884px;
+        background-position: -114px -884px;
         width: 139px;
         height: 79px; } }
     @media (min-width: 1600px) {
       #fun .apple-1 {
         background-image: url(../../../img/1600/sprites.png);
-        background-position: -238px -922px;
+        background-position: -119px -922px;
         width: 145px;
         height: 82px; } }
     @media (min-width: 1680px) {
       #fun .apple-1 {
         background-image: url(../../../img/1680/sprites.png);
-        background-position: -808px -806px;
+        background-position: 0px -967px;
         width: 152px;
         height: 87px; } }
     @media (min-width: 1980px) {
       #fun .apple-1 {
         background-image: url(../../../img/1980/sprites.png);
-        background-position: 0px -1140px;
+        background-position: -148px -1140px;
         width: 179px;
         height: 102px; } }
     @media (min-width: 2000px) {
       #fun .apple-1 {
         background-image: url(../../../img/2000/sprites.png);
-        background-position: 0px -1152px;
+        background-position: -149px -1152px;
         width: 181px;
         height: 103px; } }
   #fun .apple-2 {
@@ -5291,7 +5380,7 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1152px) {
       #fun .apple-2 {
         background-image: url(../../../img/1152/sprites.png);
-        background-position: -84px -723px;
+        background-position: -784px -145px;
         width: 77px;
         height: 44px; } }
     @media (min-width: 1280px) {
@@ -5309,7 +5398,7 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1400px) {
       #fun .apple-2 {
         background-image: url(../../../img/1400/sprites.png);
-        background-position: -102px -878px;
+        background-position: -952px -177px;
         width: 93px;
         height: 54px; } }
     @media (min-width: 1440px) {
@@ -5321,7 +5410,7 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1536px) {
       #fun .apple-2 {
         background-image: url(../../../img/1536/sprites.png);
-        background-position: -112px -963px;
+        background-position: -1043px -194px;
         width: 102px;
         height: 59px; } }
     @media (min-width: 1600px) {
@@ -5360,7 +5449,7 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1152px) {
       #fun .apple-3 {
         background-image: url(../../../img/1152/sprites.png);
-        background-position: 0px -723px;
+        background-position: -728px -99px;
         width: 84px;
         height: 46px; } }
     @media (min-width: 1280px) {
@@ -5378,7 +5467,7 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1400px) {
       #fun .apple-3 {
         background-image: url(../../../img/1400/sprites.png);
-        background-position: 0px -878px;
+        background-position: -884px -121px;
         width: 102px;
         height: 56px; } }
     @media (min-width: 1440px) {
@@ -5390,7 +5479,7 @@ The provided mixins are intended to be used with the array-like variables
     @media (min-width: 1536px) {
       #fun .apple-3 {
         background-image: url(../../../img/1536/sprites.png);
-        background-position: 0px -963px;
+        background-position: -969px -133px;
         width: 112px;
         height: 61px; } }
     @media (min-width: 1600px) {
@@ -8718,68 +8807,68 @@ The provided mixins are intended to be used with the array-like variables
       top: -1.1875rem;
       right: -2.4375rem;
       background-image: url(../../../img/1024/sprites.png);
-      background-position: -647px -280px;
+      background-position: -647px -249px;
       width: 32px;
       height: 31px;
       cursor: pointer; }
       @media (min-width: 1152px) {
         .productWrap .prodContent .close {
           background-image: url(../../../img/1152/sprites.png);
-          background-position: -728px -315px;
+          background-position: -728px -190px;
           width: 36px;
           height: 35px; } }
       @media (min-width: 1280px) {
         .productWrap .prodContent .close {
           background-image: url(../../../img/1280/sprites.png);
-          background-position: -808px -350px;
+          background-position: -808px -311px;
           width: 40px;
           height: 39px; } }
       @media (min-width: 1366px) {
         .productWrap .prodContent .close {
           background-image: url(../../../img/1366/sprites.png);
-          background-position: -905px -331px;
+          background-position: -863px -331px;
           width: 42px;
           height: 42px; } }
       @media (min-width: 1400px) {
         .productWrap .prodContent .close {
           background-image: url(../../../img/1400/sprites.png);
-          background-position: -927px -342px;
+          background-position: -884px -232px;
           width: 43px;
           height: 43px; } }
       @media (min-width: 1440px) {
         .productWrap .prodContent .close {
           background-image: url(../../../img/1440/sprites.png);
-          background-position: -910px -392px;
+          background-position: -910px -348px;
           width: 45px;
           height: 44px; } }
       @media (min-width: 1536px) {
         .productWrap .prodContent .close {
           background-image: url(../../../img/1536/sprites.png);
-          background-position: -969px -422px;
+          background-position: -969px -254px;
           width: 48px;
           height: 47px; } }
       @media (min-width: 1600px) {
         .productWrap .prodContent .close {
           background-image: url(../../../img/1600/sprites.png);
-          background-position: -1011px -436px;
+          background-position: -1011px -387px;
           width: 50px;
           height: 49px; } }
       @media (min-width: 1680px) {
         .productWrap .prodContent .close {
           background-image: url(../../../img/1680/sprites.png);
-          background-position: -1060px -461px;
+          background-position: -1060px -410px;
           width: 52px;
           height: 51px; } }
       @media (min-width: 1980px) {
         .productWrap .prodContent .close {
           background-image: url(../../../img/1980/sprites.png);
-          background-position: -1312px -480px;
+          background-position: -1251px -480px;
           width: 61px;
           height: 60px; } }
       @media (min-width: 2000px) {
         .productWrap .prodContent .close {
           background-image: url(../../../img/2000/sprites.png);
-          background-position: -1263px -547px;
+          background-position: -1263px -486px;
           width: 62px;
           height: 61px; } }
   .productWrap .title {
@@ -8799,6 +8888,8 @@ The provided mixins are intended to be used with the array-like variables
     line-height: 145%;
     text-transform: uppercase;
     letter-spacing: 1px; }
+    .productWrap .description span {
+      white-space: nowrap; }
 
 .classic-can .prodContent {
   position: absolute;

@@ -20,21 +20,46 @@ body {
     z-index: 10;
     width: rem(164);
 
-    .fb {
-        @include my-sprite($fb);
-        float: left;
-    }
+    a {
+        @include size(rem(42));
+        display: inline-block;
+        position: relative;
 
-    .vk {
-        @include my-sprite($vk);
-        margin-left: rem(15);
-        float: left;
-    }
+        &:before {
+            content: '';
+            display: block;
+        }
+        &.fb:before {
+            @include my-sprite($fb);
+            margin: rem(8) 0 0 rem(14);
+        }
+        &.vk {
+            margin-left: rem(15);
+            &:before {
+                @include my-sprite($vk);
+                margin: rem(12) 0 0 rem(14);
+            }
+        }
+        &.yt {
+            margin-left: rem(15);
+            &:before {
+                @include my-sprite($yt);
+                margin: rem(9) 0 0 rem(11);
+            }
+        }
 
-    .yt {
-        @include my-sprite($yt);
-        margin-left: rem(15);
-        float: left;
+        span {
+            display: block;
+            @include my-sprite($soc-border);
+            @include position(absolute, 0 null null 0);
+            @include transition(all 3.0s linear);
+        }
+
+        &:hover {
+            span {
+                @include transform(rotate(360deg));
+            }
+        }
     }
 }
 
@@ -138,6 +163,7 @@ body {
     margin: rem(42) auto;
     position: relative;
     overflow: hidden;
+    display: block;
 
     &:hover {
         .dashing:nth-of-type(1) {

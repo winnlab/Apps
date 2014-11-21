@@ -51,6 +51,10 @@
         line-height: 145%;
         text-transform: uppercase;
         letter-spacing: 1px;
+
+        span {
+            white-space:nowrap;
+        }
     }
 
 }
