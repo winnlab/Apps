@@ -61,7 +61,7 @@
 
 .classic-can {
     .prodContent {
-        @include position(absolute, rem(370) rem(500) null null);
+        @include position(absolute, rem(250) rem(100) null null);
     }
 
     &:after {
