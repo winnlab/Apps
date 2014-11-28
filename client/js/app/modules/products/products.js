@@ -17,6 +17,23 @@ define(
                         self.options.isReady.resolve();
                     }
                 });
+
+                this.centerIt();
+            },
+
+            '{window} resize': 'centerIt',
+
+            centerIt: function () {
+                var $productsWrap = this.element.find('.productsWrap'),
+                    height = $productsWrap.outerHeight(),
+                    wrapHeight = $('#modules').height(),
+                    top = (wrapHeight - height) / 2;
+
+                if (top < 0) {
+                    top = 0;
+                }
+
+                $productsWrap.css('top', top);
             }
 
         });

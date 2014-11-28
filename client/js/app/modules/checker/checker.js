@@ -30,6 +30,7 @@ define(
 
 			'.no click': function () {
 				appState.attr('is18Conf', false);
+				appState.attr('is18Show', false);
 			},
 
             redirect: function () {

@@ -17,24 +17,29 @@
     <span class="dashing"></span>
     <div class="logo"></div>
 </div>
+{{#if is18Show}}
+    <h1 class="question">
+        Вам більше 18 років?
+    </h1>
 
-<h1 class="question">
-    Вам більше 18 років?
-</h1>
-
-<div class="btns">
-    <div class="yes">
-        <span class="dashing"></span>
-        <span class="dashing"></span>
-        <span class="dashing"></span>
-        <span class="dashing"></span>
-        Yes
+    <div class="btns">
+        <div class="yes">
+            <span class="dashing"></span>
+            <span class="dashing"></span>
+            <span class="dashing"></span>
+            <span class="dashing"></span>
+            Yes
+        </div>
+        <div class="no">
+            <span class="dashing"></span>
+            <span class="dashing"></span>
+            <span class="dashing"></span>
+            <span class="dashing"></span>
+            No
+        </div>
     </div>
-    <div class="no">
-        <span class="dashing"></span>
-        <span class="dashing"></span>
-        <span class="dashing"></span>
-        <span class="dashing"></span>
-        No
-    </div>
-</div>
+{{else}}
+    <h1 class="question">
+        тоді чекаємо, коли тобі виповниться 18!
+    </h1>
+{{/if}}

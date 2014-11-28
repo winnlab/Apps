@@ -91,7 +91,7 @@
         content: '';
         display: block;
         background-repeat: no-repeat;
-        @include size(rem(1100) rem(700));
+        @include size(rem(1100) rem(800));
         @include position(absolute, rem(-91) rem(-368) null null);
         @include transform(rotate(-12deg));
         @include responsiveBg('buzina-can.png');

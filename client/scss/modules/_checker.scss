@@ -59,6 +59,8 @@
         margin: rem(148) 0 rem(60);
         padding-left: rem(6);
         color: $white;
+        position: relative;
+        z-index: 1;
     }
 
     .btns {
