@@ -61,6 +61,10 @@
         color: $white;
         position: relative;
         z-index: 1;
+
+        &.not18 {
+            margin-top: rem(100);
+        }        
     }
 
     .btns {
