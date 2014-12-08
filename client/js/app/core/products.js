@@ -7,7 +7,7 @@ define(function () {
         link: 'buzina-bottle',
         desc: '<span>Натуральний яблучний сидр з екстрактом бузини.</span> <br /> <span>Легкий, свіжий, помірно солодкий</span> <br /> <span>з кислинкою ягід бузини та яскраво вираженим ароматом яблук.</span> <br /> <span>5.0-6.9% ALC.</span> <br /> <span>330 мл задоволення в скляній пляшці</span>'
     }, {
-        name: 'Классік',
+        name: 'Класік',
         img: 'prod-2',
         type: 'can',
         link: 'classic-can',
@@ -19,7 +19,7 @@ define(function () {
         link: 'buzina-can',
         desc: '<span>Натуральний яблучний сидр з екстрактом бузини.</span> <br /> <span>Легкий, свіжий, помірно солодкий</span> <br /> <span>з кислинкою ягід бузини та яскраво вираженим ароматом яблук.</span> <br /> <span>5.0-6.9% ALC.</span> <br/> <span>500 мл задоволення в зручній банці</span>'
     }, {
-        name: 'Классік',
+        name: 'Класік',
         img: 'prod-4',
         type: 'bottle',
         link: 'classic-bottle',

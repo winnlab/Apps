@@ -3078,7 +3078,8 @@ The provided mixins are intended to be used with the array-like variables
     #checker .question.not18 {
       margin-top: 6.25rem; }
   #checker .btns {
-    text-align: center; }
+    text-align: center;
+    line-height: 1; }
     #checker .btns div {
       overflow: hidden;
       position: relative;
